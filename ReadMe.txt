@@ -1,8 +1,7 @@
-Blender Projekt
-Roboter modelliert, texturiert und animiert.
-3 Animationen:
-	- Moving
-	- Idle
-	- Dancing
-Größe der .blend Datei 	1,868 GB
-Größe der .fbx Datei	0,689 GB
+Gruppe 3
+Michael Ulrich - 77607
+Veronika Scheller - 79888
+Simon Ruttmann - 80751
+
+Hint:
+In euere .gitingore die Projekt1-Ordner von den anderen reinpacken, sonst kommts zu merge-Konfiken, falls jemand seinen Ordner updated
