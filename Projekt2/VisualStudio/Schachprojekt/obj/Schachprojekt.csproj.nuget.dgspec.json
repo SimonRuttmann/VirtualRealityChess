@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\veron\\OneDrive\\2021 SS\\Virtuelle Realität und Animation\\VisualStudioWEILWIRJAKEINEAENDERUNGENMACHENSOLLEN\\Schachprojekt\\Schachprojekt.csproj": {}
+    "C:\\Users\\Simon Ruttmann\\Desktop\\Virtuelle Realität und Animation\\3d-modellierung\\Projekt2\\VisualStudio\\Schachprojekt\\Schachprojekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\veron\\OneDrive\\2021 SS\\Virtuelle Realität und Animation\\VisualStudioWEILWIRJAKEINEAENDERUNGENMACHENSOLLEN\\Schachprojekt\\Schachprojekt.csproj": {
+    "C:\\Users\\Simon Ruttmann\\Desktop\\Virtuelle Realität und Animation\\3d-modellierung\\Projekt2\\VisualStudio\\Schachprojekt\\Schachprojekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\veron\\OneDrive\\2021 SS\\Virtuelle Realität und Animation\\VisualStudioWEILWIRJAKEINEAENDERUNGENMACHENSOLLEN\\Schachprojekt\\Schachprojekt.csproj",
+        "projectUniqueName": "C:\\Users\\Simon Ruttmann\\Desktop\\Virtuelle Realität und Animation\\3d-modellierung\\Projekt2\\VisualStudio\\Schachprojekt\\Schachprojekt.csproj",
         "projectName": "Schachprojekt",
-        "projectPath": "C:\\Users\\veron\\OneDrive\\2021 SS\\Virtuelle Realität und Animation\\VisualStudioWEILWIRJAKEINEAENDERUNGENMACHENSOLLEN\\Schachprojekt\\Schachprojekt.csproj",
-        "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\veron\\OneDrive\\2021 SS\\Virtuelle Realität und Animation\\VisualStudioWEILWIRJAKEINEAENDERUNGENMACHENSOLLEN\\Schachprojekt\\obj\\",
+        "projectPath": "C:\\Users\\Simon Ruttmann\\Desktop\\Virtuelle Realität und Animation\\3d-modellierung\\Projekt2\\VisualStudio\\Schachprojekt\\Schachprojekt.csproj",
+        "packagesPath": "C:\\Users\\Simon Ruttmann\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Simon Ruttmann\\Desktop\\Virtuelle Realität und Animation\\3d-modellierung\\Projekt2\\VisualStudio\\Schachprojekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Simon Ruttmann\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
