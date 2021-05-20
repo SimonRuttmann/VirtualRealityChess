@@ -259,6 +259,7 @@ m_PackageAssets:
         - 2.0.3
         - 2.0.5
         - 2.0.7
+        - 2.0.8
         compatible:
         - 1.0.2
         - 1.0.3
@@ -272,7 +273,8 @@ m_PackageAssets:
         - 2.0.3
         - 2.0.5
         - 2.0.7
-        verified: 2.0.7
+        - 2.0.8
+        verified: 2.0.8
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -692,6 +694,7 @@ m_PackageAssets:
         - 1.4.5
         - 1.4.6
         - 1.4.7
+        - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -703,11 +706,14 @@ m_PackageAssets:
         - 1.5.1-pre.3
         - 1.5.2
         - 1.5.4
+        - 1.5.5
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
+        - 1.6.0-pre.5
         compatible:
         - 1.4.7
+        - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -719,10 +725,12 @@ m_PackageAssets:
         - 1.5.1-pre.3
         - 1.5.2
         - 1.5.4
+        - 1.5.5
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
-        verified: 1.4.7
+        - 1.6.0-pre.5
+        verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -2594,8 +2602,18 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         verified: 1.0.6
       dependencies: []
@@ -2616,7 +2634,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
