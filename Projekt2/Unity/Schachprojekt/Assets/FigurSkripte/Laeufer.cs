@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lauefer : Figur
+public class Laeufer : Figur
 {
     public override List<Vector2Int> WaehleMoeglicheFelder()
     {

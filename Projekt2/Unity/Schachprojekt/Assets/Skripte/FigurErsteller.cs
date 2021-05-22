@@ -6,7 +6,6 @@ using System;
 //Erstellt eine Figur
 public class FigurErsteller : MonoBehaviour
 {
-
     //Dieses Array beinhaltet alle unserer Figuren in schwarzer und weiﬂer Version
     [SerializeField] private GameObject[] Modellarray; 
 
@@ -22,15 +21,17 @@ public class FigurErsteller : MonoBehaviour
     {
         foreach (GameObject modell in Modellarray)
         {
-            String modellName = modell.GetComponent<Figurtyp>().GetType().ToString();
+            String modellName = modell.GetComponent<Figur>().ToString();        // Key:  LaeuferSchwarz (Laeufer)       Value: LaeuferSchwarz (UnityEngine.GameObject) 
             ModellDictionary.Add(modellName, modell);
         }
+        
     }
-
+    // Turm (Turm)
     //ErstelleFigur("schwarzerBauer") -> Sucht sich das Modell/Prefab und instanziiert es -> !Neues Objekt in der Szene!
-    public GameObject ErstelleFigur(string figurtyp)
+    public GameObject ErstelleFigur(Type figurtyp)
     {
-        GameObject modell = ModellDictionary[figurtyp];     //"Bauer1" -> Bauer1Pref
+        GameObject modell = ModellDictionary[figurtyp.ToString()];             //"Bauer1" -> Bauer1Pref
+
         if (modell)
         {
             GameObject richtigeFigur = Instantiate(modell);          // "Baut modell"

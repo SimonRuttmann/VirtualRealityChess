@@ -1,182 +1,119 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19041.985; Version 2004; 64bit' Language: 'de' Physical Memory: 16328 MB
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'de' Physical Memory: 16303 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Programm Files\2020.3.5f1\Editor\Unity.exe
+D:\Unity\UnityData\2020.3.5f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Michael Ulrich/3d-modellierung/Projekt2/Unity/Schachprojekt
+C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61700
-Successfully changed project path to: C:/Users/Michael Ulrich/3d-modellierung/Projekt2/Unity/Schachprojekt
-C:/Users/Michael Ulrich/3d-modellierung/Projekt2/Unity/Schachprojekt
+53591
+Successfully changed project path to: C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt
+C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 38.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
-[Subsystems] Discovering subsystems at path D:/Programm Files/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Michael Ulrich/3d-modellierung/Projekt2/Unity/Schachprojekt/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/UnityData/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     8171 MB
-    Driver:   27.20.1034.6
+    VRAM:     1979 MB
+    Driver:   24.21.13.9901
 Initialize mono
-Mono path[0] = 'D:/Programm Files/2020.3.5f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Programm Files/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Programm Files/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Mono path[0] = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Programm Files/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Programm Files/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001298 seconds.
+Register platform support module: D:/Unity/UnityData/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001380 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 30.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 36.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
+- Completed reload, in  1.364 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000732 seconds.
+Registered in 0.000950 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001A17680B130 doesn't match image C:\Users\Michael Ulrich\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000019628E2F020 doesn't match image C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.805 seconds
+- Completed reload, in  1.104 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1260 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.4 MB.
-System memory in use after: 70.1 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1708.
-Total: 2.081700 ms (FindLiveObjects: 0.306600 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.490000 ms  DeleteObjects: 0.248700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs
-  artifactKey: Guid(bffe3345e231cf94abbc4b5dcaed30c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(bffe3345e231cf94abbc4b5dcaed30c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8891424b8545694c0198b2994685e190') in 0.010232 seconds
-  Import took 0.013093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Prefabs/Koenig_amatureSet2.blend
-  artifactKey: Guid(18e88834fa7f1884d83482376510d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Koenig_amatureSet2.blend using Guid(18e88834fa7f1884d83482376510d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5cf99efc3629dd4d6c4a249323e867') in 0.186553 seconds
-  Import took 0.188878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Prefabs/KANONE.fbx
-  artifactKey: Guid(c12d036256ec2444293e92f94f320f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KANONE.fbx using Guid(c12d036256ec2444293e92f94f320f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab26dd1e846b039f9760216282854021') in 0.137121 seconds
-  Import took 0.141869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102804 seconds.
-  path: Assets/Prefabs/KANONE.controller
-  artifactKey: Guid(66874c9ee61e66249b79f16d3c45f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KANONE.controller using Guid(66874c9ee61e66249b79f16d3c45f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1093fbdf86971a5b5fcf5a7de63f3c07') in 0.007226 seconds
-  Import took 0.009784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.097596 seconds.
-  path: Assets/Prefabs/Kannone.fbx
-  artifactKey: Guid(246b97f46eb1cce44bdd207b12a9eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Kannone.fbx using Guid(246b97f46eb1cce44bdd207b12a9eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c382a0796a1ba43f425f9672fdb1853') in 0.047753 seconds
-  Import took 0.050500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.148108 seconds.
-  path: Assets/Prefabs/Koenig_amatureSet2.controller
-  artifactKey: Guid(26375623298258d49a9c421d522f1d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Koenig_amatureSet2.controller using Guid(26375623298258d49a9c421d522f1d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a75dbfdb94fb0ecc56270dd18bf6ad') in 0.003135 seconds
-  Import took 0.005582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 103.815808 seconds.
-  path: Assets/Prefabs/Kannone.fbx
-  artifactKey: Guid(246b97f46eb1cce44bdd207b12a9eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Kannone.fbx using Guid(246b97f46eb1cce44bdd207b12a9eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7624ebd03fd2a0bd1dd673870f9df0eb') in 0.057158 seconds
-  Import took 0.060363 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001901 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001A1768070F0 doesn't match image C:\Users\Michael Ulrich\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1234 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 84.9 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1722.
-Total: 4.982700 ms (FindLiveObjects: 0.326300 ms CreateObjectMapping: 0.057800 ms MarkObjects: 4.134600 ms  DeleteObjects: 0.461600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000662 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.900 seconds
-Platform modules already initialized, skipping
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
 Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1234 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 84.9 MB.
+Unloading 1260 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.0 MB.
+System memory in use after: 70.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1725.
-Total: 2.561300 ms (FindLiveObjects: 0.250000 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.924300 ms  DeleteObjects: 0.347300 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 2.336600 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.114400 ms MarkObjects: 1.653100 ms  DeleteObjects: 0.296000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 317.873107 seconds.
-  path: Assets/Skripte
-  artifactKey: Guid(c3f58163675cd0b47acb61223623a8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skripte using Guid(c3f58163675cd0b47acb61223623a8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f3ea30108e2f9e2dd462c47cc57091') in 0.013490 seconds
-  Import took 0.017682 seconds .
+  path: Assets/Prefabs/TurmWeiss.fbx
+  artifactKey: Guid(246b97f46eb1cce44bdd207b12a9eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurmWeiss.fbx using Guid(246b97f46eb1cce44bdd207b12a9eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efa2ea9b6742805b109092cfd72588c') in 0.242259 seconds
+  Import took 0.246948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.606460 seconds.
+  path: Assets/Prefabs/SpringerWeiss.fbx
+  artifactKey: Guid(7b1ca3cc3dc7bdc4897eb32ccbb427b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpringerWeiss.fbx using Guid(7b1ca3cc3dc7bdc4897eb32ccbb427b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3262f0899fa27cea2e00aeffa79f68') in 0.061203 seconds
+  Import took 0.065080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.643582 seconds.
+  path: Assets/Prefabs/LauferWeiss.fbx
+  artifactKey: Guid(4e2b02280966dd645a5a4079c35c6ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LauferWeiss.fbx using Guid(4e2b02280966dd645a5a4079c35c6ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750c87ebc3d41b193ddebf0ace1bef17') in 0.363736 seconds
+  Import took 0.367927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.126328 seconds.
+  path: Assets/Prefabs/KoniginWeiss.fbx
+  artifactKey: Guid(af0446fd4672d53498c6b625abb2cee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/KoniginWeiss.fbx using Guid(af0446fd4672d53498c6b625abb2cee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2a7148d519fa33e9427afa82b52488') in 0.298239 seconds
+  Import took 0.301050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.509860 seconds.
+  path: Assets/Prefabs/KoenigWeiss.blend
+  artifactKey: Guid(18e88834fa7f1884d83482376510d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/KoenigWeiss.blend using Guid(18e88834fa7f1884d83482376510d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac071dbc7894a8cb327103eeeff6a45') in 0.143500 seconds
+  Import took 0.146663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.591511 seconds.
+  path: Assets/Prefabs/BauerWeiss.fbx
+  artifactKey: Guid(e18a5e41e269d1f4cb8b810a5a4b0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BauerWeiss.fbx using Guid(e18a5e41e269d1f4cb8b810a5a4b0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd43bd1a84f533877a47cd63f8d32623') in 0.050835 seconds
+  Import took 0.054565 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

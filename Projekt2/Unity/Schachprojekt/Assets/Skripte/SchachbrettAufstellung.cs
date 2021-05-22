@@ -36,13 +36,20 @@ public class SchachbrettAufstellung : ScriptableObject
     // -> Vector y = Turm y Position -1
     // -> (0,0) = "Logische" Position Turm Weiﬂ
 
+
     public Vector2Int Get_XY_VonAufstellungsFigur(int index)
     {
         return new Vector2Int(Spielfeld[index].Position.x - 1, Spielfeld[index].Position.y - 1);
     }
+
+    //Returnt den Namen von Prefab
     public string Get_Name_VonAufstellungsFigur(int index)
     {
+       // if (Spielfeld[index].FigurFarbe == FigurFarbe.weiss)
         return Spielfeld[index].Figurtyp.ToString();
+      //  else
+       //     return Spielfeld[index].Figurtyp.ToString() + "Schwarz";
+
     }
     public FigurFarbe Get_Farbe_VonAufstellungsFigur(int index)
     {

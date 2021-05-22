@@ -4,10 +4,16 @@ using UnityEngine;
 
 public enum Figurtyp
 {
-    Bauer,
-    Turm,
-    Springer,
-    Laeufer,
-    Koenig,
-    Dame
+    BauerWeiss,
+    TurmWeiss,
+    SpringerWeiss,
+    LaeuferWeiss,
+    KoenigWeiss,
+    DameWeiss,
+    BauerSchwarz,
+    TurmSchwarz,
+    SpringerSchwarz,
+    LaeuferSchwarz,
+    KoenigSchwarz,
+    DameSchwarz
 }

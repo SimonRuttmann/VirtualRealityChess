@@ -18,7 +18,14 @@ public class SchachManager : MonoBehaviour
     //FigurErsteller ist ein Singleton -> Objekt kann über GetComponent erhalten werden
     private void Awake()
     {
-        this.FigurErsteller = GetComponent<FigurErsteller>();
+        if (this.FigurErsteller == null)
+        {
+            this.FigurErsteller = GetComponent<FigurErsteller>();
+        }
+        else
+        {
+            Debug.Log("FigurErsteller ist bereits erstellt!");
+        }
     }
 
   
@@ -30,9 +37,14 @@ public class SchachManager : MonoBehaviour
         {
             Vector2Int xyPosition = Startkonfiguration.Get_XY_VonAufstellungsFigur(i);
             FigurFarbe figurfarbe = Startkonfiguration.Get_Farbe_VonAufstellungsFigur(i);
-            string figurtyp = Startkonfiguration.Get_Name_VonAufstellungsFigur(i);
+            string figurtypS = Startkonfiguration.Get_Name_VonAufstellungsFigur(i);
+            Debug.Log(figurtypS);
+            //Debug.Log(Type.GetType("Figur"));
+            //Debug.Log(Type.GetType("Turm").ToString());
+            //Debug.Log(Type.GetType("Turm"));
 
-            Figur neueFigur = this.FigurErsteller.ErstelleFigur(figurtyp).GetComponent<Figur>();
+            
+            Figur neueFigur = this.FigurErsteller.ErstelleFigur(Type.GetType("Figur")).GetComponent<Figur>();
             neueFigur.GebeFigurdaten(xyPosition, figurfarbe, schachbrett);
         }
     }
