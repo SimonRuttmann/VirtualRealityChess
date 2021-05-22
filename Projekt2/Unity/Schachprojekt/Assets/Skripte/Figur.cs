@@ -26,6 +26,7 @@ public abstract class Figur : MonoBehaviour
 	// Pseudo Konstruktor
 	private void Awake()
 	{
+		
 		Bewegungsmöglichkeiten = new List<Vector2Int>();
 		WurdeBewegt = false;
 	}

@@ -38,13 +38,16 @@ public class SchachManager : MonoBehaviour
             Vector2Int xyPosition = Startkonfiguration.Get_XY_VonAufstellungsFigur(i);
             FigurFarbe figurfarbe = Startkonfiguration.Get_Farbe_VonAufstellungsFigur(i);
             string figurtypS = Startkonfiguration.Get_Name_VonAufstellungsFigur(i);
-            Debug.Log(figurtypS);
-            //Debug.Log(Type.GetType("Figur"));
-            //Debug.Log(Type.GetType("Turm").ToString());
-            //Debug.Log(Type.GetType("Turm"));
+            
+            //Debug.Log("Typeof");
+
+           // Debug.Log("figurtypS: " + figurtypS);
+           // Debug.Log("GetType Figur: " + Type.GetType("Figur"));
+           // Debug.Log("GetType Turm toString: " + Type.GetType("Turm").ToString());
+           // Debug.Log("GetType Turm: " +Type.GetType("Turm"));
 
             
-            Figur neueFigur = this.FigurErsteller.ErstelleFigur(Type.GetType("Figur")).GetComponent<Figur>();
+            Figur neueFigur = this.FigurErsteller.ErstelleFigur(figurtypS).GetComponent<Figur>();
             neueFigur.GebeFigurdaten(xyPosition, figurfarbe, schachbrett);
         }
     }
