@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 18e88834fa7f1884d83482376510d322, type: 3}
       propertyPath: m_Name
-      value: Koenig_amatureSet2
+      value: KoenigWeiss
       objectReference: {fileID: 0}
     - target: {fileID: 3196138216412401344, guid: 18e88834fa7f1884d83482376510d322, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -426,7 +426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c12d036256ec2444293e92f94f320f75, type: 3}
       propertyPath: m_Name
-      value: KANONE
+      value: TurmWeiss
       objectReference: {fileID: 0}
     - target: {fileID: 2515037421748824211, guid: c12d036256ec2444293e92f94f320f75, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -483,9 +483,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1684948724}
-  - component: {fileID: 1684948725}
   m_Layer: 0
-  m_Name: SceneControl
+  m_Name: SpielManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -505,38 +504,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1684948725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1684948723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91b5c84ed4d7e604898012ca4165dbc3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  kanone: {fileID: 1493756441}
-  abc: 0
---- !u!1 &1742764339 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-  m_PrefabInstance: {fileID: 1107154081}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1742764340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742764339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79c5ef8c8bf44d64f8d9aa311214f0c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  figurenverwaltung: {fileID: 1684948725}
 --- !u!1 &1793030469
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +517,7 @@ GameObject:
   - component: {fileID: 1793030471}
   - component: {fileID: 1793030470}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: IchFliegNichtInsNichts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
