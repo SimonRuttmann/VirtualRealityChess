@@ -1,11 +1,20 @@
 fileFormatVersion: 2
-guid: c12d036256ec2444293e92f94f320f75
+guid: 246b97f46eb1cce44bdd207b12a9eac1
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 6570537526431901852
-    second: Kannone|Shoot
+      74: -3958868090618716381
+    second: Cylinder.001|K.Shoot
+  - first:
+      74: -3138071892182906660
+    second: "Cylinder.001|K\xF6niginIdle.001"
+  - first:
+      74: -5708411777826583279
+    second: Cylinder.005|K.Sterbe
+  - first:
+      74: 6521279314004922922
+    second: "Cylinder.005|K\xF6niginIdle.001"
   externalObjects: {}
   materials:
     materialImportMode: 2
