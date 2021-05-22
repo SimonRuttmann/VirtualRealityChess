@@ -21,7 +21,7 @@ public abstract class Figur : MonoBehaviour
 
 	//private IObjectTweener tweener;
 
-	public abstract List<Vector2Int> SelectAvaliableSquares();
+	public abstract List<Vector2Int> WaehleMoeglicheFelder();
 
 	// Pseudo Konstruktor
 	private void Awake()
