@@ -13,5 +13,12 @@ public class Schachbrett : MonoBehaviour
     {
         return EffektiverStartpunktUntenLinks.position + new Vector3(position.x * Feldgroesse, 0f, position.y * Feldgroesse);
     }
+
+    //Implementieren
+    public bool EnthältFigur(Figur figur)
+    {
+
+        return false;
+    }
 }
 

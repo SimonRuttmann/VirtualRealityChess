@@ -52,5 +52,6 @@ public abstract class Figur : MonoBehaviour
 
 	}
 
+	//
 }
 	
