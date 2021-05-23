@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 180985346117113608}
   - component: {fileID: -6304277476674433850}
+  - component: {fileID: -736577321124103868}
   m_Layer: 0
   m_Name: SpringerSchwarz
   m_TagString: Untagged
@@ -45,11 +46,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce4dae65c46ad944a3cb5357c3f28b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Schachbrett: {fileID: 0}
-  Position: {x: 0, y: 0}
-  FigurFarbe: 0
+  schachbrett: {fileID: 0}
+  position: {x: 0, y: 0}
+  figurFarbe: 0
   WurdeBewegt: 0
   "Bewegungsm\xF6glichkeiten": []
+--- !u!114 &-736577321124103868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705144957088615858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b36a8d8fab32442b46d47ee02c3e58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1046004752797909639
 GameObject:
   m_ObjectHideFlags: 0

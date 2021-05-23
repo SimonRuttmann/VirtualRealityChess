@@ -764,6 +764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3964642793268039669}
   - component: {fileID: -3181215382614847951}
+  - component: {fileID: -6915666295390363840}
   m_Layer: 0
   m_Name: LaeuferSchwarz
   m_TagString: Untagged
@@ -816,11 +817,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a3c651663093b4ba1ed13e8bec0e24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Schachbrett: {fileID: 0}
-  Position: {x: 0, y: 0}
-  FigurFarbe: 0
+  schachbrett: {fileID: 0}
+  position: {x: 0, y: 0}
+  figurFarbe: 0
   WurdeBewegt: 0
   "Bewegungsm\xF6glichkeiten": []
+--- !u!114 &-6915666295390363840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4345671489207244111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b36a8d8fab32442b46d47ee02c3e58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4391554302727516053
 GameObject:
   m_ObjectHideFlags: 0

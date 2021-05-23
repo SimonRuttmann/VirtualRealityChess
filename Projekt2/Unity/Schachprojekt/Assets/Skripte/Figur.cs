@@ -7,13 +7,13 @@ using UnityEngine;
 public abstract class Figur : MonoBehaviour
 {
 	// Das Schachbrett
-	public Schachbrett Schachbrett;
+	public Schachbrett schachbrett;
 
 	// Das aktuell belegte Feld
-	public Vector2Int Position;
+	public Vector2Int position;
 
 	// Die Farbe der Figur
-	public FigurFarbe FigurFarbe;
+	public FigurFarbe figurFarbe;
 
 
 	public bool WurdeBewegt; // Rochade & Bauern
@@ -26,32 +26,44 @@ public abstract class Figur : MonoBehaviour
 	// Pseudo Konstruktor
 	private void Awake()
 	{
-		
+
 		Bewegungsmöglichkeiten = new List<Vector2Int>();
 		WurdeBewegt = false;
 	}
 
 	// Aufruf um der Figur alle Daten hinzuzufügen nachdem sie erstellt wurde
-	public void GebeFigurdaten(Vector2Int position, FigurFarbe team, Schachbrett schachbrett)
+	public void SetzeFigurdaten(Vector2Int position, FigurFarbe team, Schachbrett schachbrett)
 	{
-		this.FigurFarbe = team;
-		Position = position;
-		this.Schachbrett = schachbrett;
+		this.figurFarbe = team;
+		this.position = position;
+		this.schachbrett = schachbrett;
 
 		//Figur entsprechende Position hinzufügen
-		transform.position = Schachbrett.RelativePositionZumSchachbrettfeld(position);
+		transform.position = this.schachbrett.RelativePositionZumSchachbrettfeld(position);
 	}
 
 
-	public bool IstGleichesTeam(Figur figur) { return this.FigurFarbe == figur.FigurFarbe; }
+	public bool IstGleichesTeam(Figur figur) { return this.figurFarbe == figur.figurFarbe; }
 	public bool BewegungMoeglichZu(Vector2Int position) { return Bewegungsmöglichkeiten.Contains(position); }
 	protected void AddBewegungsmoeglichkeit(Vector2Int position) { Bewegungsmöglichkeiten.Add(position); }
 
-	public virtual void MovePiece(Vector2Int coords)
+	public virtual void BewegeFigur(Vector2Int coords)
 	{
-
+		Vector3 targetPosition = schachbrett.CalculatePositionFromCoords(coords);
+		position = coords;
+		WurdeBewegt = true;
+		//tweener.MoveTo(transform, targetPosition);
 	}
 
-	//
+	//Unbekannt ob es wichtig ist welcher Figurtyp angegriffen wird
+	public bool IsAttackingPieceOfType<T>() where T : Figur
+	{
+		foreach (var feld in Bewegungsmöglichkeiten)
+		{
+			if (schachbrett.GetPieceOnSquare(feld) is T)
+				return true;
+		}
+		return false;
+	}
+
 }
-	

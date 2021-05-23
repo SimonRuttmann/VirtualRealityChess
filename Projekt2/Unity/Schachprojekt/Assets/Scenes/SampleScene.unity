@@ -128,7 +128,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3711895127918840679, guid: c1e7af2bb258ed444a6f9b9c7d7a948c, type: 3}
   m_PrefabInstance: {fileID: 3711895128068307467}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1114246843}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb6e39445b541a746a5e27f7eb078b75, type: 3}
@@ -199,6 +199,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+--- !u!1 &1114246843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4558246601585804765, guid: c1e7af2bb258ed444a6f9b9c7d7a948c, type: 3}
+  m_PrefabInstance: {fileID: 3711895128068307467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1114246844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114246843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2094b226460149749acc0b9a70fd26b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectorPrefab: {fileID: 7630285806474376200, guid: 7ea3763a5e08cc64a9442b056e0c268b, type: 3}
+--- !u!114 &1114246845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114246843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00a1b3ecdaf28f40bd9ed43b1204ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1114246846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114246843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d08b1c59333d140847164fd8d82673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1684948723
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Startkonfiguration: {fileID: 11400000, guid: 5e2d8ab0eed560b438c9fc32c5d76bcd, type: 2}
   schachbrett: {fileID: 387494252}
+  SchachUIManager: {fileID: 0}
 --- !u!114 &1684948726
 MonoBehaviour:
   m_ObjectHideFlags: 0

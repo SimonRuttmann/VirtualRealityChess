@@ -630,6 +630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3795754538863281942}
   - component: {fileID: 3951847834489302924}
+  - component: {fileID: -2782826894954660703}
   m_Layer: 0
   m_Name: KoenigSchwarz
   m_TagString: Untagged
@@ -667,11 +668,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93cd47716a54c2646b0c7230f29621bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Schachbrett: {fileID: 0}
-  Position: {x: 0, y: 0}
-  FigurFarbe: 0
+  schachbrett: {fileID: 0}
+  position: {x: 0, y: 0}
+  figurFarbe: 0
   WurdeBewegt: 0
   "Bewegungsm\xF6glichkeiten": []
+--- !u!114 &-2782826894954660703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4604624993227480492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b36a8d8fab32442b46d47ee02c3e58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4746979286423544856
 GameObject:
   m_ObjectHideFlags: 0
