@@ -8,6 +8,13 @@ public class Bauer : Figur
     public override List<Vector2Int> WaehleMoeglicheFelder()
     {
         Bewegungsmöglichkeiten.Clear();
+        Bewegungsmöglichkeiten.Add(position + new Vector2Int(0, 1));
+        return Bewegungsmöglichkeiten;
+    }
+    /*
+    public override List<Vector2Int> WaehleMoeglicheFelder()
+    {
+        Bewegungsmöglichkeiten.Clear();
 
         Vector2Int direction = figurFarbe == FigurFarbe.weiss ? Vector2Int.up : Vector2Int.down;
         float range = WurdeBewegt ? 1 : 2;
@@ -52,4 +59,5 @@ public class Bauer : Figur
             schachbrett.PromotePiece(this);
         }
     }
+    */
 }

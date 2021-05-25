@@ -19,14 +19,15 @@ public abstract class Figur : MonoBehaviour
 	public bool WurdeBewegt; // Rochade & Bauern
 	public List<Vector2Int> Bewegungsmöglichkeiten;
 
-	//private IObjectTweener tweener;
+	private IObjectTweener tweener;
 
 	public abstract List<Vector2Int> WaehleMoeglicheFelder();
 
 	// Pseudo Konstruktor
 	private void Awake()
 	{
-
+		tweener = GetComponent<IObjectTweener>();
+		Debug.Log("Erhalte Tweener: " + tweener);
 		Bewegungsmöglichkeiten = new List<Vector2Int>();
 		WurdeBewegt = false;
 	}
@@ -52,7 +53,7 @@ public abstract class Figur : MonoBehaviour
 		Vector3 targetPosition = schachbrett.CalculatePositionFromCoords(coords);
 		position = coords;
 		WurdeBewegt = true;
-		//tweener.MoveTo(transform, targetPosition);
+		tweener.MoveTo(transform, targetPosition);
 	}
 
 	//Unbekannt ob es wichtig ist welcher Figurtyp angegriffen wird

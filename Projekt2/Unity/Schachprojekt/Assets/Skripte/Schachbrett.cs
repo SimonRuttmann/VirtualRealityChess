@@ -60,28 +60,49 @@ public class Schachbrett : MonoBehaviour
 
     public void OnSquareSelected(Vector3 inputPosition)
     {
+       // Debug.Log("Inputhandler hat OnSquareSelcted aufgerufen mit: " + inputPosition);
         Vector2Int coords = CalculateCoordsFromPosition(inputPosition);
         Figur figur = GetPieceOnSquare(coords);
+        Debug.Log("Figur: " + figur + " erhalten");
         if (gewaehlteFigur)
         {
+            Debug.Log("gewaehlte Figur:" + gewaehlteFigur + "und neuer Klick zur Position: " + coords + " Bewegung ist moeglich: " + gewaehlteFigur.BewegungMoeglichZu(coords) + " Befehl wird ausgeführt:");
             if (figur != null && gewaehlteFigur == figur)
+            {
+                Debug.Log("Deselect");
                 DeselectFigur();
+            }
             else if (figur != null && gewaehlteFigur != figur && schachManager.IstTeamzug(figur.figurFarbe))
+            {
+                Debug.Log("neue Figur ausgewählt");
                 WahleFigur(figur);
-            else if (gewaehlteFigur.BewegungMoeglichZu(coords))
+            }
+            //else if (gewaehlteFigur.BewegungMoeglichZu(coords))
+            else if (true)
+                    {
+                Debug.Log("Figur wird bewegt zu: " + coords);
                 OnSelectedPieceMoved(coords, gewaehlteFigur);
+            }
         }
         else
         {
+            Debug.Log("Figur 1. mal angewählt");
+            Debug.Log("figur: " + figur + "Farbe" + figur.figurFarbe + "ist Teamzug: " + schachManager.IstTeamzug(figur.figurFarbe));
             if (figur != null && schachManager.IstTeamzug(figur.figurFarbe))
+            {
+                Debug.Log("Wähle Figur");
                 WahleFigur(figur);
+            }
+           // Debug.Log("Figur ist null, oder der Teamzug ist nicht richtig");
         }
     }
     private void WahleFigur(Figur figur)
     {
         schachManager.RemoveMovesEnablingAttakOnPieceOfType<Koenig>(figur);
         gewaehlteFigur = figur;
+        Debug.Log("Gewählte Figur zugewiesen: " + gewaehlteFigur);
         List<Vector2Int> auswahl = gewaehlteFigur.Bewegungsmöglichkeiten;
+        Debug.Log("zeige Auswahl");
         ShowSelectionSquares(auswahl);
     }
     private void ShowSelectionSquares(List<Vector2Int> auswahl)

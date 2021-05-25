@@ -11,6 +11,7 @@ public class ColliderInputReciever : InputReciever
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            
             if (Physics.Raycast(ray, out hit))
             {
                 clickPosition = hit.point;
@@ -21,8 +22,10 @@ public class ColliderInputReciever : InputReciever
 
     public override void OnInputRecieved()
     {
+      
         foreach (var handler in inputHandlers)
         {
+            //Debug.Log("Process" + clickPosition);
             handler.ProcessInput(clickPosition, null, null);
         }
     }
