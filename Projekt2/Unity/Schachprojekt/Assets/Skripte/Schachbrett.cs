@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class Schachbrett : MonoBehaviour
 {
     [SerializeField] private Transform EffektiverStartpunktUntenLinks;
@@ -199,24 +198,7 @@ public class Schachbrett : MonoBehaviour
 
     }
 
-    private void dsjkfdslkfjlds()
-    {
-        //Alle Methodencalls von Obendrob
-
-        //Alle Methodencalls von oben
-
-        // try to take opposite { Start Konflikt}
-        // Wait
-        // animation
-
-        // All methodencall danch
-
-        // Alle methodencall untendrunter
-
-
-    }
-
-
+ 
     private void StartKonflikt(Figur angreifendeFigur, Figur geschlageneFigur)
     {
         // P
@@ -235,44 +217,70 @@ public class Schachbrett : MonoBehaviour
 
         if (geschlageneFigur.figurFarbe == FigurFarbe.schwarz) { linksRotAngreifer = linksRotAngreifer - 180; }
         geschlageneFigur.transform.Rotate(0, (float)linksRotAngreifer, 0);
+
         //"Es sagt einfach Unity stop, halt und warte" ~ Veronika Scheller, 25.05.2021, kurz vor der Heirat mit MU
         Debug.Log("WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
-        StartCoroutine(Waiter());
-        angreifendeFigur.AngriffAnimation();
-        geschlageneFigur.SterbeAnimation();
+        this.fig = this.gewaehlteFigur;
+        
+        
+        StartCoroutine(Animationsverwalter(5f, gewaehlteFigur, null, Animationtrigger.Angriff));
+        StartCoroutine(Animationsverwalter(10f, null, geschlageneFigur, Animationtrigger.Sterben));
+
 
         Debug.Log("WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH2");
 
        
     }
 
-    IEnumerator Waiter()
+    public Figur fig;
+
+
+ 
+   
+    private enum Animationtrigger { Nichts, Sterben, Angriff, Idle }
+    private Figur angreifendeFig;
+    private Figur strebendeFig;
+    private Animationtrigger animationFigAngreifend;
+    private Animationtrigger animationFigSterbend;
+
+    IEnumerator Animationsverwalter(float time,Figur angreifendeFigur, Figur sterbendeFigur, Animationtrigger animationtrigger)
     {
-        Debug.Log("DAVOR");
-        yield return new WaitForSeconds(5);
-        Debug.Log("Danach");
+        yield return new WaitForSeconds(time);
+
+        if (angreifendeFigur != null)
+        {
+            this.angreifendeFig = angreifendeFigur;
+            this.animationFigAngreifend = animationtrigger;
+        }
+        if (sterbendeFigur != null)
+        {
+            this.strebendeFig = sterbendeFigur;
+            this.animationFigSterbend = animationtrigger;
+        }
+        
+    }
+  
+
+    public void Update()
+    {
+        switch (this.animationFigAngreifend)
+        {
+            case Animationtrigger.Nichts:   break;
+            case Animationtrigger.Angriff:  this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.AngriffAnimation();  break;
+            case Animationtrigger.Idle:     this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.IdleAnimation();     break;
+            case Animationtrigger.Sterben:  this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.SterbeAnimation();   break;
+        }
+        
+        switch (this.animationFigSterbend)
+        {
+            case Animationtrigger.Nichts:   break;
+            case Animationtrigger.Angriff:  this.animationFigSterbend = Animationtrigger.Nichts;    this.strebendeFig.AngriffAnimation();   break;
+            case Animationtrigger.Idle:     this.animationFigSterbend = Animationtrigger.Nichts;    this.strebendeFig.IdleAnimation();      break;
+            case Animationtrigger.Sterben:  this.animationFigSterbend = Animationtrigger.Nichts;    this.strebendeFig.SterbeAnimation();    break;
+        }
     }
 
- /*   public void StartPage()
-    {
-        print("in StartPage()");
-        StartCoroutine(FinishFirst(5.0f, DoLast));
-    }
 
-    IEnumerator FinishFirst(float waitTime, Action doLast)
-    {
-        print("in FinishFirst");
-        yield return new WaitForSeconds(waitTime);
-        print("leave FinishFirst");
-        doLast();
-    }
-
-    void DoLast()
-    {
-        print("do after everything is finished");
-        print("done");
-    }
-*/
 
     //Take Piece -> Übergebene Figur wird sterben
     private void TakePiece(Figur figur)
