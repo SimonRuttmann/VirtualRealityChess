@@ -5,23 +5,19 @@ using UnityEngine;
 
 public class Bauer : Figur
 {
+    
     public override List<Vector2Int> WaehleMoeglicheFelder()
     {
+        Debug.Log("----------------------------Bauer Felder wahl");
         Bewegungsmöglichkeiten.Clear();
-        Bewegungsmöglichkeiten.Add(position + new Vector2Int(0, 1));
-        return Bewegungsmöglichkeiten;
-    }
-    /*
-    public override List<Vector2Int> WaehleMoeglicheFelder()
-    {
-        Bewegungsmöglichkeiten.Clear();
-
+     //   Debug.Log("Schachbrett" + this.schachbrett);
         Vector2Int direction = figurFarbe == FigurFarbe.weiss ? Vector2Int.up : Vector2Int.down;
         float range = WurdeBewegt ? 1 : 2;
         for (int i = 1; i <= range; i++)
         {
             Vector2Int nextCoords = position + direction * i;
             Figur piece = schachbrett.GetPieceOnSquare(nextCoords);
+            Debug.Log("Figur auf position " + position +" Figur: " + piece);
             if (!schachbrett.CheckIfCoordinatesAreOnBoard(nextCoords))
                 break;
             if (piece == null)
@@ -42,6 +38,10 @@ public class Bauer : Figur
                 AddBewegungsmoeglichkeit(nextCoords);
             }
         }
+        foreach ( var a in Bewegungsmöglichkeiten)
+        {
+            Debug.Log("----------------------------" + a.ToString());
+        }
         return Bewegungsmöglichkeiten;
     }
 
@@ -59,5 +59,5 @@ public class Bauer : Figur
             schachbrett.PromotePiece(this);
         }
     }
-    */
+    
 }

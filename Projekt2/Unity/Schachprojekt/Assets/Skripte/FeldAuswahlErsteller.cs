@@ -11,10 +11,18 @@ public class FeldAuswahlErsteller : MonoBehaviour
 
     public void ZeigeAuswahl(Dictionary<Vector3, bool> FeldDaten)
     {
+        Debug.Log("zeige Auswahl im FeldAuswahlErsteller aufgerufen");
         ClearSelection();
+        //Richtiger absoluter wert
         foreach (var data in FeldDaten)
         {
-            GameObject selector = Instantiate(selectorPrefab, data.Key, Quaternion.identity);
+           
+            //GameObject selector = Instantiate(selectorPrefab, data.Key, Quaternion.identity);
+            GameObject selector = Instantiate(selectorPrefab);
+            selector.transform.position = data.Key;
+
+            
+            Debug.Log("Instanziiere: " + selector);
             instantiatedSelectors.Add(selector);
             /*
             foreach (var setter in selector.GetComponentsInChildren<MaterialSetter>())

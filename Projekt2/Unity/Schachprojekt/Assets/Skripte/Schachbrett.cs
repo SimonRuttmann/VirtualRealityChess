@@ -23,16 +23,6 @@ public class Schachbrett : MonoBehaviour
         return EffektiverStartpunktUntenLinks.position + new Vector3(position.x * Feldgroesse, 0f, position.y * Feldgroesse);
     }
 
-    //Implementieren
-    public bool EnthältFigur(Figur figur)
-    {
-
-        return false;
-    }
-    /////////////////////////////////////////
-
-
-
     protected virtual void Awake()
     {
         feldAuswahlErsteller = GetComponent<FeldAuswahlErsteller>();
@@ -66,7 +56,8 @@ public class Schachbrett : MonoBehaviour
         Debug.Log("Figur: " + figur + " erhalten");
         if (gewaehlteFigur)
         {
-            Debug.Log("gewaehlte Figur:" + gewaehlteFigur + "und neuer Klick zur Position: " + coords + " Bewegung ist moeglich: " + gewaehlteFigur.BewegungMoeglichZu(coords) + " Befehl wird ausgeführt:");
+        //    Debug.Log("gewaehlte Figur:" + gewaehlteFigur + "und neuer Klick zur Position: " + coords);
+      //      Debug.Log("Figur nicht null ->  Bewegung ist moeglich: " + gewaehlteFigur.BewegungMoeglichZu(coords) + " Befehl wird ausgeführt:");
             if (figur != null && gewaehlteFigur == figur)
             {
                 Debug.Log("Deselect");
@@ -77,8 +68,8 @@ public class Schachbrett : MonoBehaviour
                 Debug.Log("neue Figur ausgewählt");
                 WahleFigur(figur);
             }
-            //else if (gewaehlteFigur.BewegungMoeglichZu(coords))
-            else if (true)
+            else if (gewaehlteFigur.BewegungMoeglichZu(coords))
+           // else if (true)
                     {
                 Debug.Log("Figur wird bewegt zu: " + coords);
                 OnSelectedPieceMoved(coords, gewaehlteFigur);
@@ -87,7 +78,7 @@ public class Schachbrett : MonoBehaviour
         else
         {
             Debug.Log("Figur 1. mal angewählt");
-            Debug.Log("figur: " + figur + "Farbe" + figur.figurFarbe + "ist Teamzug: " + schachManager.IstTeamzug(figur.figurFarbe));
+          //  Debug.Log("figur: " + figur + "Farbe" + figur.figurFarbe + "ist Teamzug: " + schachManager.IstTeamzug(figur.figurFarbe));
             if (figur != null && schachManager.IstTeamzug(figur.figurFarbe))
             {
                 Debug.Log("Wähle Figur");
@@ -102,8 +93,13 @@ public class Schachbrett : MonoBehaviour
         gewaehlteFigur = figur;
         Debug.Log("Gewählte Figur zugewiesen: " + gewaehlteFigur);
         List<Vector2Int> auswahl = gewaehlteFigur.Bewegungsmöglichkeiten;
-        Debug.Log("zeige Auswahl");
+        Debug.Log("zeige Auswahl: " + auswahl);
+        foreach (var a in auswahl)
+        {
+            Debug.Log(a);
+        }
         ShowSelectionSquares(auswahl);
+        
     }
     private void ShowSelectionSquares(List<Vector2Int> auswahl)
     {
@@ -113,7 +109,9 @@ public class Schachbrett : MonoBehaviour
             Vector3 position = CalculatePositionFromCoords(auswahl[i]);
             bool isSquareFree = GetPieceOnSquare(auswahl[i]) == null;
             squaresData.Add(position, isSquareFree);
+            Debug.Log("Feld mit Position " + position + " ist Frei: " + isSquareFree);
         }
+        Debug.Log("Squares Data: " + squaresData);
         feldAuswahlErsteller.ZeigeAuswahl(squaresData);
     }
 

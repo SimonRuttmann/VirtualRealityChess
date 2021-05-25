@@ -54,6 +54,7 @@ public class SchachManager : MonoBehaviour
 
     private void StartNewGame()
     {
+       
         this.spielzustand = Spielzustand.Start;
        // this.SchachUIManager.HideUI();
         schachbrett.SetzeAbhaengigkeiten(this);

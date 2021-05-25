@@ -14,98 +14,98 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Spielfeld:
   - Position: {x: 1, y: 1}
-    Figurtyp: 7
-    FigurFarbe: 1
-  - Position: {x: 2, y: 1}
-    Figurtyp: 8
-    FigurFarbe: 1
-  - Position: {x: 3, y: 1}
-    Figurtyp: 9
-    FigurFarbe: 1
-  - Position: {x: 4, y: 1}
-    Figurtyp: 11
-    FigurFarbe: 1
-  - Position: {x: 5, y: 1}
-    Figurtyp: 10
-    FigurFarbe: 1
-  - Position: {x: 6, y: 1}
-    Figurtyp: 9
-    FigurFarbe: 1
-  - Position: {x: 7, y: 1}
-    Figurtyp: 8
-    FigurFarbe: 1
-  - Position: {x: 8, y: 1}
-    Figurtyp: 7
-    FigurFarbe: 1
-  - Position: {x: 1, y: 2}
-    Figurtyp: 6
-    FigurFarbe: 1
-  - Position: {x: 2, y: 2}
-    Figurtyp: 6
-    FigurFarbe: 1
-  - Position: {x: 3, y: 2}
-    Figurtyp: 6
-    FigurFarbe: 1
-  - Position: {x: 4, y: 2}
-    Figurtyp: 6
-    FigurFarbe: 1
-  - Position: {x: 5, y: 2}
-    Figurtyp: 6
-    FigurFarbe: 1
-  - Position: {x: 6, y: 2}
-    Figurtyp: 6
-    FigurFarbe: 1
-  - Position: {x: 7, y: 2}
-    Figurtyp: 6
-    FigurFarbe: 1
-  - Position: {x: 8, y: 2}
-    Figurtyp: 6
-    FigurFarbe: 1
-  - Position: {x: 1, y: 8}
     Figurtyp: 1
     FigurFarbe: 0
-  - Position: {x: 2, y: 8}
+  - Position: {x: 2, y: 1}
     Figurtyp: 2
     FigurFarbe: 0
-  - Position: {x: 3, y: 8}
+  - Position: {x: 3, y: 1}
     Figurtyp: 3
     FigurFarbe: 0
-  - Position: {x: 4, y: 8}
+  - Position: {x: 4, y: 1}
     Figurtyp: 5
     FigurFarbe: 0
-  - Position: {x: 5, y: 8}
+  - Position: {x: 5, y: 1}
     Figurtyp: 4
     FigurFarbe: 0
-  - Position: {x: 6, y: 8}
+  - Position: {x: 6, y: 1}
     Figurtyp: 3
     FigurFarbe: 0
-  - Position: {x: 7, y: 8}
+  - Position: {x: 7, y: 1}
     Figurtyp: 2
     FigurFarbe: 0
-  - Position: {x: 8, y: 8}
+  - Position: {x: 8, y: 1}
     Figurtyp: 1
     FigurFarbe: 0
+  - Position: {x: 1, y: 2}
+    Figurtyp: 0
+    FigurFarbe: 0
+  - Position: {x: 2, y: 2}
+    Figurtyp: 0
+    FigurFarbe: 0
+  - Position: {x: 3, y: 2}
+    Figurtyp: 0
+    FigurFarbe: 0
+  - Position: {x: 4, y: 2}
+    Figurtyp: 0
+    FigurFarbe: 0
+  - Position: {x: 5, y: 2}
+    Figurtyp: 0
+    FigurFarbe: 0
+  - Position: {x: 6, y: 2}
+    Figurtyp: 0
+    FigurFarbe: 0
+  - Position: {x: 7, y: 2}
+    Figurtyp: 0
+    FigurFarbe: 0
+  - Position: {x: 8, y: 2}
+    Figurtyp: 0
+    FigurFarbe: 0
+  - Position: {x: 1, y: 8}
+    Figurtyp: 7
+    FigurFarbe: 1
+  - Position: {x: 2, y: 8}
+    Figurtyp: 8
+    FigurFarbe: 1
+  - Position: {x: 3, y: 8}
+    Figurtyp: 9
+    FigurFarbe: 1
+  - Position: {x: 4, y: 8}
+    Figurtyp: 11
+    FigurFarbe: 1
+  - Position: {x: 5, y: 8}
+    Figurtyp: 10
+    FigurFarbe: 1
+  - Position: {x: 6, y: 8}
+    Figurtyp: 9
+    FigurFarbe: 1
+  - Position: {x: 7, y: 8}
+    Figurtyp: 8
+    FigurFarbe: 1
+  - Position: {x: 8, y: 8}
+    Figurtyp: 7
+    FigurFarbe: 1
   - Position: {x: 1, y: 7}
-    Figurtyp: 0
-    FigurFarbe: 0
+    Figurtyp: 6
+    FigurFarbe: 1
   - Position: {x: 2, y: 7}
-    Figurtyp: 0
-    FigurFarbe: 0
+    Figurtyp: 6
+    FigurFarbe: 1
   - Position: {x: 3, y: 7}
-    Figurtyp: 0
-    FigurFarbe: 0
+    Figurtyp: 6
+    FigurFarbe: 1
   - Position: {x: 4, y: 7}
-    Figurtyp: 0
-    FigurFarbe: 0
+    Figurtyp: 6
+    FigurFarbe: 1
   - Position: {x: 5, y: 7}
-    Figurtyp: 0
-    FigurFarbe: 0
+    Figurtyp: 6
+    FigurFarbe: 1
   - Position: {x: 6, y: 7}
-    Figurtyp: 0
-    FigurFarbe: 0
+    Figurtyp: 6
+    FigurFarbe: 1
   - Position: {x: 7, y: 7}
-    Figurtyp: 0
-    FigurFarbe: 0
+    Figurtyp: 6
+    FigurFarbe: 1
   - Position: {x: 8, y: 7}
-    Figurtyp: 0
-    FigurFarbe: 0
+    Figurtyp: 6
+    FigurFarbe: 1
