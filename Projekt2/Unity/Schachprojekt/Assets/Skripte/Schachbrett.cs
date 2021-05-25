@@ -11,7 +11,7 @@ public class Schachbrett : MonoBehaviour
 
     public const int GesFeldGroesse = 8;
 
-    private Figur[,] grid;
+    private Figur[,] grid;  //Start bei 1, 1
     private Figur gewaehlteFigur;
     private SchachManager schachManager;
 
@@ -28,6 +28,7 @@ public class Schachbrett : MonoBehaviour
         feldAuswahlErsteller = GetComponent<FeldAuswahlErsteller>();
         CreateGrid();
     }
+
     private void CreateGrid()
     {
         grid = new Figur[GesFeldGroesse, GesFeldGroesse];
@@ -37,10 +38,12 @@ public class Schachbrett : MonoBehaviour
     {
         this.schachManager = schachManager;
     }
+
     public Vector3 CalculatePositionFromCoords(Vector2Int coords)
     {
         return EffektiverStartpunktUntenLinks.position + new Vector3(coords.x * Feldgroesse, 0f, coords.y * Feldgroesse);
     }
+
     private Vector2Int CalculateCoordsFromPosition(Vector3 inputPosition)
     {
         int x = Mathf.FloorToInt(transform.InverseTransformPoint(inputPosition).x / Feldgroesse) + GesFeldGroesse / 2;
@@ -58,7 +61,7 @@ public class Schachbrett : MonoBehaviour
         if (gewaehlteFigur)
         {
         //    Debug.Log("gewaehlte Figur:" + gewaehlteFigur + "und neuer Klick zur Position: " + coords);
-      //      Debug.Log("Figur nicht null ->  Bewegung ist moeglich: " + gewaehlteFigur.BewegungMoeglichZu(coords) + " Befehl wird ausgeführt:");
+        //    Debug.Log("Figur nicht null ->  Bewegung ist moeglich: " + gewaehlteFigur.BewegungMoeglichZu(coords) + " Befehl wird ausgeführt:");
 
             // Figur nochnamal anwählen
             if (figur != null && gewaehlteFigur == figur)
@@ -96,6 +99,7 @@ public class Schachbrett : MonoBehaviour
            // Debug.Log("Figur ist null, oder der Teamzug ist nicht richtig");
         }
     }
+
     private void WahleFigur(Figur figur)
     {
         schachManager.RemoveMovesEnablingAttakOnPieceOfType<Koenig>(figur);
@@ -103,13 +107,13 @@ public class Schachbrett : MonoBehaviour
       //  Debug.Log("Gewählte Figur zugewiesen: " + gewaehlteFigur);
         List<Vector2Int> auswahl = gewaehlteFigur.Bewegungsmöglichkeiten;
     //    Debug.Log("zeige Auswahl: " + auswahl);
-        foreach (var a in auswahl)
-        {
+        //foreach (var a in auswahl)
+       // {
          //   Debug.Log(a);
-        }
-        ShowSelectionSquares(auswahl);
-        
+       // }
+        ShowSelectionSquares(auswahl);    
     }
+
     private void ShowSelectionSquares(List<Vector2Int> auswahl)
     {
         Dictionary<Vector3, bool> squaresData = new Dictionary<Vector3, bool>();
@@ -175,20 +179,102 @@ public class Schachbrett : MonoBehaviour
         }
         return false;
     }
+
     public void SetPieceOnBoard(Vector2Int coords, Figur figur)
     {
         if (CheckIfCoordinatesAreOnBoard(coords))
             grid[coords.x, coords.y] = figur;
     }
 
+    
     private void TryToTakeOppositePiece(Vector2Int coords)
     {
+        //Gegnerische Figur
         Figur figur = GetPieceOnSquare(coords);
         if (figur && !gewaehlteFigur.IstGleichesTeam(figur))
         {
+            StartKonflikt(gewaehlteFigur, figur);
             TakePiece(figur);
         }
+
     }
+
+    private void dsjkfdslkfjlds()
+    {
+        //Alle Methodencalls von Obendrob
+
+        //Alle Methodencalls von oben
+
+        // try to take opposite { Start Konflikt}
+        // Wait
+        // animation
+
+        // All methodencall danch
+
+        // Alle methodencall untendrunter
+
+
+    }
+
+
+    private void StartKonflikt(Figur angreifendeFigur, Figur geschlageneFigur)
+    {
+        // P
+        // A
+        
+        double linksRotAngreifer;
+        if (geschlageneFigur.position.x - angreifendeFigur.position.x == 0)
+        {
+            if (geschlageneFigur.position.y > angreifendeFigur.position.y) linksRotAngreifer = 0;
+            else linksRotAngreifer = -180;
+        }
+        else
+        {
+            linksRotAngreifer = Math.Atan((angreifendeFigur.position.y - angreifendeFigur.position.y) / (geschlageneFigur.position.x - angreifendeFigur.position.x));
+        }
+
+        if (geschlageneFigur.figurFarbe == FigurFarbe.schwarz) { linksRotAngreifer = linksRotAngreifer - 180; }
+        geschlageneFigur.transform.Rotate(0, (float)linksRotAngreifer, 0);
+        //"Es sagt einfach Unity stop, halt und warte" ~ Veronika Scheller, 25.05.2021, kurz vor der Heirat mit MU
+        Debug.Log("WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
+        StartCoroutine(Waiter());
+        angreifendeFigur.AngriffAnimation();
+        geschlageneFigur.SterbeAnimation();
+
+        Debug.Log("WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH2");
+
+       
+    }
+
+    IEnumerator Waiter()
+    {
+        Debug.Log("DAVOR");
+        yield return new WaitForSeconds(5);
+        Debug.Log("Danach");
+    }
+
+ /*   public void StartPage()
+    {
+        print("in StartPage()");
+        StartCoroutine(FinishFirst(5.0f, DoLast));
+    }
+
+    IEnumerator FinishFirst(float waitTime, Action doLast)
+    {
+        print("in FinishFirst");
+        yield return new WaitForSeconds(waitTime);
+        print("leave FinishFirst");
+        doLast();
+    }
+
+    void DoLast()
+    {
+        print("do after everything is finished");
+        print("done");
+    }
+*/
+
+    //Take Piece -> Übergebene Figur wird sterben
     private void TakePiece(Figur figur)
     {
         if (figur)
@@ -198,6 +284,7 @@ public class Schachbrett : MonoBehaviour
             Destroy(figur.gameObject);
         }
     }
+
     public void PromotePiece(Figur figur)
     {
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
