@@ -8,7 +8,7 @@ public class Bauer : Figur
     
     public override List<Vector2Int> WaehleMoeglicheFelder()
     {
-        Debug.Log("----------------------------Bauer Felder wahl");
+      //  Debug.Log("----------------------------Bauer Felder wahl");
         Bewegungsmöglichkeiten.Clear();
      //   Debug.Log("Schachbrett" + this.schachbrett);
         Vector2Int direction = figurFarbe == FigurFarbe.weiss ? Vector2Int.up : Vector2Int.down;
@@ -17,7 +17,7 @@ public class Bauer : Figur
         {
             Vector2Int nextCoords = position + direction * i;
             Figur piece = schachbrett.GetPieceOnSquare(nextCoords);
-            Debug.Log("Figur auf position " + position +" Figur: " + piece);
+        //    Debug.Log("Figur auf position " + position +" Figur: " + piece);
             if (!schachbrett.CheckIfCoordinatesAreOnBoard(nextCoords))
                 break;
             if (piece == null)
@@ -40,7 +40,7 @@ public class Bauer : Figur
         }
         foreach ( var a in Bewegungsmöglichkeiten)
         {
-            Debug.Log("----------------------------" + a.ToString());
+    //        Debug.Log("----------------------------" + a.ToString());
         }
         return Bewegungsmöglichkeiten;
     }

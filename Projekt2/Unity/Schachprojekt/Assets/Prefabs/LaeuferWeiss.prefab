@@ -1886,6 +1886,7 @@ GameObject:
   - component: {fileID: 7927237806267953508}
   - component: {fileID: 529476523542808884}
   - component: {fileID: 1855618273227979738}
+  - component: {fileID: -143430506600335513}
   m_Layer: 0
   m_Name: LaeuferWeiss
   m_TagString: Untagged
@@ -1955,6 +1956,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5b36a8d8fab32442b46d47ee02c3e58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &-143430506600335513
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298334315611794398}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3449da1f5265ad44c8188ad1bd90c4aa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7347594253326962948
 GameObject:
   m_ObjectHideFlags: 0

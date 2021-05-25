@@ -6,6 +6,30 @@ using UnityEngine;
 
 public abstract class Figur : MonoBehaviour
 {
+	//IdleTrigger
+	//AngriffTrigger
+	//SterbeTrigger
+	public Animator animator;
+	public void IdleAnimation()
+    {
+		Debug.Log("Idle Ausgeführt");
+		animator.SetTrigger("IdleTrigger");
+    }
+
+	public void SterbeAnimation()
+    {
+		Debug.Log("Sterbe Ausgeführt");
+		animator.SetTrigger("SterbeTrigger");
+    }
+
+	public void AngriffAnimation()
+    {
+		Debug.Log("Angriff ausgeführt");
+		animator.SetTrigger("AngriffTrigger");
+    }
+
+
+
 	// Das Schachbrett
 	public Schachbrett schachbrett;
 
@@ -26,8 +50,9 @@ public abstract class Figur : MonoBehaviour
 	// Pseudo Konstruktor
 	private void Awake()
 	{
+		this.animator = GetComponent<Animator>();
 		tweener = GetComponent<IObjectTweener>();
-		Debug.Log("Erhalte Tweener: " + tweener);
+		//Debug.Log("Erhalte Tweener: " + tweener);
 		Bewegungsmöglichkeiten = new List<Vector2Int>();
 		WurdeBewegt = false;
 	}
@@ -41,6 +66,13 @@ public abstract class Figur : MonoBehaviour
 
 		//Figur entsprechende Position hinzufügen
 		transform.position = this.schachbrett.RelativePositionZumSchachbrettfeld(position);
+
+		if (this.figurFarbe == FigurFarbe.weiss)
+        {
+			//transform.rotation = Quaternion.AngleAxis(180, new Vector3(0, 1, 0));
+			//(Vector3.up)
+			transform.Rotate(0, 180, 0); 
+		}
 	}
 
 

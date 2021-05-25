@@ -976,6 +976,7 @@ GameObject:
   - component: {fileID: 7579525559223639404}
   - component: {fileID: 2948356854547348803}
   - component: {fileID: 6518213364270493638}
+  - component: {fileID: 3552873919775381481}
   m_Layer: 0
   m_Name: KoenigSchwarz
   m_TagString: Untagged
@@ -1030,6 +1031,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5b36a8d8fab32442b46d47ee02c3e58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &3552873919775381481
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7089847762999871446}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d31008a963eb84f4484563f37aa0eb59, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8146417947039218896
 GameObject:
   m_ObjectHideFlags: 0

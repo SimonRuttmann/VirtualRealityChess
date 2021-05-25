@@ -47,10 +47,10 @@ public class Spieler
        */
       public void GeneriereAlleMoeglichenZuege()
       {
-		Debug.Log("Generiere Alle Möglichen Züge");
+	//	Debug.Log("Generiere Alle Möglichen Züge");
           foreach(var figur in AktiveFiguren)
           {
-			Debug.Log("Figur: " + figur + "ist auf Spielfeld: " + Schachbrett.HasPiece(figur));
+	//		Debug.Log("Figur: " + figur + "ist auf Spielfeld: " + Schachbrett.HasPiece(figur));
               if (Schachbrett.HasPiece(figur))
               {
                 figur.WaehleMoeglicheFelder();

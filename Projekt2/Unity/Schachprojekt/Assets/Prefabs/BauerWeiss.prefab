@@ -258,6 +258,7 @@ GameObject:
   - component: {fileID: 7924720944157885235}
   - component: {fileID: 5950371168292950046}
   - component: {fileID: -200077105840698916}
+  - component: {fileID: 3430622404279833678}
   m_Layer: 0
   m_Name: BauerWeiss
   m_TagString: Untagged
@@ -310,6 +311,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5b36a8d8fab32442b46d47ee02c3e58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &3430622404279833678
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7399857405545240969}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53ca60cb90ad24d44b46bca22a90b18a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7654658741644400428
 GameObject:
   m_ObjectHideFlags: 0
