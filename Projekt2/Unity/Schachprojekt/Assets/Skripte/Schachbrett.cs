@@ -15,7 +15,7 @@ public class Schachbrett : MonoBehaviour
     private SchachManager schachManager;
 
     private FeldAuswahlErsteller feldAuswahlErsteller; //anpassen
-
+    private AnimationManager animationManager;
 
     public Vector3 RelativePositionZumSchachbrettfeld(Vector2Int position)
     {
@@ -24,7 +24,9 @@ public class Schachbrett : MonoBehaviour
 
     protected virtual void Awake()
     {
+        animationManager = GetComponent<AnimationManager>();
         feldAuswahlErsteller = GetComponent<FeldAuswahlErsteller>();
+
         CreateGrid();
     }
 
@@ -135,9 +137,10 @@ public class Schachbrett : MonoBehaviour
 
     private void OnSelectedPieceMoved(Vector2Int kooridanten, Figur figur)
     {
+        Vector2Int pos = figur.position;
         TryToTakeOppositePiece(kooridanten);
-        UpdateBoardOnPieceMove(kooridanten, figur.position, figur, null);
-        gewaehlteFigur.BewegeFigur(kooridanten);
+        UpdateBoardOnPieceMove(kooridanten, pos, figur, null);
+   //     gewaehlteFigur.BewegeFigur(kooridanten);
         DeselectFigur();
         BeendeZug();
     }
@@ -185,102 +188,76 @@ public class Schachbrett : MonoBehaviour
             grid[coords.x, coords.y] = figur;
     }
 
-    
+        // BewegeFigur() -> Richtig aufrufen 
+        // Take pice braucht position der geschlagenden figur
+        // 
     private void TryToTakeOppositePiece(Vector2Int coords)
     {
         //Gegnerische Figur
         Figur figur = GetPieceOnSquare(coords);
         if (figur && !gewaehlteFigur.IstGleichesTeam(figur))
         {
-            StartKonflikt(gewaehlteFigur, figur);
+            StartKonflikt(gewaehlteFigur, figur, coords);
             TakePiece(figur);
+        }
+        else{
+            gewaehlteFigur.BewegeFigur(coords);
         }
 
     }
 
  
-    private void StartKonflikt(Figur angreifendeFigur, Figur geschlageneFigur)
+    private void StartKonflikt(Figur angreifendeFigur, Figur geschlageneFigur, Vector2Int kooridanten)
     {
-        // P
-        // A
-        
-        double linksRotAngreifer;
-        if (geschlageneFigur.position.x - angreifendeFigur.position.x == 0)
+       
+        double RotationspunktAngreifer;
+        double RotationspunktVerteidiger;
+
+        if (geschlageneFigur.position.y - angreifendeFigur.position.y == 0)
         {
-            if (geschlageneFigur.position.y > angreifendeFigur.position.y) linksRotAngreifer = 0;
-            else linksRotAngreifer = -180;
+          
+             if (geschlageneFigur.position.x > angreifendeFigur.position.x) RotationspunktAngreifer = 90;
+             else RotationspunktAngreifer = 270;
         }
         else
         {
-            linksRotAngreifer = Math.Atan((angreifendeFigur.position.y - angreifendeFigur.position.y) / (geschlageneFigur.position.x - angreifendeFigur.position.x));
+            int gegenkathete = geschlageneFigur.position.x - angreifendeFigur.position.x;
+            int ankathete = geschlageneFigur.position.y - angreifendeFigur.position.y;
+     
+            RotationspunktAngreifer = (180/Math.PI) *  Math.Atan((geschlageneFigur.position.x - angreifendeFigur.position.x) / (geschlageneFigur.position.y - angreifendeFigur.position.y));
+         
         }
 
-        if (geschlageneFigur.figurFarbe == FigurFarbe.schwarz) { linksRotAngreifer = linksRotAngreifer - 180; }
-        geschlageneFigur.transform.Rotate(0, (float)linksRotAngreifer, 0);
+        RotationspunktVerteidiger =  RotationspunktAngreifer;
 
-        //"Es sagt einfach Unity stop, halt und warte" ~ Veronika Scheller, 25.05.2021, kurz vor der Heirat mit MU
-        Debug.Log("WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
-        this.fig = this.gewaehlteFigur;
-        
-        
-        StartCoroutine(Animationsverwalter(5f, gewaehlteFigur, null, Animationtrigger.Angriff));
-        StartCoroutine(Animationsverwalter(10f, null, geschlageneFigur, Animationtrigger.Sterben));
-
-
-        Debug.Log("WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH2");
-
-       
-    }
-
-    public Figur fig;
-
-
- 
-   
-    private enum Animationtrigger { Nichts, Sterben, Angriff, Idle }
-    private Figur angreifendeFig;
-    private Figur strebendeFig;
-    private Animationtrigger animationFigAngreifend;
-    private Animationtrigger animationFigSterbend;
-
-    IEnumerator Animationsverwalter(float time,Figur angreifendeFigur, Figur sterbendeFigur, Animationtrigger animationtrigger)
-    {
-        yield return new WaitForSeconds(time);
-
-        if (angreifendeFigur != null)
-        {
-            this.angreifendeFig = angreifendeFigur;
-            this.animationFigAngreifend = animationtrigger;
-        }
-        if (sterbendeFigur != null)
-        {
-            this.strebendeFig = sterbendeFigur;
-            this.animationFigSterbend = animationtrigger;
-        }
-        
-    }
+        if (angreifendeFigur.figurFarbe == FigurFarbe.weiss) { RotationspunktAngreifer = RotationspunktAngreifer - 180; }
+        if (geschlageneFigur.figurFarbe == FigurFarbe.weiss) { RotationspunktVerteidiger = RotationspunktVerteidiger - 180; }
+      
   
-
-    public void Update()
-    {
-        switch (this.animationFigAngreifend)
-        {
-            case Animationtrigger.Nichts:   break;
-            case Animationtrigger.Angriff:  this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.AngriffAnimation();  break;
-            case Animationtrigger.Idle:     this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.IdleAnimation();     break;
-            case Animationtrigger.Sterben:  this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.SterbeAnimation();   break;
-        }
+        //Bewegung Angreifer
+        animationManager.DreheFigur1(0f, angreifendeFigur, (float)RotationspunktAngreifer);
         
-        switch (this.animationFigSterbend)
-        {
-            case Animationtrigger.Nichts:   break;
-            case Animationtrigger.Angriff:  this.animationFigSterbend = Animationtrigger.Nichts;    this.strebendeFig.AngriffAnimation();   break;
-            case Animationtrigger.Idle:     this.animationFigSterbend = Animationtrigger.Nichts;    this.strebendeFig.IdleAnimation();      break;
-            case Animationtrigger.Sterben:  this.animationFigSterbend = Animationtrigger.Nichts;    this.strebendeFig.SterbeAnimation();    break;
-        }
+        //Bewegung Verteidiger
+        animationManager.DreheFigur2(0f, geschlageneFigur, (float)RotationspunktVerteidiger);
+
+        //Angriff
+        animationManager.StartAnimation(1f, angreifendeFigur, null, AnimationManager.Animationtrigger.Angriff);
+
+        //Sterben
+        animationManager.StartAnimation(1.5f, null, geschlageneFigur, AnimationManager.Animationtrigger.Sterben);
+
+        //Loeschen
+        animationManager.StartAnimation(4f, null, geschlageneFigur, AnimationManager.Animationtrigger.Loeschen);
+
+        //Bewege Figur 1 auf Figur 2
+        animationManager.BewegeFigur(5f, angreifendeFigur, kooridanten);
+
+        //Drehe Figur zurück
+        int back = 0;
+        if (angreifendeFigur.figurFarbe == FigurFarbe.weiss) back = 180;
+
+        animationManager.DreheFigur1(6f, angreifendeFigur,(float)back);
     }
-
-
 
     //Take Piece -> Übergebene Figur wird sterben
     private void TakePiece(Figur figur)
@@ -289,7 +266,7 @@ public class Schachbrett : MonoBehaviour
         {
             grid[figur.position.x, figur.position.y] = null;
             schachManager.OnPieceRemoved(figur);
-            Destroy(figur.gameObject);
+           // Destroy(figur.gameObject); //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
         }
     }
 

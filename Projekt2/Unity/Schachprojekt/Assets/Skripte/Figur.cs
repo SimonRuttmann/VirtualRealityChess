@@ -9,7 +9,47 @@ public abstract class Figur : MonoBehaviour
 	//IdleTrigger
 	//AngriffTrigger
 	//SterbeTrigger
-	public Animator animator;
+
+	private Quaternion drehgradStart;
+	private Quaternion drehgradEnde;
+	private float timeCount = 0.0f;
+	private bool drehungAktiv;
+	public void DreheFigur(float drehung)
+	{
+		this.drehgradEnde = Quaternion.Euler(0, drehung, 0);
+		//this.drehgradStart = Quaternion.LookRotation(transform.forward);
+		//	this.drehgradStart = Quaternion.LookRotation(transform.localRotation);
+		this.drehgradStart = transform.localRotation;
+		this.drehungAktiv = true;
+		timeCount = 0;
+		//Debug.Log(timeCount);
+		//Debug.Log(Time.deltaTime);
+		//Debug.Log(drehgradStart.eulerAngles.y);
+		//Debug.Log(drehgradEnde.eulerAngles.y);
+	}
+    public void Update()
+    {
+
+		if (transform.rotation != this.drehgradEnde && drehungAktiv)
+		{
+		//	Debug.Log("Update");
+		//	Debug.Log(timeCount);
+		//	Debug.Log(drehgradStart.eulerAngles.y);
+		//	Debug.Log(drehgradEnde.eulerAngles.y);
+			transform.rotation = Quaternion.Slerp(this.drehgradStart, this.drehgradEnde, timeCount);
+			timeCount = timeCount + Time.deltaTime;
+		}
+        else
+        {
+			//this.drehungAktiv = false;
+        }
+		if (transform.rotation == this.drehgradEnde)
+        {
+			this.drehungAktiv = false;
+        }
+	}
+
+    public Animator animator;
 	public void IdleAnimation()
     {
 		Debug.Log("Idle Ausgeführt");

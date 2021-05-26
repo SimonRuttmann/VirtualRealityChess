@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 141129655}
   - component: {fileID: 141129654}
   - component: {fileID: 141129653}
+  - component: {fileID: 141129657}
   m_Layer: 0
   m_Name: Schachbrett
   m_TagString: Untagged
@@ -151,7 +152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141129651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1114246847}
@@ -209,6 +210,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectorPrefab: {fileID: 7630285806474376200, guid: 7ea3763a5e08cc64a9442b056e0c268b, type: 3}
+--- !u!114 &141129657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141129651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d23d53002ea92c43b2d5ae35ca34c2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &284202702
 GameObject:
   m_ObjectHideFlags: 0
