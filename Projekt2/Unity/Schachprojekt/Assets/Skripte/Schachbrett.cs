@@ -54,10 +54,11 @@ public class Schachbrett : MonoBehaviour
 
     public void OnSquareSelected(Vector3 inputPosition)
     {
+        if (this.blocker) return;
        // Debug.Log("Inputhandler hat OnSquareSelcted aufgerufen mit: " + inputPosition);
         Vector2Int coords = CalculateCoordsFromPosition(inputPosition);
         Figur figur = GetPieceOnSquare(coords);
-        Debug.Log("Figur: " + figur + " erhalten");
+      //  Debug.Log("Figur: " + figur + " erhalten");
         
         if (gewaehlteFigur)
         {
@@ -257,6 +258,7 @@ public class Schachbrett : MonoBehaviour
         if (angreifendeFigur.figurFarbe == FigurFarbe.weiss) back = 180;
 
         animationManager.DreheFigur1(6f, angreifendeFigur,(float)back);
+        this.BlockEingabe(11f); 
     }
 
     //Take Piece -> Übergebene Figur wird sterben
@@ -270,11 +272,33 @@ public class Schachbrett : MonoBehaviour
         }
     }
 
+    public void BlockEingabe(float time)
+    {
+        this.blocker = true;
+        StartCoroutine(EingabeblockerManager(time));
+    }
+
+    IEnumerator EingabeblockerManager(float time)
+    {
+        yield return new WaitForSeconds(time);
+        this.blocker = false;
+
+    }
+    private bool blocker = false;
+
     public void PromotePiece(Figur figur)
     {
+        string modell;
+        if (figur.figurFarbe == FigurFarbe.weiss) modell = "DameWeiss";
+        else
+        {
+            modell = "DameSchwarz";
+        }
+
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         TakePiece(figur);
-        schachManager.ErstelleFigurUndInitialisiere(figur.position, figur.figurFarbe, "Dame");      //DamePromote -> In Schachmanagerklasse -> If AktiverSPielr == weiser -> "DameWeiss" -> "DameSChwarz"
+        Destroy(figur.gameObject);
+        schachManager.ErstelleFigurUndInitialisiere(figur.position, figur.figurFarbe, modell);      //DamePromote -> In Schachmanagerklasse -> If AktiverSPielr == weiser -> "DameWeiss" -> "DameSChwarz"
     }
    
     /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

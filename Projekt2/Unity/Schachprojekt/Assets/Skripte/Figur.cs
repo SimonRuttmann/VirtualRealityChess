@@ -52,19 +52,19 @@ public abstract class Figur : MonoBehaviour
     public Animator animator;
 	public void IdleAnimation()
     {
-		Debug.Log("Idle Ausgeführt");
+		//Debug.Log("Idle Ausgeführt");
 		animator.SetTrigger("IdleTrigger");
     }
 
 	public void SterbeAnimation()
     {
-		Debug.Log("Sterbe Ausgeführt");
+		//Debug.Log("Sterbe Ausgeführt");
 		animator.SetTrigger("SterbeTrigger");
     }
 
 	public void AngriffAnimation()
     {
-		Debug.Log("Angriff ausgeführt");
+		//Debug.Log("Angriff ausgeführt");
 		animator.SetTrigger("AngriffTrigger");
     }
 

@@ -56,12 +56,13 @@ public class SchachManager : MonoBehaviour
     {
        
         this.spielzustand = Spielzustand.Start;
-       // this.SchachUIManager.HideUI();
+        this.SchachUIManager.HideUI();
         schachbrett.SetzeAbhaengigkeiten(this);
 
         //"Create Pieces From Layout"
         this.ErstelleFigurenVonAufstellung(Startkonfiguration);
         AktiverSpieler = WeisserSpieler;
+        this.SchachUIManager.SetTeamanzeige(FigurFarbe.weiss);
         ErstelleAlleSpielerZuege(AktiverSpieler);
         this.spielzustand = Spielzustand.Spiel;
     }
@@ -151,8 +152,9 @@ public class SchachManager : MonoBehaviour
 
     private void BeendeSpiel()
     {
-        spielzustand = Spielzustand.Fertig;
         this.SchachUIManager.OnGameFinished(AktiverSpieler.Farbe.ToString());
+        spielzustand = Spielzustand.Fertig;
+        
     }
 
     private void ZerstoereFiguren()
@@ -163,8 +165,8 @@ public class SchachManager : MonoBehaviour
 
     private void WechlseAktivesTeam()
     {
-        if (AktiverSpieler == WeisserSpieler) { AktiverSpieler = SchwarzerSpieler;  }
-        else {                                  AktiverSpieler = WeisserSpieler;    }
+        if (AktiverSpieler == WeisserSpieler) { AktiverSpieler = SchwarzerSpieler; this.SchachUIManager.SetTeamanzeige(FigurFarbe.schwarz); }
+        else {                                  AktiverSpieler = WeisserSpieler;   this.SchachUIManager.SetTeamanzeige(FigurFarbe.weiss); }
     }
 
     private Spieler GegnerVonSpieler(Spieler spieler)

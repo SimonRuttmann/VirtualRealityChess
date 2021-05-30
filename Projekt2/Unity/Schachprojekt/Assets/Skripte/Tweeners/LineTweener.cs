@@ -1,4 +1,4 @@
-/*
+
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,4 +14,3 @@ public class LineTweener : MonoBehaviour, IObjectTweener
         transform.DOMove(targetPosition, distance / movementSpeed);
     }
 }
-*/
