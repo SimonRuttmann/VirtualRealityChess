@@ -216,9 +216,19 @@ public class Schachbrett : MonoBehaviour
 
         if (geschlageneFigur.position.y - angreifendeFigur.position.y == 0)
         {
-          
-             if (geschlageneFigur.position.x > angreifendeFigur.position.x) RotationspunktAngreifer = 90;
-             else RotationspunktAngreifer = 270;
+
+            if (angreifendeFigur.figurFarbe == FigurFarbe.schwarz)
+            {
+                //Dame schwarz greif an und es passt sgoar
+                if (geschlageneFigur.position.x > angreifendeFigur.position.x) RotationspunktAngreifer = 270;
+                else RotationspunktAngreifer = 90;
+            }
+             //Dame weiss greift an -> Beide figuren in die verkehrte richtung
+             else
+            {
+                if (geschlageneFigur.position.x > angreifendeFigur.position.x) RotationspunktAngreifer = 90;
+                else RotationspunktAngreifer = 270;
+            }
         }
         else
         {

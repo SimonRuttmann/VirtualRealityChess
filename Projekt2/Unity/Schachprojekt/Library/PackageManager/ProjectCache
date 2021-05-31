@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637579732250503085
-    m_Hash: 4070978512
+      ticks: 637580696037492751
+    m_Hash: 1641546182
   m_LockFileStatus:
     m_FilePath: "C:/Users/Simon Ruttmann/Desktop/Virtuelle Realit\xE4t und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637579732250512763
-    m_Hash: 2142867407
+      ticks: 637580696037602462
+    m_Hash: 1049041275
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

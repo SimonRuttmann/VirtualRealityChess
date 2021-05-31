@@ -1,4 +1,4 @@
-/*
+
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
@@ -15,4 +15,3 @@ public class ArcTweener : MonoBehaviour, IObjectTweener
         transform.DOJump(targetPosition, jumpHeight, 1, distance / movementSpeed);
     }
 }
-*/

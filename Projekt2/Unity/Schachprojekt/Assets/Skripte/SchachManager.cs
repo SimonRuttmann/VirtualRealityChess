@@ -67,6 +67,13 @@ public class SchachManager : MonoBehaviour
         this.spielzustand = Spielzustand.Spiel;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown("x"))
+        { 
+            this.RestartGame();
+        }
+    }
     //neues Spiel
     private void Start()
     {

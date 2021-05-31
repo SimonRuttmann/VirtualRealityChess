@@ -7,6 +7,7 @@ public class FeldAuswahlErsteller : MonoBehaviour
     //[SerializeField] private Material freeSquareMaterial;
     //[SerializeField] private Material enemySquareMaterial;
     [SerializeField] private GameObject selectorPrefab;
+    [SerializeField] private GameObject auswahlAngriff;
     private List<GameObject> instantiatedSelectors = new List<GameObject>();
 
     public void ZeigeAuswahl(Dictionary<Vector3, bool> FeldDaten)
@@ -16,14 +17,22 @@ public class FeldAuswahlErsteller : MonoBehaviour
         //Richtiger absoluter wert
         foreach (var data in FeldDaten)
         {
-           
-            //GameObject selector = Instantiate(selectorPrefab, data.Key, Quaternion.identity);
-            GameObject selector = Instantiate(selectorPrefab);
-            selector.transform.position = data.Key;
+            GameObject selector;
+            if (data.Value){
 
-            
+                //GameObject selector = Instantiate(selectorPrefab, data.Key, Quaternion.identity);
+                selector = Instantiate(selectorPrefab);
+                selector.transform.position = data.Key;
+            }
+            else
+            {
+                selector = Instantiate(auswahlAngriff);
+                selector.transform.position = data.Key;
+            }
        //     Debug.Log("Instanziiere: " + selector);
             instantiatedSelectors.Add(selector);
+
+            
             /*
             foreach (var setter in selector.GetComponentsInChildren<MaterialSetter>())
             {

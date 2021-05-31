@@ -7,15 +7,15 @@ public class ChessUIManager : MonoBehaviour
 {
 	[SerializeField] private GameObject teamanzeige;
 	[SerializeField] private Text teamtext;
-	[SerializeField] private GameObject UIParent;
-	[SerializeField] private Button restartButton;
-	[SerializeField] private Text finishText;
+	[SerializeField] private GameObject neustartanzeige;
+//	[SerializeField] private Button restartButton;
+	[SerializeField] private Text neustarttext;
 	[SerializeField] private GameObject fadenkreuz;
 
 	internal void HideUI()
 	{
 		teamanzeige.SetActive(true);
-		UIParent.SetActive(false);
+		neustartanzeige.SetActive(false);
 		fadenkreuz.SetActive(true);
 	}
 
@@ -28,8 +28,8 @@ public class ChessUIManager : MonoBehaviour
 	{
 		fadenkreuz.SetActive(false);
 		teamanzeige.SetActive(false);
-		UIParent.SetActive(true);
+		neustartanzeige.SetActive(true);
 		//finishText.text = string.Format("Team {0} hat gewonnen!", winner);
-		finishText.text = "Spieler " + winner + "hat gewonnen!";
+		neustarttext.text = "Spieler " + winner + "hat gewonnen!\n Drücke X um das Spiel neu zu starten.";
 	}
 }
