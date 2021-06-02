@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//NICHT ANFASSEN
 public class AnimationManager : MonoBehaviour
 {
     public enum Animationtrigger { Nichts, Sterben, Angriff, Idle, Loeschen, Bewegen, Drehen}
@@ -89,6 +90,7 @@ public class AnimationManager : MonoBehaviour
             this.sterbendeFig = sterbendeFigur;
             this.animationFigSterbend = animationtrigger;
         }
+       
 
     }
 
