@@ -1,4 +1,4 @@
-Gruppe 3
+Gruppe 3.
 Michael Ulrich - 77607
 Veronika Scheller - 79888
 Simon Ruttmann - 80751
