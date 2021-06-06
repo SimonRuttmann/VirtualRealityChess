@@ -52,11 +52,14 @@ public class SchachManager : MonoBehaviour
         this.SchwarzerSpieler = new Spieler(FigurFarbe.schwarz, schachbrett);
     }
 
-    private void StartNewGame()
+    private void StartNewGame(bool firstGame)
     {
        
         this.spielzustand = Spielzustand.Start;
-        this.SchachUIManager.HideUI();
+
+        if (firstGame) this.SchachUIManager.startUI();
+        else this.SchachUIManager.SpielStarten();
+
         schachbrett.SetzeAbhaengigkeiten(this);
 
         //"Create Pieces From Layout"
@@ -73,11 +76,17 @@ public class SchachManager : MonoBehaviour
         { 
             this.RestartGame();
         }
+
+        if (Input.GetKeyDown("y")) 
+        {
+            this.SchachUIManager.startUI();
+        }
+
     }
     //neues Spiel
     private void Start()
     {
-        StartNewGame();
+        StartNewGame(true);
     }
 
     private void ErstelleFigurenVonAufstellung(SchachbrettAufstellung schachbrettAufstellung)
@@ -202,7 +211,8 @@ public class SchachManager : MonoBehaviour
         schachbrett.OnGameRestarted();
         WeisserSpieler.OnGameRestarted();
         SchwarzerSpieler.OnGameRestarted();
-        StartNewGame();
+        StartNewGame(false);
+
     }
 }
 
