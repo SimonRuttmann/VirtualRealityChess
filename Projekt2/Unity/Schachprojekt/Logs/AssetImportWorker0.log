@@ -15,11 +15,11 @@ C:/Users/veron/3d-modellierung/Projekt2/Unity/Schachprojekt
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50230
+63116
 Successfully changed project path to: C:/Users/veron/3d-modellierung/Projekt2/Unity/Schachprojekt
 C:/Users/veron/3d-modellierung/Projekt2/Unity/Schachprojekt
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,29 +35,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002366 seconds.
+Registered in 0.002140 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
+- Completed reload, in  1.019 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002156 seconds.
+Registered in 0.003374 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
+- Completed reload, in  0.841 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1284 Unused Serialized files (Serialized files now loaded: 0)
@@ -65,154 +65,734 @@ System memory in use before: 72.2 MB.
 System memory in use after: 71.9 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1739.
-Total: 2.655200 ms (FindLiveObjects: 0.201100 ms CreateObjectMapping: 0.055600 ms MarkObjects: 2.123200 ms  DeleteObjects: 0.273500 ms)
+Total: 3.703900 ms (FindLiveObjects: 0.417700 ms CreateObjectMapping: 0.104100 ms MarkObjects: 2.807200 ms  DeleteObjects: 0.372500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Mauern.prefab
-  artifactKey: Guid(97a6b7877533044468a373a1ce185773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mauern.prefab using Guid(97a6b7877533044468a373a1ce185773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1412a096d3f95207aa7659ce66d99c83') in 0.521948 seconds
-  Import took 0.556297 seconds .
+  path: Assets/Prefabs/Laufer_richhtig.fbx
+  artifactKey: Guid(3fd7c9bc7ce234448994e7771b318412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.fbx using Guid(3fd7c9bc7ce234448994e7771b318412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc94a1f05a0ecb3ea0d2f4b5300f3e3') in 0.326116 seconds
+  Import took 0.329257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.812715 seconds.
+  path: Assets/Prefabs/LauferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LauferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bfa9e404c037684c8e239cd033c8b4') in 0.030631 seconds
+  Import took 0.033852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.038810 seconds.
+  path: Assets/Prefabs/LauferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LauferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9b4982fd9fdac68be14ebabb954119') in 0.030459 seconds
+  Import took 0.033885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001029 seconds.
+  path: Assets/Prefabs/LauferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LauferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9b4982fd9fdac68be14ebabb954119') in 0.026437 seconds
+  Import took 0.029305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.360104 seconds.
+  path: Assets/Prefabs/LauferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LauferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abf5bce76068ba408b363fdffdfab11') in 0.022311 seconds
+  Import took 0.025687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003760 seconds.
+  path: Assets/Prefabs/LauferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LauferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abf5bce76068ba408b363fdffdfab11') in 0.021052 seconds
+  Import took 0.024578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.430197 seconds.
+  path: Assets/Prefabs/LauferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LauferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2018f3d82cd3164f1184ec4e9e48093') in 0.020425 seconds
+  Import took 0.023263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.472278 seconds.
+  path: Assets/Prefabs/LauferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LauferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2e2f536f48c61479108e1e41571b70') in 0.023091 seconds
+  Import took 0.026347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.528185 seconds.
+  path: Assets/Prefabs/Laufer_richhtig 2.controller
+  artifactKey: Guid(6683efccf8c972741b82b9c6d4cd4d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig 2.controller using Guid(6683efccf8c972741b82b9c6d4cd4d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143e17187e46a57765780c5cf817b471') in 0.007588 seconds
+  Import took 0.009998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.828726 seconds.
+  path: Assets/Prefabs/Laufer_richhtig 1.controller
+  artifactKey: Guid(d832aa31ff6e40f409aab6b5530b8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig 1.controller using Guid(d832aa31ff6e40f409aab6b5530b8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7107a754383af8d8b96a560fe35ff3') in 0.006398 seconds
+  Import took 0.009152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.908583 seconds.
+  path: Assets/Prefabs/Laufer_richhtig (1).controller
+  artifactKey: Guid(c40fa6717ab48c14ca808e55f3c794b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig (1).controller using Guid(c40fa6717ab48c14ca808e55f3c794b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ff5f502c341ea335b8eb2c08d7e034') in 0.026566 seconds
+  Import took 0.029500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.971342 seconds.
+  path: Assets/Prefabs/LaeuferWeiss 1.controller
+  artifactKey: Guid(5ce7ef1056887d94b853b134e3f34c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss 1.controller using Guid(5ce7ef1056887d94b853b134e3f34c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b979e40e96d3fbab2f9b4e08282c5f14') in 0.006023 seconds
+  Import took 0.008605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.743989 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.controller
+  artifactKey: Guid(a3972696059c3fe4691284d653c539fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.controller using Guid(a3972696059c3fe4691284d653c539fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f3c69bdf1e7dbc98a1bca466c7f5ce') in 0.004582 seconds
+  Import took 0.007020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.514887 seconds.
+  path: Assets/Prefabs/Laeufer.controller
+  artifactKey: Guid(1b0213b02956c734e80bf7437dae10a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laeufer.controller using Guid(1b0213b02956c734e80bf7437dae10a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3a466fbf01f463bb7a3f66388885ec') in 0.004325 seconds
+  Import took 0.006921 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002120 seconds.
+Registered in 0.001847 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.749 seconds
+- Completed reload, in  0.709 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.9 MB.
-System memory in use after: 74.7 MB.
+System memory in use before: 87.2 MB.
+System memory in use after: 86.9 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1749.
-Total: 2.054800 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.519600 ms  DeleteObjects: 0.264400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 201.274343 seconds.
-  path: Assets/VERO.prefab
-  artifactKey: Guid(fddde1fe78b309b4cbccf9b3b91e8536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VERO.prefab using Guid(fddde1fe78b309b4cbccf9b3b91e8536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060e9d3e9267fa2625ec0a406f8c1bf8') in 0.180204 seconds
-  Import took 0.190386 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1786.
+Total: 2.468400 ms (FindLiveObjects: 0.278700 ms CreateObjectMapping: 0.079500 ms MarkObjects: 1.860300 ms  DeleteObjects: 0.248400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 182.599525 seconds.
-  path: Assets/Mauern.prefab
-  artifactKey: Guid(97a6b7877533044468a373a1ce185773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mauern.prefab using Guid(97a6b7877533044468a373a1ce185773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146e5177611608f31b183d67ca43413d') in 0.322268 seconds
-  Import took 0.361885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/VERO.prefab
-  artifactKey: Guid(fddde1fe78b309b4cbccf9b3b91e8536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VERO.prefab using Guid(fddde1fe78b309b4cbccf9b3b91e8536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a61d46685ec01f8359e2d3cde23457') in 0.061136 seconds
-  Import took 0.067549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Mauern.prefab
-  artifactKey: Guid(97a6b7877533044468a373a1ce185773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mauern.prefab using Guid(97a6b7877533044468a373a1ce185773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146e5177611608f31b183d67ca43413d') in 0.294518 seconds
-  Import took 0.323732 seconds .
+  Time since last request: 19.002210 seconds.
+  path: Assets/Prefabs/LaeuferC.controller
+  artifactKey: Guid(a3972696059c3fe4691284d653c539fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferC.controller using Guid(a3972696059c3fe4691284d653c539fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50c6f54ebeb2f85cbd4efb1bad7bd50') in 0.017194 seconds
+  Import took 0.019609 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002216 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.724 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.4 MB.
-System memory in use after: 75.1 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1753.
-Total: 2.625200 ms (FindLiveObjects: 0.225400 ms CreateObjectMapping: 0.058200 ms MarkObjects: 2.047200 ms  DeleteObjects: 0.292600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002138 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.713 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.4 MB.
-System memory in use after: 75.1 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1756.
-Total: 3.105200 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.045400 ms MarkObjects: 2.315400 ms  DeleteObjects: 0.483800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002093 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.707 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.4 MB.
-System memory in use after: 75.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1759.
-Total: 2.784900 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.078400 ms MarkObjects: 2.128600 ms  DeleteObjects: 0.293400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002169 seconds.
+Registered in 0.001761 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.822 seconds
+- Completed reload, in  0.791 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.4 MB.
-System memory in use after: 75.2 MB.
+System memory in use before: 87.2 MB.
+System memory in use after: 86.9 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1762.
-Total: 2.648200 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.031300 ms MarkObjects: 2.058300 ms  DeleteObjects: 0.337400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1789.
+Total: 2.089600 ms (FindLiveObjects: 0.197100 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.544300 ms  DeleteObjects: 0.314400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.524292 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f59a6a2fd8e7687c0707f6b170abe4') in 0.068886 seconds
+  Import took 0.072376 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001886 seconds.
+Registered in 0.001981 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 86.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1793.
+Total: 2.355700 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.074400 ms MarkObjects: 1.728200 ms  DeleteObjects: 0.273400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.684472 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059512f7d96c7e9b339036425d990312') in 0.061313 seconds
+  Import took 0.064476 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001764 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 86.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1797.
+Total: 2.577500 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.077700 ms MarkObjects: 1.889300 ms  DeleteObjects: 0.314000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.871482 seconds.
+  path: Assets/Prefabs/LaeuferWeiss 1.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss 1.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b6de28436395283a6e2be563ba1023') in 0.062816 seconds
+  Import took 0.066171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.309886 seconds.
+  path: Assets/Prefabs/LaeuferWeiss 1.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss 1.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ee08ad6179ae0e4b1ed6b274b08bdd') in 0.023527 seconds
+  Import took 0.026377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Prefabs/LaeuferWeiss-zuhoch.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss-zuhoch.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dab6a36b7dc39cbdcc973b226b52d59') in 0.023807 seconds
+  Import took 0.026671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/LaeuferWeiss-zuhoch.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss-zuhoch.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dab6a36b7dc39cbdcc973b226b52d59') in 0.025560 seconds
+  Import took 0.028258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.148291 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9bfa7dcb82b63ae0fb17578f98e745') in 0.029105 seconds
+  Import took 0.032374 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1801.
+Total: 2.627200 ms (FindLiveObjects: 0.293600 ms CreateObjectMapping: 0.077400 ms MarkObjects: 1.937800 ms  DeleteObjects: 0.315800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.378957 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65b6c3f61fca04fd71f88606028ab06') in 0.063257 seconds
+  Import took 0.066417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.524657 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4214f2a23aab2bd015c117f1829b384') in 0.023251 seconds
+  Import took 0.025952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.152743 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fe8b4051bc8e776bd3a6fb8452d92b') in 0.028836 seconds
+  Import took 0.032492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.903196 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5d64dc99a7e30deed71e1fe50229fd') in 0.024259 seconds
+  Import took 0.027369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.959475 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f623f9b862723b8b0c2cbb9376ab88ac') in 0.027685 seconds
+  Import took 0.031415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.185226 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceffe5a6cd81f43797bbdbe0fb66857') in 0.026607 seconds
+  Import took 0.030193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.349151 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a608afa24c673a56b67af13e2cf3199') in 0.021747 seconds
+  Import took 0.024970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.604747 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f2558c4743cedf8e6b4cbf454d32b5') in 0.027968 seconds
+  Import took 0.031258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.602376 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e0a4cfdb2e86637f2b6930d7110f9a') in 0.043511 seconds
+  Import took 0.047029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.266841 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefd371a0e88ab09a8d8dffe03789699') in 0.024465 seconds
+  Import took 0.027959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.630235 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c4a547658cec6831c90ed1486f3817') in 0.017332 seconds
+  Import took 0.020320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.575442 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deab87d2e7238f1bce0a9325454ceb70') in 0.027784 seconds
+  Import took 0.031517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003134 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deab87d2e7238f1bce0a9325454ceb70') in 0.021138 seconds
+  Import took 0.024134 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1805.
+Total: 2.570900 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.038600 ms MarkObjects: 2.045600 ms  DeleteObjects: 0.301000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.186850 seconds.
+  path: Assets/Prefabs/LaeuferWeiss 1.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss 1.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db40dc654b21a53f862a18f3d8419b07') in 0.064049 seconds
+  Import took 0.066906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.139988 seconds.
+  path: Assets/Prefabs/LaeuferWeiss 1.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss 1.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def7c13fb3b19c0a259f254541bd24d1') in 0.029096 seconds
+  Import took 0.032286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.676921 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ad70c3ed978e0934832151f855da33') in 0.021324 seconds
+  Import took 0.024521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.371883 seconds.
+  path: Assets/Prefabs/Armature.Laufer_Angriff2.anim
+  artifactKey: Guid(43cceb3f54c7fed42a2a89fca725adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Armature.Laufer_Angriff2.anim using Guid(43cceb3f54c7fed42a2a89fca725adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74800a5affce484bf9c9aee01ee82922') in 0.017708 seconds
+  Import took 0.020397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006121 seconds.
+  path: Assets/Prefabs/Armature.Laufer_Angriff2.anim
+  artifactKey: Guid(43cceb3f54c7fed42a2a89fca725adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Armature.Laufer_Angriff2.anim using Guid(43cceb3f54c7fed42a2a89fca725adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74800a5affce484bf9c9aee01ee82922') in 0.016998 seconds
+  Import took 0.019369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.998933 seconds.
+  path: Assets/Prefabs/Armature.Laufer_Sterbe.anim
+  artifactKey: Guid(47cfa2b41f0ec7745937e45fd45b9846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Armature.Laufer_Sterbe.anim using Guid(47cfa2b41f0ec7745937e45fd45b9846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115d23922d54bf4edaf1cc713672985b') in 0.011293 seconds
+  Import took 0.014217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001587 seconds.
+  path: Assets/Prefabs/Armature.Laufer_Sterbe.anim
+  artifactKey: Guid(47cfa2b41f0ec7745937e45fd45b9846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Armature.Laufer_Sterbe.anim using Guid(47cfa2b41f0ec7745937e45fd45b9846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115d23922d54bf4edaf1cc713672985b') in 0.009898 seconds
+  Import took 0.012244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.890536 seconds.
+  path: Assets/Prefabs/Armature.Laufer_Idle.anim
+  artifactKey: Guid(ea19783147331b849bf66618f6ade647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Armature.Laufer_Idle.anim using Guid(ea19783147331b849bf66618f6ade647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83545ddcdc8b24770e732aaef01e7f7b') in 0.008648 seconds
+  Import took 0.010995 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1809.
+Total: 2.582200 ms (FindLiveObjects: 0.333300 ms CreateObjectMapping: 0.080000 ms MarkObjects: 1.863500 ms  DeleteObjects: 0.303600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 301.759073 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430986ad12cbb9cbc4c65955a69118b7') in 0.062015 seconds
+  Import took 0.065108 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001794 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1813.
+Total: 2.333500 ms (FindLiveObjects: 0.269800 ms CreateObjectMapping: 0.065000 ms MarkObjects: 1.668600 ms  DeleteObjects: 0.328400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.675989 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0ad9af417b68b39951bd9cef25034e') in 0.062639 seconds
+  Import took 0.065508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.599283 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77231b4aa451739596b78cdad1166547') in 0.028484 seconds
+  Import took 0.031908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.190079 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0989c81719a75790536754e299d9d6df') in 0.026827 seconds
+  Import took 0.030122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.596698 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a543f190457a3540519fb43af35dd8') in 0.021305 seconds
+  Import took 0.024414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.623084 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b7648164f15ca6f4e3a9d30e9c628f') in 0.021754 seconds
+  Import took 0.024999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.780378 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b529aa1a6e288c5b568235476f76405c') in 0.030709 seconds
+  Import took 0.033989 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.5 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1817.
+Total: 1.912600 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.339900 ms  DeleteObjects: 0.352500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 417.954386 seconds.
+  path: Assets/Prefabs/LaeuferWeiss_wasistdas.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss_wasistdas.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccc2d50a1ccb88857e842af0ee096b5') in 0.067935 seconds
+  Import took 0.071582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.058974 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f3972dbbf92867cab8e5ec34beabfb') in 0.022075 seconds
+  Import took 0.025501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Prefabs/LaeuferWeiss_wasistdas.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss_wasistdas.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d38967d468b9f71f162bfbb90b1395') in 0.021228 seconds
+  Import took 0.024102 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 2.884200 ms (FindLiveObjects: 0.276600 ms CreateObjectMapping: 0.076400 ms MarkObjects: 2.215600 ms  DeleteObjects: 0.313600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.819028 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8612c05962dfaecc4c949b9110f03ce0') in 0.065694 seconds
+  Import took 0.068739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/LaeuferWeiss_wasistdas.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss_wasistdas.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7961b5fa79c887115150e3abcfe087') in 0.020425 seconds
+  Import took 0.023277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32310035298321aede9c40e91d5a1069') in 0.023724 seconds
+  Import took 0.026372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.988307 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98f4bcf14a05001b03a21d6719ccbea') in 0.018276 seconds
+  Import took 0.021905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prefabs/LaeuferWeiss_wasistdas.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss_wasistdas.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bb815ee8873e4e3d5428d1d2bc0938') in 0.017105 seconds
+  Import took 0.020219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a1d11e0bc9976196f3aa259cbee3a4') in 0.018397 seconds
+  Import took 0.021755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.010082 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc2cfdf8aef35dd7c165e8a5faa4a12') in 0.022901 seconds
+  Import took 0.026047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Prefabs/LaeuferWeiss_wasistdas.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss_wasistdas.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a4731d3013be352ab4aad67c1b4878') in 0.029917 seconds
+  Import took 0.032696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03896b0f968bbf28c8eb262a7a6b8da') in 0.022717 seconds
+  Import took 0.025572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.117845 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ab2fb6298e93fc1234e0b2f5871e99') in 0.018657 seconds
+  Import took 0.021660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Prefabs/LaeuferWeiss_wasistdas.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss_wasistdas.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efed1113f7ff6e2782e52b6d5b90177c') in 0.018220 seconds
+  Import took 0.021024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c67d00351e717ec9efb271e4cb8262a') in 0.024207 seconds
+  Import took 0.027568 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.703 seconds
@@ -220,10 +800,1239 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.5 MB.
-System memory in use after: 75.2 MB.
+System memory in use before: 87.6 MB.
+System memory in use after: 87.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1765.
-Total: 2.467600 ms (FindLiveObjects: 0.281100 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.823000 ms  DeleteObjects: 0.324500 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1825.
+Total: 2.512800 ms (FindLiveObjects: 0.228900 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.921500 ms  DeleteObjects: 0.329300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.900240 seconds.
+  path: Assets/Prefabs/LaeuferWeiss_wasistdas.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss_wasistdas.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dd4fb3ddf0343bbbd7735384010ec4') in 0.064852 seconds
+  Import took 0.068405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.425600 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b4aceff71c0226ad1eb11e2de13078') in 0.023570 seconds
+  Import took 0.026376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Prefabs/LaeuferWeiss_wasistdas.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss_wasistdas.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff617a041a0a396eaaf6125244ecdbc7') in 0.021425 seconds
+  Import took 0.024275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Prefabs/LaeuferWeiss-3.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss-3.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8460d03bba59770bff8de9bf95e07d0f') in 0.025267 seconds
+  Import took 0.027959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/Prefabs/LaeuferWeiss-3.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss-3.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8460d03bba59770bff8de9bf95e07d0f') in 0.021077 seconds
+  Import took 0.023771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.105492 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dea908e61a6022f614743441773b27') in 0.027612 seconds
+  Import took 0.031093 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.5 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1829.
+Total: 3.017600 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.062500 ms MarkObjects: 2.315600 ms  DeleteObjects: 0.330600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.181639 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14424a7232068709dc3ed4b4eb8f670') in 0.064922 seconds
+  Import took 0.068138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5586836a4a0fdb8db07564c66a2952') in 0.021018 seconds
+  Import took 0.024596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/LaeuferWeiss-3.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss-3.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953e90af7efc603ca4d5d1b46ebb59b6') in 0.029857 seconds
+  Import took 0.032563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.370231 seconds.
+  path: Assets/Prefabs/LaeuferWeiss2.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss2.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cae5f333d7fc7a781e398a7f1a0e0ae') in 0.021751 seconds
+  Import took 0.024928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.880619 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0da72e8dcf26b9ca764955859facbd0') in 0.028600 seconds
+  Import took 0.031474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Prefabs/LaeuferWeiss2.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss2.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c99f233f8b7f4c819a5c277bb20fd8e') in 0.022972 seconds
+  Import took 0.025716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95bd2a99431f47b3c5c75c87232524f') in 0.029281 seconds
+  Import took 0.031907 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 2.349100 ms (FindLiveObjects: 0.363700 ms CreateObjectMapping: 0.061300 ms MarkObjects: 1.569700 ms  DeleteObjects: 0.352600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.114284 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5237de7e4538771e1ccbb0543c8dbb5f') in 0.061058 seconds
+  Import took 0.064314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.807274 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.controller
+  artifactKey: Guid(1b3e605216dcdbc41aa268a269d82ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.controller using Guid(1b3e605216dcdbc41aa268a269d82ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff83c22331cf18424eee813b3c1bda56') in 0.004610 seconds
+  Import took 0.007265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.controller
+  artifactKey: Guid(1b3e605216dcdbc41aa268a269d82ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.controller using Guid(1b3e605216dcdbc41aa268a269d82ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff83c22331cf18424eee813b3c1bda56') in 0.003147 seconds
+  Import took 0.005445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.405506 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '872b94db7733baabe4cfab04031fc521') in 0.024047 seconds
+  Import took 0.027090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.240189 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'a80033691c4218ee0d3f4583c7bcbd96') in 0.024466 seconds
+  Import took 0.027517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.942699 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'acda1136ac918ca5ade5309d71f91c4e') in 0.025201 seconds
+  Import took 0.028329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.362729 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '8d46e95432da838cf1e71827d715fd80') in 0.018787 seconds
+  Import took 0.021579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.259756 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'cc5e1371a957457bcf92862dd51bef0f') in 0.024566 seconds
+  Import took 0.027693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.354191 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '00e462d4d2fd6048e364f445c56a2bc4') in 0.020486 seconds
+  Import took 0.023310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.032030 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '48fed0c5061781a9082a1d1813c00332') in 0.019834 seconds
+  Import took 0.022774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.332250 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'a061ff3f5093844c06355988378886b8') in 0.027307 seconds
+  Import took 0.031007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.575770 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '9524b958bb0be589cf35112271382f61') in 0.026309 seconds
+  Import took 0.030190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.255706 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '5fcd0822b4e6b66109550a404999fd52') in 0.020130 seconds
+  Import took 0.023000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.538455 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4db888c73c71b9f9cf04a2f871af11') in 0.019146 seconds
+  Import took 0.022074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Prefabs/LaeuferWeiss2.prefab
+  artifactKey: Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss2.prefab using Guid(513e639d26d085a42856a8be5d041c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0d35c41db80df782509f1178b42151') in 0.027330 seconds
+  Import took 0.030353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Prefabs/LaeuferWeiss1.prefab
+  artifactKey: Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss1.prefab using Guid(f255efa6b5a79424796ed9c3e319ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de87915a4bce1253f5110502affe5b5e') in 0.025813 seconds
+  Import took 0.028800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.031144 seconds.
+  path: Assets/Prefabs/LaeuferWeiss.prefab
+  artifactKey: Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferWeiss.prefab using Guid(8d40087eaab097b4fb938a7e058b03fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '430832e6739c3785ac278a7211ab3b5d') in 0.031941 seconds
+  Import took 0.035895 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002890 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1837.
+Total: 2.817800 ms (FindLiveObjects: 0.256900 ms CreateObjectMapping: 0.076200 ms MarkObjects: 2.144400 ms  DeleteObjects: 0.339200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 925.530764 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(01b9223b1f40229418e4af0de1360f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b4f8a8724d674506e8f8c2de5cdcce') in 0.059906 seconds
+  Import took 0.062878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.307250 seconds.
+  path: Assets/Prefabs/Laufer_richhtig 1.controller
+  artifactKey: Guid(d832aa31ff6e40f409aab6b5530b8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig 1.controller using Guid(d832aa31ff6e40f409aab6b5530b8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82cd481ba75753a4d55bcf2a9d491e9') in 0.004748 seconds
+  Import took 0.007214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000930 seconds.
+  path: Assets/Prefabs/Laufer_richhtig 1.controller
+  artifactKey: Guid(d832aa31ff6e40f409aab6b5530b8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig 1.controller using Guid(d832aa31ff6e40f409aab6b5530b8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82cd481ba75753a4d55bcf2a9d491e9') in 0.003276 seconds
+  Import took 0.005449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.320278 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '3188a770eb5efbfb4acdfc8a89d12c05') in 0.026394 seconds
+  Import took 0.030295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004278 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '3188a770eb5efbfb4acdfc8a89d12c05') in 0.024780 seconds
+  Import took 0.027540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.774703 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'b05a74e08cca4f54fae917e7a9284164') in 0.021429 seconds
+  Import took 0.024765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.489533 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '1b4c96a7600ae30b3715333832995d18') in 0.024221 seconds
+  Import took 0.027482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004263 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '1b4c96a7600ae30b3715333832995d18') in 0.024688 seconds
+  Import took 0.027420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.537902 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '5833c264350770c04a88347219f19e77') in 0.025136 seconds
+  Import took 0.028214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.183410 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '5fb12471a116f35ffebbe6df3374078e') in 0.021332 seconds
+  Import took 0.024176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004140 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '5fb12471a116f35ffebbe6df3374078e') in 0.021920 seconds
+  Import took 0.025353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.881249 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '7d06dfc4425aec5a03b74fcf2cba9259') in 0.030413 seconds
+  Import took 0.033795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.713191 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '5461267e3eeac293d2ce7cfd44587ddd') in 0.024969 seconds
+  Import took 0.028211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.861222 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'b7382019306e4c63c661099e5968fb5b') in 0.025467 seconds
+  Import took 0.028795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.355539 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '259542f6ea820252228ba834c3aab72c') in 0.021840 seconds
+  Import took 0.024968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.288736 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'c3374fe041bdb1aa2ebb6158ff415148') in 0.026371 seconds
+  Import took 0.031152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.497269 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '21d90f8a6762f64cca0e6afbedce11eb') in 0.022459 seconds
+  Import took 0.025784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004546 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '21d90f8a6762f64cca0e6afbedce11eb') in 0.023019 seconds
+  Import took 0.026264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.535558 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '7da1c3e418475315e6f9edd430216448') in 0.029124 seconds
+  Import took 0.032560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.127972 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'a89c804803dc5c5bc35db093998f7e47') in 0.023397 seconds
+  Import took 0.026519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.019093 seconds.
+  path: Assets/Prefabs/LaeuferSchwarz.prefab
+  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Laufer_richhtig) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '104cb284c755571b14e7b4cd79466f98') in 0.021716 seconds
+  Import took 0.024629 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1841.
+Total: 2.861600 ms (FindLiveObjects: 0.270100 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.195900 ms  DeleteObjects: 0.317500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.059290 seconds.
+  path: Assets/Prefabs/Laufer_richhtig.controller
+  artifactKey: Guid(1b3e605216dcdbc41aa268a269d82ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig.controller using Guid(1b3e605216dcdbc41aa268a269d82ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7f60c01aaae832d01c0090b78e6699') in 0.038532 seconds
+  Import took 0.041765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.276214 seconds.
+  path: Assets/Prefabs/Laufer_richhtig 1.controller
+  artifactKey: Guid(d832aa31ff6e40f409aab6b5530b8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laufer_richhtig 1.controller using Guid(d832aa31ff6e40f409aab6b5530b8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005374c9a94c7045401ec61049787ac3') in 0.027355 seconds
+  Import took 0.030547 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

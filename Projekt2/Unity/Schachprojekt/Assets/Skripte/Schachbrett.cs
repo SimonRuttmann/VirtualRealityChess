@@ -207,13 +207,26 @@ public class Schachbrett : MonoBehaviour
 
     }
 
- 
+
     private void StartKonflikt(Figur angreifendeFigur, Figur geschlageneFigur, Vector2Int kooridanten)
     {
-       
+        Figur figWeiß, figSchwarz;
+
+        if (angreifendeFigur.figurFarbe == FigurFarbe.weiss)
+        {
+            figWeiß = angreifendeFigur;
+            figSchwarz = geschlageneFigur;
+        }
+        else
+        {
+            figWeiß = geschlageneFigur;
+            figSchwarz = angreifendeFigur;
+        }
+
         double RotationspunktAngreifer;
         double RotationspunktVerteidiger;
-
+        //Debug.Log("AngreifendePosY=" + angreifendeFigur.position.y + " geschlageneFigur=" + geschlageneFigur.position.y);
+        //Falls in der selben Reihe
         if (geschlageneFigur.position.y - angreifendeFigur.position.y == 0)
         {
 
@@ -223,8 +236,8 @@ public class Schachbrett : MonoBehaviour
                 if (geschlageneFigur.position.x > angreifendeFigur.position.x) RotationspunktAngreifer = 270;
                 else RotationspunktAngreifer = 90;
             }
-             //Dame weiss greift an -> Beide figuren in die verkehrte richtung
-             else
+            //Dame weiss greift an -> Beide figuren in die verkehrte richtung
+            else
             {
                 if (geschlageneFigur.position.x > angreifendeFigur.position.x) RotationspunktAngreifer = 90;
                 else RotationspunktAngreifer = 270;
@@ -232,22 +245,27 @@ public class Schachbrett : MonoBehaviour
         }
         else
         {
-            int gegenkathete = geschlageneFigur.position.x - angreifendeFigur.position.x;
-            int ankathete = geschlageneFigur.position.y - angreifendeFigur.position.y;
-     
-            RotationspunktAngreifer = (180/Math.PI) *  Math.Atan((geschlageneFigur.position.x - angreifendeFigur.position.x) / (geschlageneFigur.position.y - angreifendeFigur.position.y));
-         
+            float gegenkathete = geschlageneFigur.position.x - angreifendeFigur.position.x;
+            float ankathete = geschlageneFigur.position.y - angreifendeFigur.position.y;
+            Debug.Log("Gegen:" + gegenkathete + " Ank:" + ankathete);
+            if (figWeiß.position.y > figSchwarz.position.y)
+            {
+                //if (gegenkathete == 0) RotationspunktAngreifer = 180;
+                RotationspunktAngreifer = 180 + (180 / Math.PI) * Math.Atan((gegenkathete) / (ankathete));
+            }
+            else RotationspunktAngreifer = (180 / Math.PI) * Math.Atan((gegenkathete) / (ankathete));
+            //Debug.Log("Rota: " + RotationspunktAngreifer +" ArcTan"+(gegenkathete) / (ankathete));
         }
 
-        RotationspunktVerteidiger =  RotationspunktAngreifer;
+        RotationspunktVerteidiger = RotationspunktAngreifer;
 
         if (angreifendeFigur.figurFarbe == FigurFarbe.weiss) { RotationspunktAngreifer = RotationspunktAngreifer - 180; }
         if (geschlageneFigur.figurFarbe == FigurFarbe.weiss) { RotationspunktVerteidiger = RotationspunktVerteidiger - 180; }
-      
-  
+
+
         //Bewegung Angreifer
         animationManager.DreheFigur1(0f, angreifendeFigur, (float)RotationspunktAngreifer);
-        
+
         //Bewegung Verteidiger
         animationManager.DreheFigur2(0f, geschlageneFigur, (float)RotationspunktVerteidiger);
 
@@ -267,8 +285,8 @@ public class Schachbrett : MonoBehaviour
         int back = 0;
         if (angreifendeFigur.figurFarbe == FigurFarbe.weiss) back = 180;
 
-        animationManager.DreheFigur1(6f, angreifendeFigur,(float)back);
-        this.BlockEingabe(11f); 
+        animationManager.DreheFigur1(6f, angreifendeFigur, (float)back);
+        this.BlockEingabe(11f);
     }
 
     //Take Piece -> Übergebene Figur wird sterben

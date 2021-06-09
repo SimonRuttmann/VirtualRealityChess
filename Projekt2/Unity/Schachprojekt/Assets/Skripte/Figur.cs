@@ -9,7 +9,10 @@ public abstract class Figur : MonoBehaviour
 	//IdleTrigger
 	//AngriffTrigger
 	//SterbeTrigger
-
+	public AudioSource bewegungSound;
+	public AudioSource angriffSound;
+	public AudioSource sterbeSound;
+	public AudioSource idleSound;
 	private Quaternion drehgradStart;
 	private Quaternion drehgradEnde;
 	private float timeCount = 0.0f;
