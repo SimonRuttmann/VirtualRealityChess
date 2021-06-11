@@ -57,18 +57,20 @@ public abstract class Figur : MonoBehaviour
     {
 		//Debug.Log("Idle Ausgeführt");
 		animator.SetTrigger("IdleTrigger");
-    }
+		idleSound.Play();    }
 
 	public void SterbeAnimation()
     {
 		//Debug.Log("Sterbe Ausgeführt");
 		animator.SetTrigger("SterbeTrigger");
-    }
+		sterbeSound.Play();
+	}
 
 	public void AngriffAnimation()
     {
 		//Debug.Log("Angriff ausgeführt");
 		animator.SetTrigger("AngriffTrigger");
+		angriffSound.Play();
     }
 
 
@@ -128,7 +130,9 @@ public abstract class Figur : MonoBehaviour
 		Vector3 targetPosition = schachbrett.CalculatePositionFromCoords(coords);
 		position = coords;
 		WurdeBewegt = true;
+		bewegungSound.Play();
 		tweener.MoveTo(transform, targetPosition);
+		
 	}
 
 	//Unbekannt ob es wichtig ist welcher Figurtyp angegriffen wird
