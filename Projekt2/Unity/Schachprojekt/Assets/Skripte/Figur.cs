@@ -111,7 +111,7 @@ public abstract class Figur : MonoBehaviour
 
 		//Figur entsprechende Position hinzufügen
 		transform.position = this.schachbrett.RelativePositionZumSchachbrettfeld(position);
-		Debug.Log(transform.position.ToString());
+		//Debug.Log(transform.position.ToString());
 		if (this.figurFarbe == FigurFarbe.weiss)
         {
 			//transform.rotation = Quaternion.AngleAxis(180, new Vector3(0, 1, 0));

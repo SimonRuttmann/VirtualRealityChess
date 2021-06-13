@@ -102,10 +102,11 @@ namespace Valve.VR.Extras
             Ray raycast = new Ray(transform.position, transform.forward);
             RaycastHit hit;
             bool bHit = Physics.Raycast(raycast, out hit);
-
+            
             if (previousContact && previousContact != hit.transform)
             {
                 PointerEventArgs args = new PointerEventArgs();
+                args.hit = hit.point;
                 args.fromInputSource = pose.inputSource;
                 args.distance = 0f;
                 args.flags = 0;
@@ -116,6 +117,7 @@ namespace Valve.VR.Extras
             if (bHit && previousContact != hit.transform)
             {
                 PointerEventArgs argsIn = new PointerEventArgs();
+                argsIn.hit = hit.point;
                 argsIn.fromInputSource = pose.inputSource;
                 argsIn.distance = hit.distance;
                 argsIn.flags = 0;
@@ -135,6 +137,7 @@ namespace Valve.VR.Extras
             if (bHit && interactWithUI.GetStateUp(pose.inputSource))
             {
                 PointerEventArgs argsClick = new PointerEventArgs();
+                argsClick.hit = hit.point;
                 argsClick.fromInputSource = pose.inputSource;
                 argsClick.distance = hit.distance;
                 argsClick.flags = 0;
@@ -162,6 +165,7 @@ namespace Valve.VR.Extras
         public uint flags;
         public float distance;
         public Transform target;
+        public Vector3 hit;
     }
 
     public delegate void PointerEventHandler(object sender, PointerEventArgs e);

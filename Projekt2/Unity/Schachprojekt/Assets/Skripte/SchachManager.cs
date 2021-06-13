@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Valve.VR;
 
 
 //[RequireComponent(typeof(FigurErsteller))]
@@ -21,6 +22,8 @@ public class SchachManager : MonoBehaviour
 
     [SerializeField] private ChessUIManager SchachUIManager;
 
+    [SerializeField] private VrSchachMenu VR_UIManager;
+    public SteamVR_Input_Sources Hand;
     private FigurErsteller FigurErsteller;
     private Spieler WeisserSpieler;
     private Spieler SchwarzerSpieler;
@@ -72,15 +75,25 @@ public class SchachManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown("x"))
-        { 
-            this.RestartGame();
-        }
+        //VR
+        bool menueOeffnen = SteamVR_Actions._default.VRMenue.GetStateDown(this.Hand);
 
-        if (Input.GetKeyDown("y")) 
+        if (menueOeffnen)
         {
-            this.SchachUIManager.startUI();
+            Debug.Log("menue geöffnet");
+            this.VR_UIManager.setupUI();
+            menueOeffnen = false;
         }
+        //Kein VR
+        //if (Input.GetKeyDown("x"))
+        //{ 
+        //    this.RestartGame();
+        //}
+
+        //if (Input.GetKeyDown("y")) 
+        //{
+        //    this.SchachUIManager.startUI();
+        //}
 
     }
     //neues Spiel
