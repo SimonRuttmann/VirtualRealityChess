@@ -133,7 +133,24 @@ public class AnimationManager : MonoBehaviour
         }
 
     }
-    
 
-    
+    public void StartEndAnimation(float time, Figur angreifendeFigur, Figur sterbendeFigur, Animationtrigger animationtrigger)
+    {
+        StartCoroutine(Endanimationsverwalter(time, angreifendeFigur, sterbendeFigur, animationtrigger));
+    }
+
+
+
+    IEnumerator Endanimationsverwalter(float time, Figur angreifendeFigur, Figur sterbendeFigur, Animationtrigger animationtrigger)
+    {
+        sterbendeFig.SterbeAnimation();
+        yield return new WaitForSeconds(time);
+
+        Destroy(this.sterbendeFig.gameObject);
+
+    }
+
+
+
+
 }

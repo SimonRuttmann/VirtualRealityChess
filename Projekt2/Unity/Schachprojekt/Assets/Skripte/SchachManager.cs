@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 using Valve.VR;
 
 
@@ -16,7 +17,15 @@ public class SchachManager : MonoBehaviour
 
     // Hier wird das Skriptobjekt im Editor hinzugefügt
     [SerializeField] private SchachbrettAufstellung Startkonfiguration;
-    
+
+    [SerializeField] private Canvas canvas1;
+    [SerializeField] private Canvas canvas2;
+
+
+    [SerializeField] private GameObject[] teammarker;
+    [SerializeField] private Material weissMarker;
+    [SerializeField] private Material schwarzMarker;
+
     //Schachfeld hinzufügen
     [SerializeField] private Schachbrett schachbrett;
 
@@ -182,9 +191,23 @@ public class SchachManager : MonoBehaviour
     private void BeendeSpiel()
     {
         this.SchachUIManager.OnGameFinished(AktiverSpieler.Farbe.ToString());
+        if (AktiverSpieler.Farbe == FigurFarbe.weiss)
+        {
+            SchwarzerSpieler.AktiveFiguren.ForEach(
+                (p => schachbrett.SterbenUndLoeschen(p)));
+        }
+        else
+        {
+            WeisserSpieler.AktiveFiguren.ForEach(
+                (p => schachbrett.SterbenUndLoeschen(p)));
+        }
+
+
         spielzustand = Spielzustand.Fertig;
-        
+
     }
+
+
 
     private void ZerstoereFiguren()
     {
@@ -194,8 +217,27 @@ public class SchachManager : MonoBehaviour
 
     private void WechlseAktivesTeam()
     {
-        if (AktiverSpieler == WeisserSpieler) { AktiverSpieler = SchwarzerSpieler; this.SchachUIManager.SetTeamanzeige(FigurFarbe.schwarz); }
-        else {                                  AktiverSpieler = WeisserSpieler;   this.SchachUIManager.SetTeamanzeige(FigurFarbe.weiss); }
+        
+        if (AktiverSpieler == WeisserSpieler) { 
+            AktiverSpieler = SchwarzerSpieler; 
+            this.SchachUIManager.SetTeamanzeige(FigurFarbe.schwarz); 
+            foreach(var marker in teammarker)
+            {
+                marker.GetComponent<MeshRenderer>().material = schwarzMarker;
+            }
+            canvas1.GetComponent<Text>().text= "Am Zug: Team Schwarz";
+            canvas2.GetComponent<Text>().text = "Am Zug: Team Schwarz";
+        }
+        else {
+            AktiverSpieler = WeisserSpieler;   
+            this.SchachUIManager.SetTeamanzeige(FigurFarbe.weiss);
+            foreach (var marker in teammarker)
+            {
+                marker.GetComponent<MeshRenderer>().material = weissMarker;
+            }
+            canvas1.GetComponent<Text>().text = "Am Zug: Team    Weiss";
+            canvas2.GetComponent<Text>().text = "Am Zug: Team    Weiss";
+        }
     }
 
     private Spieler GegnerVonSpieler(Spieler spieler)

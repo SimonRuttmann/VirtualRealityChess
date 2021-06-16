@@ -336,4 +336,12 @@ public class Schachbrett : MonoBehaviour
         gewaehlteFigur = null;
         CreateGrid();
     }
+    public void SterbenUndLoeschen(Figur geschlageneFigur)
+    {
+
+
+        //Sterben und Loeschen
+        animationManager.StartAnimation(1f, null, geschlageneFigur, AnimationManager.Animationtrigger.Loeschen);
+    }
+
 }
