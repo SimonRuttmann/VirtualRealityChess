@@ -288,7 +288,8 @@ public class SchachManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.25f);
         this.ErstelleFigurUndInitialisiere(xyPos, figFarbe, modelltyp);
-        ErstelleAlleSpielerZuege(AktiverSpieler);
+        //  ErstelleAlleSpielerZuege(AktiverSpieler);
+        this.BeendeZug();
     }
 }
 

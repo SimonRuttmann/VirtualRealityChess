@@ -100,6 +100,7 @@ public abstract class Figur : MonoBehaviour
 		//Debug.Log("Erhalte Tweener: " + tweener);
 		Bewegungsmöglichkeiten = new List<Vector2Int>();
 		WurdeBewegt = false;
+		this.bewegungSound.volume = 0.10f;
 	}
 
 	// Aufruf um der Figur alle Daten hinzuzufügen nachdem sie erstellt wurde

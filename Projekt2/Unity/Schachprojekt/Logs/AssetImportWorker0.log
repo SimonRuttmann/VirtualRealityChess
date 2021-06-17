@@ -15,12 +15,12 @@ C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierun
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62933
+62515
 Successfully changed project path to: C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt
 C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 76.32 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 2.62 ms.
+Refreshing native plugins compatible for Editor in 2191.62 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 35.19 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path D:/Unity/UnityData/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/UnityData/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001157 seconds.
+Registered in 0.001316 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.05 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
+Refreshing native plugins compatible for Editor in 62.60 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.235 seconds
+- Completed reload, in  1.134 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012092 seconds.
+Registered in 0.374164 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.34 ms.
+Refreshing native plugins compatible for Editor in 2.04 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.36 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -63,51 +63,35 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.247 seconds
+- Completed reload, in  1.854 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
 Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.2 MB.
 System memory in use after: 92.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2289.
-Total: 3.271500 ms (FindLiveObjects: 0.480800 ms CreateObjectMapping: 0.190500 ms MarkObjects: 2.239100 ms  DeleteObjects: 0.359600 ms)
+Total: 3.508800 ms (FindLiveObjects: 0.869800 ms CreateObjectMapping: 0.253700 ms MarkObjects: 2.056800 ms  DeleteObjects: 0.326300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/LaeuferSchwarz.prefab
-  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ec44a45312e276d270ed4576893621') in 0.350141 seconds
-  Import took 0.374501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.267579 seconds.
-  path: Assets/Prefabs/LaeuferSchwarz.prefab
-  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab73c03a258c0bd3c74e0e837ef8b28') in 0.109779 seconds
-  Import took 0.117545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.544106 seconds.
-  path: Assets/Prefabs/LaeuferSchwarz.prefab
-  artifactKey: Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LaeuferSchwarz.prefab using Guid(79095079f68eedb47a1e44557dbaf04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6628b1f2a4bb7a0c141b600299b72b16') in 0.074678 seconds
-  Import took 0.080308 seconds .
+  path: Assets/Prefabs/DameWeiss.prefab
+  artifactKey: Guid(abb7c3c6cf79f2b478199f2d56b9b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DameWeiss.prefab using Guid(abb7c3c6cf79f2b478199f2d56b9b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb7ef635aa0ca6cbbd04c0c8a3cbdda') in 0.641012 seconds
+  Import took 0.651106 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013655 seconds.
+Registered in 0.011191 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.22 ms.
+Refreshing native plugins compatible for Editor in 3.05 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.40 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -115,33 +99,77 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.111 seconds
+- Completed reload, in  1.616 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.12 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 1.65 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 1.05 ms.
 Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 104.6 MB.
 System memory in use after: 104.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2301.
-Total: 3.020400 ms (FindLiveObjects: 0.383700 ms CreateObjectMapping: 0.140800 ms MarkObjects: 2.135500 ms  DeleteObjects: 0.357600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 779.383608 seconds.
-  path: Assets/Prefabs/BauerSchwarz.prefab
-  artifactKey: Guid(7a7532e4b9f1cea4392388c4fc390898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BauerSchwarz.prefab using Guid(7a7532e4b9f1cea4392388c4fc390898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52b1e2f46532b9dab644b8209dc672d') in 0.085485 seconds
-  Import took 0.091061 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 4.238400 ms (FindLiveObjects: 0.433600 ms CreateObjectMapping: 0.137800 ms MarkObjects: 3.231400 ms  DeleteObjects: 0.432900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009638 seconds.
+Registered in 0.010595 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.29 ms.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.454 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.37 ms.
+Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2305.
+Total: 4.370100 ms (FindLiveObjects: 0.919700 ms CreateObjectMapping: 0.185500 ms MarkObjects: 2.792000 ms  DeleteObjects: 0.467300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.42 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2309.
+Total: 2.590300 ms (FindLiveObjects: 0.261400 ms CreateObjectMapping: 0.085100 ms MarkObjects: 1.919100 ms  DeleteObjects: 0.323000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -151,659 +179,13 @@ NullReferenceException: Object reference not set to an instance of an object
 Mono: successfully reloaded assembly
 - Completed reload, in  1.408 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.30 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.42 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.6 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2306.
-Total: 10.168600 ms (FindLiveObjects: 1.213800 ms CreateObjectMapping: 0.650600 ms MarkObjects: 7.494900 ms  DeleteObjects: 0.804200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.762516 seconds.
-  path: Assets/Prefabs/DameSchwarz.prefab
-  artifactKey: Guid(73488afa5efde0b4ca6d519e5031ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DameSchwarz.prefab using Guid(73488afa5efde0b4ca6d519e5031ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c15b2fefcbeec1aa3d6d786d2d09f6') in 0.164356 seconds
-  Import took 0.175580 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012581 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.90 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.21 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.427 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.50 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.6 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2311.
-Total: 6.264000 ms (FindLiveObjects: 0.978000 ms CreateObjectMapping: 0.229200 ms MarkObjects: 4.697400 ms  DeleteObjects: 0.355600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008986 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.06 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.39 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.861 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.42 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.33 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.6 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2315.
-Total: 10.504500 ms (FindLiveObjects: 1.508600 ms CreateObjectMapping: 0.535800 ms MarkObjects: 7.859700 ms  DeleteObjects: 0.591200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.025123 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.31 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.351 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.19 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.6 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2319.
-Total: 2.602000 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.082300 ms MarkObjects: 1.961400 ms  DeleteObjects: 0.340800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.031387 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.618 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.20 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.46 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2323.
-Total: 10.901100 ms (FindLiveObjects: 1.318300 ms CreateObjectMapping: 0.388400 ms MarkObjects: 8.208200 ms  DeleteObjects: 0.984000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010504 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.36 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 1.98 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.193 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.49 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.85 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 11.007100 ms (FindLiveObjects: 1.792100 ms CreateObjectMapping: 0.716300 ms MarkObjects: 7.635100 ms  DeleteObjects: 0.859600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012164 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.19 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.664 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 2.42 ms, found 12 plugins.
 Preloading 2 native plugins for Editor in 0.21 ms.
 Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2331.
-Total: 5.051200 ms (FindLiveObjects: 0.386900 ms CreateObjectMapping: 0.139500 ms MarkObjects: 3.874500 ms  DeleteObjects: 0.646400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010881 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.14 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.34 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.654 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.51 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 1.05 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2335.
-Total: 5.911800 ms (FindLiveObjects: 0.329000 ms CreateObjectMapping: 0.163400 ms MarkObjects: 4.511000 ms  DeleteObjects: 0.905500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009407 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.23 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.354 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2339.
-Total: 2.494900 ms (FindLiveObjects: 0.252400 ms CreateObjectMapping: 0.138300 ms MarkObjects: 1.704500 ms  DeleteObjects: 0.398200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015369 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.61 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.30 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.556 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2343.
-Total: 6.493200 ms (FindLiveObjects: 1.297400 ms CreateObjectMapping: 0.242900 ms MarkObjects: 4.136500 ms  DeleteObjects: 0.802200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011606 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.23 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.503 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.19 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2347.
-Total: 4.184400 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.145500 ms MarkObjects: 3.322300 ms  DeleteObjects: 0.368800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009059 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 14.98 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.63 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.239 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.85 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.60 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 6.085500 ms (FindLiveObjects: 1.691600 ms CreateObjectMapping: 0.428000 ms MarkObjects: 3.340200 ms  DeleteObjects: 0.619700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2864.973555 seconds.
-  path: Assets/Skripte/Schachbrett.cs
-  artifactKey: Guid(fb6e39445b541a746a5e27f7eb078b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skripte/Schachbrett.cs using Guid(fb6e39445b541a746a5e27f7eb078b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7873ac375fa2aaf3cd8dd7713761fa') in 0.053919 seconds
-  Import took 0.068668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024953 seconds.
-  path: Assets/Skripte/Schachbrett.cs
-  artifactKey: Guid(fb6e39445b541a746a5e27f7eb078b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skripte/Schachbrett.cs using Guid(fb6e39445b541a746a5e27f7eb078b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7873ac375fa2aaf3cd8dd7713761fa') in 0.011773 seconds
-  Import took 0.019049 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012066 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.25 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.153 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2355.
-Total: 4.317600 ms (FindLiveObjects: 0.922200 ms CreateObjectMapping: 0.130500 ms MarkObjects: 2.825900 ms  DeleteObjects: 0.420200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 318.138809 seconds.
-  path: Assets/Skripte/Schachbrett.cs
-  artifactKey: Guid(fb6e39445b541a746a5e27f7eb078b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skripte/Schachbrett.cs using Guid(fb6e39445b541a746a5e27f7eb078b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19067f6c987bd4fbe2aa8406e617696e') in 0.006194 seconds
-  Import took 0.010462 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011517 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.97 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.55 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.799 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2359.
-Total: 7.015400 ms (FindLiveObjects: 0.792600 ms CreateObjectMapping: 0.304600 ms MarkObjects: 4.886700 ms  DeleteObjects: 1.027900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009884 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.469 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2363.
-Total: 5.304000 ms (FindLiveObjects: 0.786600 ms CreateObjectMapping: 0.299400 ms MarkObjects: 3.704400 ms  DeleteObjects: 0.510500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 127.699322 seconds.
-  path: Assets/Skripte/Schachbrett.cs
-  artifactKey: Guid(fb6e39445b541a746a5e27f7eb078b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skripte/Schachbrett.cs using Guid(fb6e39445b541a746a5e27f7eb078b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30456a9937c1624884ea8d22b4d326e') in 0.008046 seconds
-  Import took 0.014208 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009380 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.681 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.29 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.52 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.8 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2367.
-Total: 11.278900 ms (FindLiveObjects: 1.494500 ms CreateObjectMapping: 0.416000 ms MarkObjects: 6.396700 ms  DeleteObjects: 2.964900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014540 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.31 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.598 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.47 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.92 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.8 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2371.
-Total: 8.803800 ms (FindLiveObjects: 0.546300 ms CreateObjectMapping: 0.334600 ms MarkObjects: 6.088600 ms  DeleteObjects: 1.831900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 197.082778 seconds.
-  path: Assets/Skripte/Spieler.cs
-  artifactKey: Guid(1b2e40e7d07f93d4fad00662903b5786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skripte/Spieler.cs using Guid(1b2e40e7d07f93d4fad00662903b5786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aedea1c110d0a3676198863c62fa219') in 0.022528 seconds
-  Import took 0.028265 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014752 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.50 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 2.30 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.552 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.8 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2375.
-Total: 2.704900 ms (FindLiveObjects: 0.320200 ms CreateObjectMapping: 0.088000 ms MarkObjects: 1.923300 ms  DeleteObjects: 0.371800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010022 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.06 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.32 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.592 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.90 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.34 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.8 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2379.
-Total: 32.468000 ms (FindLiveObjects: 6.461100 ms CreateObjectMapping: 1.246600 ms MarkObjects: 23.537400 ms  DeleteObjects: 1.212800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010514 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.21 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.209 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.74 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.35 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.8 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2383.
-Total: 6.727100 ms (FindLiveObjects: 0.756800 ms CreateObjectMapping: 0.218500 ms MarkObjects: 4.960200 ms  DeleteObjects: 0.788400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009663 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.28 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.54 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.28 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.8 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2387.
-Total: 5.186900 ms (FindLiveObjects: 1.797400 ms CreateObjectMapping: 0.298800 ms MarkObjects: 2.653100 ms  DeleteObjects: 0.435300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009924 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.26 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.025 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.90 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 1.41 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.8 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2391.
-Total: 6.543100 ms (FindLiveObjects: 0.579300 ms CreateObjectMapping: 0.798900 ms MarkObjects: 4.705800 ms  DeleteObjects: 0.456300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.084348 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.76 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.26 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.582 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.47 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.19 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.8 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2395.
-Total: 3.195900 ms (FindLiveObjects: 0.229200 ms CreateObjectMapping: 0.080200 ms MarkObjects: 2.501700 ms  DeleteObjects: 0.381400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009322 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.69 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.66 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.067 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.28 ms.
-Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.8 MB.
-System memory in use after: 104.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2399.
-Total: 9.866300 ms (FindLiveObjects: 0.614200 ms CreateObjectMapping: 0.171300 ms MarkObjects: 7.936700 ms  DeleteObjects: 1.140600 ms)
+System memory in use before: 104.6 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 11.999500 ms (FindLiveObjects: 1.232400 ms CreateObjectMapping: 0.596500 ms MarkObjects: 9.524500 ms  DeleteObjects: 0.642300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
