@@ -8,39 +8,32 @@ public class Bauer : Figur
     
     public override List<Vector2Int> WaehleMoeglicheFelder()
     {
-      //  Debug.Log("----------------------------Bauer Felder wahl");
         Bewegungsmöglichkeiten.Clear();
-     //   Debug.Log("Schachbrett" + this.schachbrett);
-        Vector2Int direction = figurFarbe == FigurFarbe.weiss ? Vector2Int.up : Vector2Int.down;
-        float range = WurdeBewegt ? 1 : 2;
-        for (int i = 1; i <= range; i++)
+        Vector2Int richtung = figurFarbe == FigurFarbe.weiss ? Vector2Int.up : Vector2Int.down;
+        float reichweite = WurdeBewegt ? 1 : 2;
+        for (int i = 1; i <= reichweite; i++)
         {
-            Vector2Int nextCoords = position + direction * i;
-            Figur piece = schachbrett.GetPieceOnSquare(nextCoords);
-        //    Debug.Log("Figur auf position " + position +" Figur: " + piece);
-            if (!schachbrett.CheckIfCoordinatesAreOnBoard(nextCoords))
+            Vector2Int nextCoords = position + richtung * i;
+            Figur figur = schachbrett.GetFigurOnFeld(nextCoords);
+            if (!schachbrett.CheckObCoordsAufFeld(nextCoords))
                 break;
-            if (piece == null)
+            if (figur == null)
                 AddBewegungsmoeglichkeit(nextCoords);
             else
                 break;
         }
 
-        Vector2Int[] takeDirections = new Vector2Int[] { new Vector2Int(1, direction.y), new Vector2Int(-1, direction.y) };
+        Vector2Int[] takeDirections = new Vector2Int[] { new Vector2Int(1, richtung.y), new Vector2Int(-1, richtung.y) };
         for (int i = 0; i < takeDirections.Length; i++)
         {
             Vector2Int nextCoords = position + takeDirections[i];
-            Figur piece = schachbrett.GetPieceOnSquare(nextCoords);
-            if (!schachbrett.CheckIfCoordinatesAreOnBoard(nextCoords))
+            Figur piece = schachbrett.GetFigurOnFeld(nextCoords);
+            if (!schachbrett.CheckObCoordsAufFeld(nextCoords))
                 continue;
             if (piece != null && !piece.IstGleichesTeam(this))
             {
                 AddBewegungsmoeglichkeit(nextCoords);
             }
-        }
-        foreach ( var a in Bewegungsmöglichkeiten)
-        {
-    //        Debug.Log("----------------------------" + a.ToString());
         }
         return Bewegungsmöglichkeiten;
     }
@@ -48,15 +41,15 @@ public class Bauer : Figur
     public override void BewegeFigur(Vector2Int coords)
     {
         base.BewegeFigur(coords);
-        CheckPromotion();
+        CheckBeförderung();
     }
 
-    private void CheckPromotion()
+    private void CheckBeförderung()
     {
-        int endOfBoardYCoord = figurFarbe == FigurFarbe.weiss ? Schachbrett.GesFeldGroesse - 1 : 0;
-        if (position.y == endOfBoardYCoord)
+        int endOfBrettYCoord = figurFarbe == FigurFarbe.weiss ? Schachbrett.GesFeldGroesse - 1 : 0;
+        if (position.y == endOfBrettYCoord)
         {
-            schachbrett.PromotePiece(this);
+            schachbrett.BefoerdereFigur(this);
         }
     }
     

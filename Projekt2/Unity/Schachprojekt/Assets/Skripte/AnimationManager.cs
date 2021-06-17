@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//NICHT ANFASSEN
 public class AnimationManager : MonoBehaviour
 {
     public enum Animationtrigger { Nichts, Sterben, Angriff, Idle, Loeschen, Bewegen, Drehen}
@@ -25,12 +24,12 @@ public class AnimationManager : MonoBehaviour
     private float drehung2;
     private Animationtrigger animationDreheFigur2 = Animationtrigger.Nichts;
 
-    public void CleanesLoeschen(float time, Figur figur)
+    public void SauberesLoeschen(float time, Figur figur)
     {
-        StartCoroutine(CleanerLoeschenverwalter(time, figur));
+        StartCoroutine(Loeschenverwalter(time, figur));
     }
 
-    IEnumerator CleanerLoeschenverwalter(float time, Figur figur)
+    IEnumerator Loeschenverwalter(float time, Figur figur)
     {
        
         yield return new WaitForSeconds(time);
@@ -149,12 +148,12 @@ public class AnimationManager : MonoBehaviour
 
     public void StartEndAnimation(float time, Figur angreifendeFigur, Figur sterbendeFigur, Animationtrigger animationtrigger)
     {
-        StartCoroutine(Endanimationsverwalter(time, angreifendeFigur, sterbendeFigur, animationtrigger));
+        StartCoroutine(EndAnimationsVerwalter(time, angreifendeFigur, sterbendeFigur, animationtrigger));
     }
 
 
 
-    IEnumerator Endanimationsverwalter(float time, Figur angreifendeFigur, Figur sterbendeFigur, Animationtrigger animationtrigger)
+    IEnumerator EndAnimationsVerwalter(float time, Figur angreifendeFigur, Figur sterbendeFigur, Animationtrigger animationtrigger)
     {
         sterbendeFigur.SterbeAnimation();
         yield return new WaitForSeconds(time);

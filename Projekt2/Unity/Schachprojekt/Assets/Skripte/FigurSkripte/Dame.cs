@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Dame : Figur
 {
-    private Vector2Int[] directions = new Vector2Int[]
+    private Vector2Int[] richtungen = new Vector2Int[]
     {
         Vector2Int.left,
         Vector2Int.up,
@@ -19,23 +19,23 @@ public class Dame : Figur
     {
         Bewegungsmöglichkeiten.Clear();
 
-        float range = Schachbrett.GesFeldGroesse;
-        foreach (var direction in directions)
+        float reichweite = Schachbrett.GesFeldGroesse;
+        foreach (var richtung in richtungen)
         {
-            for (int i = 1; i <= range; i++)
+            for (int i = 1; i <= reichweite; i++)
             {
-                Vector2Int nextCoords = position + direction * i;
-                Figur piece = schachbrett.GetPieceOnSquare(nextCoords);
-                if (!schachbrett.CheckIfCoordinatesAreOnBoard(nextCoords))
+                Vector2Int nextCoords = position + richtung * i;
+                Figur figur = schachbrett.GetFigurOnFeld(nextCoords);
+                if (!schachbrett.CheckObCoordsAufFeld(nextCoords))
                     break;
-                if (piece == null)
+                if (figur == null)
                     AddBewegungsmoeglichkeit(nextCoords);
-                else if (!piece.IstGleichesTeam(this))
+                else if (!figur.IstGleichesTeam(this))
                 {
                     AddBewegungsmoeglichkeit(nextCoords);
                     break;
                 }
-                else if (piece.IstGleichesTeam(this))
+                else if (figur.IstGleichesTeam(this))
                     break;
             }
         }

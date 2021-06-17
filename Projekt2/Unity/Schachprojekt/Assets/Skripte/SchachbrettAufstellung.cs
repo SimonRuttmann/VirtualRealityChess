@@ -8,8 +8,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Scriptable Objects/Schach/SchachbrettAufstellung")]
 public class SchachbrettAufstellung : ScriptableObject
 {
-    [Serializable]
-    private class Feld
+    
+    [Serializable] private class Feld
     {
         public Vector2Int Position;     //x und y
         public Figurtyp Figurtyp;
@@ -20,10 +20,6 @@ public class SchachbrettAufstellung : ScriptableObject
 
     // 0        x = 1 y = 1 Turm Weiﬂ
     // .... 
-    //
-    //
-    //
-    //
     //
 
     public int GetFigurenAnzahl()
@@ -45,16 +41,11 @@ public class SchachbrettAufstellung : ScriptableObject
     //Returnt den Namen von Prefab
     public string Get_Name_VonAufstellungsFigur(int index)
     {
-       // if (Spielfeld[index].FigurFarbe == FigurFarbe.weiss)
         return Spielfeld[index].Figurtyp.ToString();
-      //  else
-       //     return Spielfeld[index].Figurtyp.ToString() + "Schwarz";
-
     }
     public FigurFarbe Get_Farbe_VonAufstellungsFigur(int index)
     {
         return Spielfeld[index].FigurFarbe;
     }
-
 }
 

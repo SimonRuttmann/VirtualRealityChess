@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class UIInputHandler : MonoBehaviour, IInputHandler
 {
-    public void ProcessInput(Vector3 inputPosition, GameObject selectedObject, Action onClick)
+    public void VerarbeiteInput(Vector3 inputPosition, GameObject gewaehltesObjekt, Action onClick)
     {
         onClick?.Invoke();
     }

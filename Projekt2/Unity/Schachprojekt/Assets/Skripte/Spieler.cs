@@ -30,7 +30,6 @@ public class Spieler
     {
         if (!AktiveFiguren.Contains(figur))
         {
-			Debug.Log("Füge Figur dem Spieler hinzu");
             AktiveFiguren.Add(figur);
         }
     }
@@ -43,16 +42,11 @@ public class Spieler
         }
     }
 
-    /* Wie weit soll unser Backend gehen, diese Methode ist nur notwendig wenn wir von
-       * unserem ursprünglichen Plan abweichen die möglichen Züge beim Klick auf eine Figur durchzuführen
-       */
       public void GeneriereAlleMoeglichenZuege()
       {
-	//	Debug.Log("Generiere Alle Möglichen Züge");
           foreach(var figur in AktiveFiguren)
           {
-	//		Debug.Log("Figur: " + figur + "ist auf Spielfeld: " + Schachbrett.HasPiece(figur));
-              if (Schachbrett.HasPiece(figur))
+              if (Schachbrett.HatFigur(figur))
               {
                 figur.WaehleMoeglicheFelder();
               }
@@ -64,63 +58,63 @@ public class Spieler
 		return AktiveFiguren.Where(p => p.IsAttackingPieceOfType<T>()).ToArray();
 	}
 
-	public Figur[] GetPiecesOfType<T>() where T : Figur
+	public Figur[] GetFigurenVomTyp<T>() where T : Figur
 	{
 		return AktiveFiguren.Where(p => p is T).ToArray();
 	}
 
-	public void RemoveMovesEnablingAttakOnPieceOfType<T>(Spieler opponent, Figur selectedPiece) where T : Figur
+	public void EntferneAngriffsMoeglichkeitenAufFigur<T>(Spieler gegner, Figur gewaehlteFigur) where T : Figur
 	{
-		List<Vector2Int> coordsToRemove = new List<Vector2Int>();
+		List<Vector2Int> coordsZumEntfernen = new List<Vector2Int>();
 
-		coordsToRemove.Clear();
-		foreach (var coords in selectedPiece.Bewegungsmöglichkeiten)
+		coordsZumEntfernen.Clear();
+		foreach (var coords in gewaehlteFigur.Bewegungsmöglichkeiten)
 		{
-			Figur pieceOnCoords = this.Schachbrett.GetPieceOnSquare(coords);
-			Schachbrett.UpdateBoardOnPieceMove(coords, selectedPiece.position, selectedPiece, null);
-			opponent.GeneriereAlleMoeglichenZuege();
-			if (opponent.CheckIfIsAttacigPiece<T>())
-				coordsToRemove.Add(coords);
-			Schachbrett.UpdateBoardOnPieceMove(selectedPiece.position, coords, selectedPiece, pieceOnCoords);
+			Figur pieceOnCoords = this.Schachbrett.GetFigurOnFeld(coords);
+			Schachbrett.UpdateSchachbrettOnFigurBewegt(coords, gewaehlteFigur.position, gewaehlteFigur, null);
+			gegner.GeneriereAlleMoeglichenZuege();
+			if (gegner.CheckObEsFigurAngreift<T>())
+				coordsZumEntfernen.Add(coords);
+			Schachbrett.UpdateSchachbrettOnFigurBewegt(gewaehlteFigur.position, coords, gewaehlteFigur, pieceOnCoords);
 		}
-		foreach (var coords in coordsToRemove)
+		foreach (var coords in coordsZumEntfernen)
 		{
-			selectedPiece.Bewegungsmöglichkeiten.Remove(coords);
+			gewaehlteFigur.Bewegungsmöglichkeiten.Remove(coords);
 		}
 
 	}
 
-	internal bool CheckIfIsAttacigPiece<T>() where T : Figur
+	internal bool CheckObEsFigurAngreift<T>() where T : Figur
 	{
 		foreach (var piece in AktiveFiguren)
 		{
-			if (Schachbrett.HasPiece(piece) && piece.IsAttackingPieceOfType<T>())
+			if (Schachbrett.HatFigur(piece) && piece.IsAttackingPieceOfType<T>())
 				return true;
 		}
 		return false;
 	}
 
-	public bool CanHidePieceFromAttack<T>(Spieler opponent) where T : Figur
+	public bool KannFigurVorAngriffRetten<T>(Spieler opponent) where T : Figur
 	{
 		foreach (var piece in AktiveFiguren)
 		{
 			foreach (var coords in piece.Bewegungsmöglichkeiten)
 			{
-				Figur pieceOnCoords = Schachbrett.GetPieceOnSquare(coords);
-				Schachbrett.UpdateBoardOnPieceMove(coords, piece.position, piece, null);
+				Figur pieceOnCoords = Schachbrett.GetFigurOnFeld(coords);
+				Schachbrett.UpdateSchachbrettOnFigurBewegt(coords, piece.position, piece, null);
 				opponent.GeneriereAlleMoeglichenZuege();
-				if (!opponent.CheckIfIsAttacigPiece<T>())
+				if (!opponent.CheckObEsFigurAngreift<T>())
 				{
-					Schachbrett.UpdateBoardOnPieceMove(piece.position, coords, piece, pieceOnCoords);
+					Schachbrett.UpdateSchachbrettOnFigurBewegt(piece.position, coords, piece, pieceOnCoords);
 					return true;
 				}
-				Schachbrett.UpdateBoardOnPieceMove(piece.position, coords, piece, pieceOnCoords);
+				Schachbrett.UpdateSchachbrettOnFigurBewegt(piece.position, coords, piece, pieceOnCoords);
 			}
 		}
 		return false;
 	}
 
-	internal void OnGameRestarted()
+	internal void OnSpielNeustart()
 	{
 		AktiveFiguren.Clear();
 	}

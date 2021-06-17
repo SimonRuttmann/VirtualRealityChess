@@ -7,7 +7,6 @@ public class ColliderInputReciever : InputReciever
     private Vector3 clickPosition;
     void Update()
     {
-         //https://www.youtube.com/watch?time_continue=208&v=_yf5vzZ2sYE&feature=emb_logo&ab_channel=InfallibleCode
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
@@ -27,7 +26,7 @@ public class ColliderInputReciever : InputReciever
         foreach (var handler in inputHandlers)
         {
             //Debug.Log("Process" + clickPosition);
-            handler.ProcessInput(clickPosition, null, null);
+            handler.VerarbeiteInput(clickPosition, null, null);
         }
     }
 }

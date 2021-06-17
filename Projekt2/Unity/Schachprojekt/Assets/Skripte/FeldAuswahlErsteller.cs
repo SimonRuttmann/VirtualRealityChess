@@ -4,49 +4,35 @@ using UnityEngine;
 
 public class FeldAuswahlErsteller : MonoBehaviour
 {
-    //[SerializeField] private Material freeSquareMaterial;
-    //[SerializeField] private Material enemySquareMaterial;
-    [SerializeField] private GameObject selectorPrefab;
-    [SerializeField] private GameObject auswahlAngriff;
-    private List<GameObject> instantiatedSelectors = new List<GameObject>();
+    [SerializeField] private GameObject auswahlPrefab;
+    [SerializeField] private GameObject angriffPrefab;
+    private List<GameObject> instanziiertePrefabs = new List<GameObject>();
 
     public void ZeigeAuswahl(Dictionary<Vector3, bool> FeldDaten)
     {
-       // Debug.Log("zeige Auswahl im FeldAuswahlErsteller aufgerufen");
-        ClearSelection();
-        //Richtiger absoluter wert
+        entferneAuswaehler();
         foreach (var data in FeldDaten)
         {
-            GameObject selector;
+            GameObject auswaehler;
             if (data.Value){
-
-                //GameObject selector = Instantiate(selectorPrefab, data.Key, Quaternion.identity);
-                selector = Instantiate(selectorPrefab);
-                selector.transform.position = data.Key;
+                auswaehler = Instantiate(auswahlPrefab);
+                auswaehler.transform.position = data.Key;
             }
             else
             {
-                selector = Instantiate(auswahlAngriff);
-                selector.transform.position = data.Key;
+                auswaehler = Instantiate(angriffPrefab);
+                auswaehler.transform.position = data.Key;
             }
-       //     Debug.Log("Instanziiere: " + selector);
-            instantiatedSelectors.Add(selector);
+            instanziiertePrefabs.Add(auswaehler);
 
-            
-            /*
-            foreach (var setter in selector.GetComponentsInChildren<MaterialSetter>())
-            {
-                setter.SetSingleMaterial(data.Value ? freeSquareMaterial : enemySquareMaterial);
-            }
-            */
         }
     }
 
-    public void ClearSelection()
+    public void entferneAuswaehler()
     {
-        for (int i = 0; i < instantiatedSelectors.Count; i++)
+        for (int i = 0; i < instanziiertePrefabs.Count; i++)
         {
-            Destroy(instantiatedSelectors[i]);
+            Destroy(instanziiertePrefabs[i]);
         }
     }
 }

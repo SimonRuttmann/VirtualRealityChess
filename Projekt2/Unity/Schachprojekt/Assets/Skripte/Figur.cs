@@ -6,9 +6,6 @@ using UnityEngine;
 
 public abstract class Figur : MonoBehaviour
 {
-	//IdleTrigger
-	//AngriffTrigger
-	//SterbeTrigger
 	public AudioSource bewegungSound;
 	public AudioSource angriffSound;
 	public AudioSource sterbeSound;
@@ -20,32 +17,18 @@ public abstract class Figur : MonoBehaviour
 	public void DreheFigur(float drehung)
 	{
 		this.drehgradEnde = Quaternion.Euler(0, drehung, 0);
-		//this.drehgradStart = Quaternion.LookRotation(transform.forward);
-		//	this.drehgradStart = Quaternion.LookRotation(transform.localRotation);
 		this.drehgradStart = transform.localRotation;
 		this.drehungAktiv = true;
 		timeCount = 0;
-		//Debug.Log(timeCount);
-		//Debug.Log(Time.deltaTime);
-		//Debug.Log(drehgradStart.eulerAngles.y);
-		//Debug.Log(drehgradEnde.eulerAngles.y);
 	}
     public void Update()
     {
 
 		if (transform.rotation != this.drehgradEnde && drehungAktiv)
 		{
-		//	Debug.Log("Update");
-		//	Debug.Log(timeCount);
-		//	Debug.Log(drehgradStart.eulerAngles.y);
-		//	Debug.Log(drehgradEnde.eulerAngles.y);
 			transform.rotation = Quaternion.Slerp(this.drehgradStart, this.drehgradEnde, timeCount);
 			timeCount = timeCount + Time.deltaTime;
 		}
-        else
-        {
-			//this.drehungAktiv = false;
-        }
 		if (transform.rotation == this.drehgradEnde)
         {
 			this.drehungAktiv = false;
@@ -55,40 +38,32 @@ public abstract class Figur : MonoBehaviour
     public Animator animator;
 	public void IdleAnimation()
     {
-		//Debug.Log("Idle Ausgeführt");
 		animator.SetTrigger("IdleTrigger");
-		idleSound.Play();    }
+		idleSound.Play();    
+	}
 
 	public void SterbeAnimation()
     {
-		//Debug.Log("Sterbe Ausgeführt");
 		animator.SetTrigger("SterbeTrigger");
 		sterbeSound.Play();
 	}
 
 	public void AngriffAnimation()
     {
-		//Debug.Log("Angriff ausgeführt");
 		animator.SetTrigger("AngriffTrigger");
 		angriffSound.Play();
     }
 
-
-
-	// Das Schachbrett
 	public Schachbrett schachbrett;
 
-	// Das aktuell belegte Feld
-	public Vector2Int position;
+	public Vector2Int position; // Das aktuell belegte Feld
 
-	// Die Farbe der Figur
 	public FigurFarbe figurFarbe;
 
-
-	public bool WurdeBewegt; // Rochade & Bauern
+	public bool WurdeBewegt; //Für Rochade & Bauern
 	public List<Vector2Int> Bewegungsmöglichkeiten;
 
-	private IObjectTweener tweener;
+	private IBeweger beweger;
 
 	public abstract List<Vector2Int> WaehleMoeglicheFelder();
 
@@ -96,7 +71,7 @@ public abstract class Figur : MonoBehaviour
 	private void Awake()
 	{
 		this.animator = GetComponent<Animator>();
-		tweener = GetComponent<IObjectTweener>();
+		beweger = GetComponent<IBeweger>();
 		//Debug.Log("Erhalte Tweener: " + tweener);
 		Bewegungsmöglichkeiten = new List<Vector2Int>();
 		WurdeBewegt = false;
@@ -112,11 +87,8 @@ public abstract class Figur : MonoBehaviour
 
 		//Figur entsprechende Position hinzufügen
 		transform.position = this.schachbrett.RelativePositionZumSchachbrettfeld(position);
-		//Debug.Log(transform.position.ToString());
 		if (this.figurFarbe == FigurFarbe.weiss)
         {
-			//transform.rotation = Quaternion.AngleAxis(180, new Vector3(0, 1, 0));
-			//(Vector3.up)
 			transform.Rotate(0, 180, 0); 
 		}
 	}
@@ -128,20 +100,19 @@ public abstract class Figur : MonoBehaviour
 
 	public virtual void BewegeFigur(Vector2Int coords)
 	{
-		Vector3 targetPosition = schachbrett.CalculatePositionFromCoords(coords);
+		Vector3 zielPos = schachbrett.KalkulierePosVonCoords(coords);
 		position = coords;
 		WurdeBewegt = true;
 		bewegungSound.Play();
-		tweener.MoveTo(transform, targetPosition);
+		beweger.MoveTo(transform, zielPos);
 		
 	}
 
-	//Unbekannt ob es wichtig ist welcher Figurtyp angegriffen wird
 	public bool IsAttackingPieceOfType<T>() where T : Figur
 	{
 		foreach (var feld in Bewegungsmöglichkeiten)
 		{
-			if (schachbrett.GetPieceOnSquare(feld) is T)
+			if (schachbrett.GetFigurOnFeld(feld) is T)
 				return true;
 		}
 		return false;

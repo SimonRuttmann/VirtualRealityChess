@@ -1523,7 +1523,7 @@ GameObject:
   - component: {fileID: 1189706547096000612}
   - component: {fileID: 1450330524606614896}
   m_Layer: 0
-  m_Name: KoenigWeiss
+  m_Name: KoenigWeissAAAlt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1672,7 +1672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68da17264ec098347819161f20ef993e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 30
+  bewegungsGeschwindigkeit: 30
 --- !u!82 &7651836899349671317
 AudioSource:
   m_ObjectHideFlags: 0

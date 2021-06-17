@@ -29,7 +29,7 @@ public class SchachManager : MonoBehaviour
     //Schachfeld hinzufügen
     [SerializeField] private Schachbrett schachbrett;
 
-    [SerializeField] private ChessUIManager SchachUIManager;
+    [SerializeField] private SchachUIManager SchachUIManager;
 
     [SerializeField] private VrSchachMenu VR_UIManager;
     public SteamVR_Input_Sources Hand;
@@ -46,16 +46,6 @@ public class SchachManager : MonoBehaviour
         //Abhängigkeiten
         this.FigurErsteller = GetComponent<FigurErsteller>();
         ErstelleSpieler();
-        /*
-        if (this.FigurErsteller == null)
-        {
-            this.FigurErsteller = GetComponent<FigurErsteller>();
-        }
-        else
-        {
-            Debug.Log("FigurErsteller ist bereits erstellt!");
-        }
-        */
     }
 
     private void ErstelleSpieler()
@@ -64,7 +54,7 @@ public class SchachManager : MonoBehaviour
         this.SchwarzerSpieler = new Spieler(FigurFarbe.schwarz, schachbrett);
     }
 
-    private void StartNewGame(bool firstGame)
+    private void StarteNeuesSpiel(bool firstGame)
     {
        
         this.spielzustand = Spielzustand.Start;
@@ -95,22 +85,11 @@ public class SchachManager : MonoBehaviour
             this.VR_UIManager.setupUI();
             menueOeffnen = false;
         }
-        //Kein VR
-        //if (Input.GetKeyDown("x"))
-        //{ 
-        //    this.RestartGame();
-        //}
-
-        //if (Input.GetKeyDown("y")) 
-        //{
-        //    this.SchachUIManager.startUI();
-        //}
-
     }
     //neues Spiel
     private void Start()
     {
-        StartNewGame(true);
+        StarteNeuesSpiel(true);
     }
 
     private void ErstelleFigurenVonAufstellung(SchachbrettAufstellung schachbrettAufstellung)
@@ -134,7 +113,7 @@ public class SchachManager : MonoBehaviour
         neueFigur.SetzeFigurdaten(xyPosition, figurfarbe, schachbrett);
         
         //Setzt die Figur auf das Schachfeld
-        this.schachbrett.SetPieceOnBoard(xyPosition, neueFigur);
+        this.schachbrett.SetzeFigurAufsFeld(xyPosition, neueFigur);
 
         //Figur dem Spieler hinzufügen
         //Spieler aktuellerSpieler;
@@ -178,13 +157,13 @@ public class SchachManager : MonoBehaviour
         if (koenigsbedroher.Length > 0)
         {
             Spieler gegnerischerSpieler = GegnerVonSpieler(AktiverSpieler);
-            Figur angegriffenerKoenig = gegnerischerSpieler.GetPiecesOfType<Koenig>().FirstOrDefault();
-            gegnerischerSpieler.RemoveMovesEnablingAttakOnPieceOfType<Koenig>(AktiverSpieler, angegriffenerKoenig);
+            Figur angegriffenerKoenig = gegnerischerSpieler.GetFigurenVomTyp<Koenig>().FirstOrDefault();
+            gegnerischerSpieler.EntferneAngriffsMoeglichkeitenAufFigur<Koenig>(AktiverSpieler, angegriffenerKoenig);
 
             int moeglicheKoenigszuege = angegriffenerKoenig.Bewegungsmöglichkeiten.Count;
             if (moeglicheKoenigszuege == 0)
             {
-                bool koenigDeckbar = gegnerischerSpieler.CanHidePieceFromAttack<Koenig>(AktiverSpieler);
+                bool koenigDeckbar = gegnerischerSpieler.KannFigurVorAngriffRetten<Koenig>(AktiverSpieler);
                 if (!koenigDeckbar)
                     return true;
             }
@@ -265,26 +244,26 @@ public class SchachManager : MonoBehaviour
 
     internal void RemoveMovesEnablingAttakOnPieceOfType<T>(Figur figur) where T : Figur
     {
-        AktiverSpieler.RemoveMovesEnablingAttakOnPieceOfType<T>(GegnerVonSpieler(AktiverSpieler), figur);
+        AktiverSpieler.EntferneAngriffsMoeglichkeitenAufFigur<T>(GegnerVonSpieler(AktiverSpieler), figur);
     }
 
     public void RestartGame()
     {
         ZerstoereFiguren();
-        schachbrett.OnGameRestarted();
-        WeisserSpieler.OnGameRestarted();
-        SchwarzerSpieler.OnGameRestarted();
-        StartNewGame(false);
+        schachbrett.OnSpielNeustart();
+        WeisserSpieler.OnSpielNeustart();
+        SchwarzerSpieler.OnSpielNeustart();
+        StarteNeuesSpiel(false);
 
     }
 
 
-    public void PromoteErstellung(Vector2Int xyPosition, FigurFarbe figFarbe, string modelltyp)
+    public void BefoerdernErstellung(Vector2Int xyPosition, FigurFarbe figFarbe, string modelltyp)
     {
-        StartCoroutine(WartePromote(xyPosition, figFarbe, modelltyp));
+        StartCoroutine(WarteBefoerdern(xyPosition, figFarbe, modelltyp));
     }
 
-    IEnumerator WartePromote(Vector2Int xyPos, FigurFarbe figFarbe, string modelltyp)
+    IEnumerator WarteBefoerdern(Vector2Int xyPos, FigurFarbe figFarbe, string modelltyp)
     {
         yield return new WaitForSeconds(0.25f);
         this.ErstelleFigurUndInitialisiere(xyPos, figFarbe, modelltyp);

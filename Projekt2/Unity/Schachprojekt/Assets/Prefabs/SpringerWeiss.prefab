@@ -1356,8 +1356,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 012a7081fad70e340b1c7a79954afe10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 30
-  jumpHeight: 30
+  bewegungsGeschwindigkeit: 30
+  sprungHoehe: 30
 --- !u!82 &-7133957959879164676
 AudioSource:
   m_ObjectHideFlags: 0

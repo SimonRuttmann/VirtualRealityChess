@@ -813,7 +813,7 @@ GameObject:
   - component: {fileID: 4389302698086744860}
   - component: {fileID: 3519059210984515721}
   m_Layer: 0
-  m_Name: laufer-gefixt 1
+  m_Name: LaeuferSchwarz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -932,7 +932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68da17264ec098347819161f20ef993e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 30
+  bewegungsGeschwindigkeit: 30
 --- !u!23 &2713864658486164520
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -5,5 +5,5 @@ using UnityEngine;
 
 public interface IInputHandler
 {
-    void ProcessInput(Vector3 inputPosition, GameObject selectedObject, Action onClick);
+    void VerarbeiteInput(Vector3 inputPosition, GameObject gewaehltesObjekt, Action onClick);
 }

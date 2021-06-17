@@ -17,7 +17,6 @@ public class FigurErsteller : MonoBehaviour
     {
         if (ModellDictionary != null)
         {
-            Debug.Log("FiguerErsteller -> 2 Awake");
             return;
         }
         this.ModellDictionary = new Dictionary<string, GameObject>();
@@ -27,17 +26,15 @@ public class FigurErsteller : MonoBehaviour
     {
         foreach (GameObject modell in Modellarray)
         {
-            String modellName = modell.GetComponent<Figur>().ToString();        // Key:  LaeuferSchwarz=PrefabName (Laeufer=Skript)       Value: LaeuferSchwarz (UnityEngine.GameObject) 
-            //TODO                                                              // Key:  LaueferSchwarz
-            /// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            /// 
-
+            // Key:  LaueferSchwarz
+            // Key:  LaeuferSchwarz=PrefabName (Laeufer=Skript)       Value: LaeuferSchwarz (UnityEngine.GameObject) 
+            String modellName = modell.GetComponent<Figur>().ToString();        
+                                                           
             modellName = modellName.Split(' ')[0];
             ModellDictionary.Add(modellName, modell);
         }
         
     }
-    // Turm (Turm)
     //ErstelleFigur("schwarzerBauer") -> Sucht sich das Modell/Prefab und instanziiert es -> !Neues Objekt in der Szene!
     public GameObject ErstelleFigur(String figurtyp)
     {
@@ -45,7 +42,7 @@ public class FigurErsteller : MonoBehaviour
         GameObject modell = ModellDictionary[figurtyp];             //"Bauer1" -> Bauer1Pref
         if (modell)
         {
-            GameObject richtigeFigur = Instantiate(modell);          // "Baut modell"
+            GameObject richtigeFigur = Instantiate(modell);          
             return richtigeFigur;
         }
         return null;
