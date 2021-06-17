@@ -25,6 +25,19 @@ public class AnimationManager : MonoBehaviour
     private float drehung2;
     private Animationtrigger animationDreheFigur2 = Animationtrigger.Nichts;
 
+    public void CleanesLoeschen(float time, Figur figur)
+    {
+        StartCoroutine(CleanerLoeschenverwalter(time, figur));
+    }
+
+    IEnumerator CleanerLoeschenverwalter(float time, Figur figur)
+    {
+       
+        yield return new WaitForSeconds(time);
+
+        Destroy(figur.gameObject);
+
+    }
 
     public void BewegeFigur(float time, Figur figur, Vector2Int koordianten)
     {
@@ -143,10 +156,10 @@ public class AnimationManager : MonoBehaviour
 
     IEnumerator Endanimationsverwalter(float time, Figur angreifendeFigur, Figur sterbendeFigur, Animationtrigger animationtrigger)
     {
-        sterbendeFig.SterbeAnimation();
+        sterbendeFigur.SterbeAnimation();
         yield return new WaitForSeconds(time);
 
-        Destroy(this.sterbendeFig.gameObject);
+        Destroy(sterbendeFigur.gameObject);
 
     }
 

@@ -158,6 +158,7 @@ public class Schachbrett : MonoBehaviour
 
     public Figur GetPieceOnSquare(Vector2Int coords)
     {
+        Debug.Log("Erhalte Figur");
         if (CheckIfCoordinatesAreOnBoard(coords))
             return grid[coords.x, coords.y];
         return null;
@@ -286,7 +287,7 @@ public class Schachbrett : MonoBehaviour
         if (angreifendeFigur.figurFarbe == FigurFarbe.weiss) back = 180;
 
         animationManager.DreheFigur1(6f, angreifendeFigur, (float)back);
-        this.BlockEingabe(11f);
+        this.BlockEingabe(7f);
     }
 
     //Take Piece -> Übergebene Figur wird sterben
@@ -322,11 +323,15 @@ public class Schachbrett : MonoBehaviour
         {
             modell = "DameSchwarz";
         }
+        Vector2Int pos = figur.position;
+        FigurFarbe figurFarbe = figur.figurFarbe;
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         TakePiece(figur);
-        Destroy(figur.gameObject);
-        schachManager.ErstelleFigurUndInitialisiere(figur.position, figur.figurFarbe, modell);      //DamePromote -> In Schachmanagerklasse -> If AktiverSPielr == weiser -> "DameWeiss" -> "DameSChwarz"
+        animationManager.CleanesLoeschen(1, figur);
+        //Destroy(figur.gameObject);
+        schachManager.PromoteErstellung(pos, figurFarbe, modell);
+        //schachManager.ErstelleFigurUndInitialisiere(pos, figurFarbe, modell);      //DamePromote -> In Schachmanagerklasse -> If AktiverSPielr == weiser -> "DameWeiss" -> "DameSChwarz"
     }
    
     /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

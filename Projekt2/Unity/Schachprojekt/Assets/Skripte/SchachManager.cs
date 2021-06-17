@@ -68,6 +68,8 @@ public class SchachManager : MonoBehaviour
     {
        
         this.spielzustand = Spielzustand.Start;
+        teamanzeigeText1.text = "Am Zug: Team    Weiss";
+        teamanzeigeText2.text = "Am Zug: Team    Weiss";
 
         if (firstGame) this.SchachUIManager.startUI();
         else this.SchachUIManager.SpielStarten();
@@ -127,6 +129,7 @@ public class SchachManager : MonoBehaviour
 
     public void ErstelleFigurUndInitialisiere(Vector2Int xyPosition, FigurFarbe figurfarbe, string figurtypS)
     {
+        Debug.Log("ERstelle Figur: " + xyPosition + figurfarbe + figurtypS);
         Figur neueFigur = this.FigurErsteller.ErstelleFigur(figurtypS).GetComponent<Figur>();
         neueFigur.SetzeFigurdaten(xyPosition, figurfarbe, schachbrett);
         
@@ -134,10 +137,11 @@ public class SchachManager : MonoBehaviour
         this.schachbrett.SetPieceOnBoard(xyPosition, neueFigur);
 
         //Figur dem Spieler hinzufügen
-        Spieler aktuellerSpieler;
-        if (figurfarbe == FigurFarbe.weiss) { aktuellerSpieler = WeisserSpieler; }
-        else { aktuellerSpieler = SchwarzerSpieler; }
-        aktuellerSpieler.AddFigur(neueFigur);
+        //Spieler aktuellerSpieler;
+        
+        if (figurfarbe == FigurFarbe.weiss) { this.AktiverSpieler = WeisserSpieler; }
+        else { this.AktiverSpieler = SchwarzerSpieler; }
+        this.AktiverSpieler.AddFigur(neueFigur);
     }
 
     private void ErstelleAlleSpielerZuege(Spieler spieler)
@@ -193,11 +197,15 @@ public class SchachManager : MonoBehaviour
         this.SchachUIManager.OnGameFinished(AktiverSpieler.Farbe.ToString());
         if (AktiverSpieler.Farbe == FigurFarbe.weiss)
         {
+            teamanzeigeText1.text = "Team Weiss      gewinnt";
+            teamanzeigeText2.text = "Team Weiss      gewinnt";
             SchwarzerSpieler.AktiveFiguren.ForEach(
                 (p => schachbrett.SterbenUndLoeschen(p)));
         }
         else
         {
+            teamanzeigeText1.text = "Team Schwarz    gewinnt";
+            teamanzeigeText2.text = "Team Schwarz    gewinnt";
             WeisserSpieler.AktiveFiguren.ForEach(
                 (p => schachbrett.SterbenUndLoeschen(p)));
         }
@@ -268,6 +276,19 @@ public class SchachManager : MonoBehaviour
         SchwarzerSpieler.OnGameRestarted();
         StartNewGame(false);
 
+    }
+
+
+    public void PromoteErstellung(Vector2Int xyPosition, FigurFarbe figFarbe, string modelltyp)
+    {
+        StartCoroutine(WartePromote(xyPosition, figFarbe, modelltyp));
+    }
+
+    IEnumerator WartePromote(Vector2Int xyPos, FigurFarbe figFarbe, string modelltyp)
+    {
+        yield return new WaitForSeconds(0.25f);
+        this.ErstelleFigurUndInitialisiere(xyPos, figFarbe, modelltyp);
+        ErstelleAlleSpielerZuege(AktiverSpieler);
     }
 }
 

@@ -30,6 +30,7 @@ public class Spieler
     {
         if (!AktiveFiguren.Contains(figur))
         {
+			Debug.Log("Füge Figur dem Spieler hinzu");
             AktiveFiguren.Add(figur);
         }
     }
