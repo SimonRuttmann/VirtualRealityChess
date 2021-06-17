@@ -18,8 +18,8 @@ public class SchachManager : MonoBehaviour
     // Hier wird das Skriptobjekt im Editor hinzugefügt
     [SerializeField] private SchachbrettAufstellung Startkonfiguration;
 
-    [SerializeField] private Canvas canvas1;
-    [SerializeField] private Canvas canvas2;
+    [SerializeField] private Text teamanzeigeText1;
+    [SerializeField] private Text teamanzeigeText2;
 
 
     [SerializeField] private GameObject[] teammarker;
@@ -225,8 +225,8 @@ public class SchachManager : MonoBehaviour
             {
                 marker.GetComponent<MeshRenderer>().material = schwarzMarker;
             }
-            canvas1.GetComponent<Text>().text= "Am Zug: Team Schwarz";
-            canvas2.GetComponent<Text>().text = "Am Zug: Team Schwarz";
+            teamanzeigeText1.text= "Am Zug: Team Schwarz";
+            teamanzeigeText2.text = "Am Zug: Team Schwarz";
         }
         else {
             AktiverSpieler = WeisserSpieler;   
@@ -235,8 +235,8 @@ public class SchachManager : MonoBehaviour
             {
                 marker.GetComponent<MeshRenderer>().material = weissMarker;
             }
-            canvas1.GetComponent<Text>().text = "Am Zug: Team    Weiss";
-            canvas2.GetComponent<Text>().text = "Am Zug: Team    Weiss";
+            teamanzeigeText1.text = "Am Zug: Team    Weiss";
+            teamanzeigeText2.text = "Am Zug: Team    Weiss";
         }
     }
 
