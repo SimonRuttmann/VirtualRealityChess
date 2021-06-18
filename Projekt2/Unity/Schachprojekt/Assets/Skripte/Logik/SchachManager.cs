@@ -108,7 +108,7 @@ public class SchachManager : MonoBehaviour
 
     public void ErstelleFigurUndInitialisiere(Vector2Int xyPosition, FigurFarbe figurfarbe, string figurtypS)
     {
-        Debug.Log("ERstelle Figur: " + xyPosition + figurfarbe + figurtypS);
+        //Debug.Log("ERstelle Figur: " + xyPosition + figurfarbe + figurtypS);
         Figur neueFigur = this.FigurErsteller.ErstelleFigur(figurtypS).GetComponent<Figur>();
         neueFigur.SetzeFigurdaten(xyPosition, figurfarbe, schachbrett);
         
