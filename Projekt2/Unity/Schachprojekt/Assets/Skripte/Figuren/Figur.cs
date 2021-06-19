@@ -116,5 +116,9 @@ public abstract class Figur : MonoBehaviour
 		}
 		return false;
 	}
+	public void SterbeOhneSound()
+	{
+		animator.SetTrigger("SterbeTrigger");
+	}
 
 }

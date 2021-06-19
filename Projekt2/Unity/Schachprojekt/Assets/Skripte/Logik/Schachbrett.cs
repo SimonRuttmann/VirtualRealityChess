@@ -57,7 +57,7 @@ public class Schachbrett : MonoBehaviour
         if (this.blocker) return;
         Vector2Int coords = KalkuliereCoordsVonPos(inputPosition);
         Figur figur = GetFigurOnFeld(coords);
-        
+
         if (gewaehlteFigur)
         {
             // Figur nochnamal anwählen
@@ -92,7 +92,7 @@ public class Schachbrett : MonoBehaviour
         schachManager.EntferneAngriffsMoeglichkeitenAufFigur<Koenig>(figur);
         gewaehlteFigur = figur;
         List<Vector2Int> auswahl = gewaehlteFigur.Bewegungsmöglichkeiten;
-        ZeigeAusgewaehlteFelder(auswahl);    
+        ZeigeAusgewaehlteFelder(auswahl);
     }
 
     private void ZeigeAusgewaehlteFelder(List<Vector2Int> auswahl)
@@ -150,7 +150,7 @@ public class Schachbrett : MonoBehaviour
         {
             for (int j = 0; j < GesFeldGroesse; j++)
             {
-                if (grid[i, j] == figur) return true;      
+                if (grid[i, j] == figur) return true;
             }
         }
         return false;
@@ -170,7 +170,8 @@ public class Schachbrett : MonoBehaviour
             StartKonflikt(gewaehlteFigur, figur, coords);
             SchlageFigur(figur);
         }
-        else{
+        else
+        {
             gewaehlteFigur.BewegeFigur(coords);
         }
 
@@ -294,9 +295,9 @@ public class Schachbrett : MonoBehaviour
         animationManager.SauberesLoeschen(1, figur);
         schachManager.BefoerdernErstellung(pos, figurFarbe, modell);
     }
-   
+
     /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  
+
     internal void OnSpielNeustart()
     {
         gewaehlteFigur = null;
@@ -304,7 +305,7 @@ public class Schachbrett : MonoBehaviour
     }
     public void SterbenUndLoeschen(Figur geschlageneFigur)
     {
-        animationManager.StartAnimation(1f, null, geschlageneFigur, AnimationManager.Animationtrigger.Loeschen);
+        animationManager.StartEndAnimation(1.5f, geschlageneFigur);
+        //animationManager.StartAnimation(1f, null, geschlageneFigur, AnimationManager.Animationtrigger.Loeschen);
     }
-
 }
