@@ -146,16 +146,16 @@ public class AnimationManager : MonoBehaviour
 
     }
 
-    public void StartEndAnimation(float time, Figur angreifendeFigur, Figur sterbendeFigur, Animationtrigger animationtrigger)
+    public void StartEndAnimation(float time, Figur sterbendeFigur)
     {
-        StartCoroutine(EndAnimationsVerwalter(time, angreifendeFigur, sterbendeFigur, animationtrigger));
+        StartCoroutine(EndAnimationsVerwalter(time, sterbendeFigur));
     }
 
 
 
-    IEnumerator EndAnimationsVerwalter(float time, Figur angreifendeFigur, Figur sterbendeFigur, Animationtrigger animationtrigger)
+    IEnumerator EndAnimationsVerwalter(float time, Figur sterbendeFigur)
     {
-        sterbendeFigur.SterbeAnimation();
+        sterbendeFigur.SterbeOhneSound();
         yield return new WaitForSeconds(time);
 
         Destroy(sterbendeFigur.gameObject);
