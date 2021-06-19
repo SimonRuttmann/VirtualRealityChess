@@ -36,8 +36,7 @@ public class VrSchachMenu : MonoBehaviour
 
 	public void beendeSpiel()
     {
-		Debug.Log("Beende Spiel");
-		//Application.Quit();
+		Application.Quit();
     }
 }
 

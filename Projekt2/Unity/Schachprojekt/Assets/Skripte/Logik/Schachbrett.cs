@@ -89,7 +89,7 @@ public class Schachbrett : MonoBehaviour
 
     private void WahleFigur(Figur figur)
     {
-        schachManager.RemoveMovesEnablingAttakOnPieceOfType<Koenig>(figur);
+        schachManager.EntferneAngriffsMoeglichkeitenAufFigur<Koenig>(figur);
         gewaehlteFigur = figur;
         List<Vector2Int> auswahl = gewaehlteFigur.Bewegungsmöglichkeiten;
         ZeigeAusgewaehlteFelder(auswahl);    
@@ -260,7 +260,7 @@ public class Schachbrett : MonoBehaviour
         if (figur)
         {
             grid[figur.position.x, figur.position.y] = null;
-            schachManager.OnPieceRemoved(figur);
+            schachManager.OnFigurRemoved(figur);
         }
     }
 

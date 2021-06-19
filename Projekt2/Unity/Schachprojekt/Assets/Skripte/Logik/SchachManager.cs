@@ -81,7 +81,6 @@ public class SchachManager : MonoBehaviour
 
         if (menueOeffnen)
         {
-            Debug.Log("menue geöffnet");
             this.VR_UIManager.setupUI();
             menueOeffnen = false;
         }
@@ -108,7 +107,6 @@ public class SchachManager : MonoBehaviour
 
     public void ErstelleFigurUndInitialisiere(Vector2Int xyPosition, FigurFarbe figurfarbe, string figurtypS)
     {
-        //Debug.Log("ERstelle Figur: " + xyPosition + figurfarbe + figurtypS);
         Figur neueFigur = this.FigurErsteller.ErstelleFigur(figurtypS).GetComponent<Figur>();
         neueFigur.SetzeFigurdaten(xyPosition, figurfarbe, schachbrett);
         
@@ -236,13 +234,13 @@ public class SchachManager : MonoBehaviour
         return aktuellerGegner;
     }
 
-    internal void OnPieceRemoved(Figur figur)
+    internal void OnFigurRemoved(Figur figur)
     {
         Spieler figurBesitzer = (figur.figurFarbe == FigurFarbe.weiss) ? WeisserSpieler : SchwarzerSpieler;
         figurBesitzer.RemoveFigur(figur);
     }
 
-    internal void RemoveMovesEnablingAttakOnPieceOfType<T>(Figur figur) where T : Figur
+    internal void EntferneAngriffsMoeglichkeitenAufFigur<T>(Figur figur) where T : Figur
     {
         AktiverSpieler.EntferneAngriffsMoeglichkeitenAufFigur<T>(GegnerVonSpieler(AktiverSpieler), figur);
     }

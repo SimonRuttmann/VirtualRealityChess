@@ -22,10 +22,8 @@ public class ColliderInputReciever : InputReciever
 
     public override void OnInputRecieved()
     {
-        //Debug.Log("Klick erhalten: " + clickPosition); 
         foreach (var handler in inputHandlers)
         {
-            //Debug.Log("Process" + clickPosition);
             handler.VerarbeiteInput(clickPosition, null, null);
         }
     }

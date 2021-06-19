@@ -72,7 +72,6 @@ public abstract class Figur : MonoBehaviour
 	{
 		this.animator = GetComponent<Animator>();
 		beweger = GetComponent<IBeweger>();
-		//Debug.Log("Erhalte Tweener: " + tweener);
 		Bewegungsmöglichkeiten = new List<Vector2Int>();
 		WurdeBewegt = false;
 		this.bewegungSound.volume = 0.10f;

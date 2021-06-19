@@ -113,25 +113,25 @@ public class AnimationManager : MonoBehaviour
         switch (this.animationFigAngreifend)
         {
             case Animationtrigger.Nichts:   break;
-            case Animationtrigger.Angriff:  this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.AngriffAnimation(); Debug.Log("Angriffsfigur Angriff"); break;
-            case Animationtrigger.Idle:     this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.IdleAnimation(); Debug.Log("Angriffsfigur idle"); break;
-            case Animationtrigger.Sterben:  this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.SterbeAnimation(); Debug.Log("Angriffsfigur sterben"); break;
-            case Animationtrigger.Loeschen: this.animationFigAngreifend = Animationtrigger.Nichts; Destroy(this.angreifendeFig.gameObject); Debug.Log("Angriffsfigur loeschen"); break;
+            case Animationtrigger.Angriff:  this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.AngriffAnimation(); break;
+            case Animationtrigger.Idle:     this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.IdleAnimation(); break;
+            case Animationtrigger.Sterben:  this.animationFigAngreifend = Animationtrigger.Nichts; this.angreifendeFig.SterbeAnimation(); break;
+            case Animationtrigger.Loeschen: this.animationFigAngreifend = Animationtrigger.Nichts; Destroy(this.angreifendeFig.gameObject); break;
         }
   
         switch (this.animationFigSterbend)
         {
             case Animationtrigger.Nichts:   break;
-            case Animationtrigger.Angriff:  this.animationFigSterbend = Animationtrigger.Nichts; this.sterbendeFig.AngriffAnimation(); Debug.Log("Sterbefigur Angriff"); break;
-            case Animationtrigger.Idle:     this.animationFigSterbend = Animationtrigger.Nichts; this.sterbendeFig.IdleAnimation(); Debug.Log("Sterbefigur idle");     break;
-            case Animationtrigger.Sterben:  this.animationFigSterbend = Animationtrigger.Nichts; this.sterbendeFig.SterbeAnimation(); Debug.Log("Sterbefigur sterben");    break;
-            case Animationtrigger.Loeschen: this.animationFigSterbend = Animationtrigger.Nichts; Destroy(this.sterbendeFig.gameObject); Debug.Log("Sterbefigur loeschen");    break;
+            case Animationtrigger.Angriff:  this.animationFigSterbend = Animationtrigger.Nichts; this.sterbendeFig.AngriffAnimation(); break;
+            case Animationtrigger.Idle:     this.animationFigSterbend = Animationtrigger.Nichts; this.sterbendeFig.IdleAnimation(); break;
+            case Animationtrigger.Sterben:  this.animationFigSterbend = Animationtrigger.Nichts; this.sterbendeFig.SterbeAnimation(); break;
+            case Animationtrigger.Loeschen: this.animationFigSterbend = Animationtrigger.Nichts; Destroy(this.sterbendeFig.gameObject); break;
         }
 
         switch(this.animationBewegteFigur)
         {
             case Animationtrigger.Nichts:   break;
-            case Animationtrigger.Bewegen:  this.animationBewegteFigur = Animationtrigger.Nichts; this.bewegteFigur.BewegeFigur(this.koordinaten); Debug.Log("Bewegefigur bewege"); break;
+            case Animationtrigger.Bewegen:  this.animationBewegteFigur = Animationtrigger.Nichts; this.bewegteFigur.BewegeFigur(this.koordinaten); break;
         }
         switch (this.animationDreheFigur1)
         {
