@@ -15,12 +15,12 @@ C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierun
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49883
+54927
 Successfully changed project path to: C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt
 C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.17 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 2.62 ms.
+Refreshing native plugins compatible for Editor in 73.85 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 2.68 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path D:/Unity/UnityData/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt/Assets
@@ -35,22 +35,24 @@ Initialize mono
 Mono path[0] = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/UnityData/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001195 seconds.
+Registered in 0.001210 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.80 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.19 ms.
+Refreshing native plugins compatible for Editor in 57.42 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
+- Completed reload, in  1.089 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009090 seconds.
+Registered in 0.009052 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001EA41084630 doesn't match image C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 12 plugins.
 Preloading 2 native plugins for Editor in 0.19 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -63,41 +65,77 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
+- Completed reload, in  0.979 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
 Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.2 MB.
 System memory in use after: 92.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2286.
-Total: 2.689700 ms (FindLiveObjects: 0.266300 ms CreateObjectMapping: 0.483700 ms MarkObjects: 1.639800 ms  DeleteObjects: 0.298100 ms)
+Total: 2.400000 ms (FindLiveObjects: 0.288500 ms CreateObjectMapping: 0.091000 ms MarkObjects: 1.715200 ms  DeleteObjects: 0.304200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs2 erledigt
-  artifactKey: Guid(bffe3345e231cf94abbc4b5dcaed30c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs2 erledigt using Guid(bffe3345e231cf94abbc4b5dcaed30c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477bd60527aeb7b7f65d54e03d24f7d7') in 0.011073 seconds
-  Import took 0.014512 seconds .
+  path: Assets/Prefabs/AuszusoertierentedeFBX2
+  artifactKey: Guid(c6de26dce9643d840967f12d96e2e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AuszusoertierentedeFBX2 using Guid(c6de26dce9643d840967f12d96e2e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2dbeae4ee9931431949b24ba467bcb') in 0.011260 seconds
+  Import took 0.014847 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 75.681073 seconds.
-  path: Assets/XR/XRGeneralSettings.asset
-  artifactKey: Guid(216508db4e78ca545ac6aa481a14c85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/XRGeneralSettings.asset using Guid(216508db4e78ca545ac6aa481a14c85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa735770aacaff4d107a36ccc6f2fda') in 0.054790 seconds
-  Import took 0.058521 seconds .
+  Time since last request: 45.021110 seconds.
+  path: Assets/Prefabs/VermutlichRichtigeFBX
+  artifactKey: Guid(210a45fd6131708419bc1af6e3c7860c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/VermutlichRichtigeFBX using Guid(210a45fd6131708419bc1af6e3c7860c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a714142ac3d642834cd72c7a9fe3a4') in 0.009421 seconds
+  Import took 0.014192 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009141 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001EA4325F040 doesn't match image C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.34 ms.
+Unloading 1746 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 5.171000 ms (FindLiveObjects: 0.688700 ms CreateObjectMapping: 0.337700 ms MarkObjects: 3.822300 ms  DeleteObjects: 0.320000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.029830 seconds.
-  path: Assets/StreamingAssets/SteamVR
-  artifactKey: Guid(c12737ac49ced6e4ca24c0748c24338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets/SteamVR using Guid(c12737ac49ced6e4ca24c0748c24338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db43395ec3af037909595ea3a65a4f7a') in 0.003397 seconds
-  Import took 0.007297 seconds .
+  Time since last request: 200.468751 seconds.
+  path: Assets/FremdAssets2/SteamVR
+  artifactKey: Guid(f7f8956124d831e4fb4cacc58dad561f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FremdAssets2/SteamVR using Guid(f7f8956124d831e4fb4cacc58dad561f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd7b03a57cd1b1a507324d18956ff82') in 0.014228 seconds
+  Import took 0.017844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.340787 seconds.
+  path: Assets/FremdAssets2/SteamVR/Textures
+  artifactKey: Guid(01c53931447f6ca408664efa98da5109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FremdAssets2/SteamVR/Textures using Guid(01c53931447f6ca408664efa98da5109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4a548eda31c37ce53c47083c4cc990') in 0.010313 seconds
+  Import took 0.013494 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
