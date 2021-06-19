@@ -1,0 +1,173 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'de' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\UnityData\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55550
+Successfully changed project path to: C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt
+C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 73.80 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 2.46 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path D:/Unity/UnityData/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Simon Ruttmann/Desktop/Virtuelle Realität und Animation/3d-modellierung/Projekt2/Unity/Schachprojekt/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     1979 MB
+    Driver:   24.21.13.9901
+Initialize mono
+Mono path[0] = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/UnityData/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/UnityData/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001175 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.28 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009198 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001530B557650 doesn't match image C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 2.543400 ms (FindLiveObjects: 0.275700 ms CreateObjectMapping: 0.098400 ms MarkObjects: 1.841700 ms  DeleteObjects: 0.326100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/FBX/Koenig.fbx
+  artifactKey: Guid(fd15254fe8bfc59438aca5f084df92ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FBX/Koenig.fbx using Guid(fd15254fe8bfc59438aca5f084df92ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3c546369c173c353503124d3cd35d7') in 0.315061 seconds
+  Import took 0.319366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.219062 seconds.
+  path: Assets/Prefabs/FBX/Dame.fbx
+  artifactKey: Guid(300c136dcb9cf57488678a9d0865b3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FBX/Dame.fbx using Guid(300c136dcb9cf57488678a9d0865b3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34aec739ad6e1c4205b6fd79d5bf46d2') in 0.149507 seconds
+  Import took 0.153647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.080953 seconds.
+  path: Assets/Prefabs/FBX/Laeufer.fbx
+  artifactKey: Guid(7a7a2bd1ca697b243b406dde83c0c5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FBX/Laeufer.fbx using Guid(7a7a2bd1ca697b243b406dde83c0c5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9355a21d6b9a37965b0eb6ea813366fe') in 0.234568 seconds
+  Import took 0.238460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.547457 seconds.
+  path: Assets/Prefabs/FBX/Springer.fbx
+  artifactKey: Guid(7e192ad3162bfb343803f8080536f270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FBX/Springer.fbx using Guid(7e192ad3162bfb343803f8080536f270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612f73629bdf30c92b85e7f6733bbb6b') in 0.083933 seconds
+  Import took 0.087643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.380071 seconds.
+  path: Assets/Prefabs/FBX/TeilAufgangBuhne.fbx
+  artifactKey: Guid(0cdfef2f2381566499f9072e40284b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FBX/TeilAufgangBuhne.fbx using Guid(0cdfef2f2381566499f9072e40284b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f215cd269978be75f9fc87c558b61e') in 0.034456 seconds
+  Import took 0.039057 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001530F631020 doesn't match image C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Simon Ruttmann\Desktop\Virtuelle Realität und Animation\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.37 ms.
+Unloading 1746 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.0 MB.
+System memory in use after: 104.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2334.
+Total: 5.240600 ms (FindLiveObjects: 0.378300 ms CreateObjectMapping: 0.127500 ms MarkObjects: 4.346100 ms  DeleteObjects: 0.385700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.235968 seconds.
+  path: Assets/Prefabs/AnimationsController/Koenig.controller
+  artifactKey: Guid(6f12cfd2efe1f7343a3f8a305631bbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AnimationsController/Koenig.controller using Guid(6f12cfd2efe1f7343a3f8a305631bbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f9931f834765899dc2fd9af2a8602c') in 0.041701 seconds
+  Import took 0.047102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.841558 seconds.
+  path: Assets/Prefabs/AnimationsController/SpringerSchwarz.controller
+  artifactKey: Guid(c61f1f2e50e69f042b4ce5545d1122ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AnimationsController/SpringerSchwarz.controller using Guid(c61f1f2e50e69f042b4ce5545d1122ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9899a8de04c10bbefda18889153e11') in 0.010394 seconds
+  Import took 0.014707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.532567 seconds.
+  path: Assets/Prefabs/AnimationsController/BauerWeiss.controller
+  artifactKey: Guid(53ca60cb90ad24d44b46bca22a90b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AnimationsController/BauerWeiss.controller using Guid(53ca60cb90ad24d44b46bca22a90b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e7fc115004b7e0fa62290579b15a17') in 0.012815 seconds
+  Import took 0.019307 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

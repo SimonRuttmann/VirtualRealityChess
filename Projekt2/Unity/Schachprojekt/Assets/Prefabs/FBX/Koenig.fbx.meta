@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 67c2e2103a8067d4e8988433a7fa8ad7
+guid: fd15254fe8bfc59438aca5f084df92ac
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: -3358870206137121625
-    second: Armature|KoenigAngriffFrontal
+      74: -4814274452783121352
+    second: Armature|Armature|Armature|KoenigAngriffFrontal|Armature|KoenigAngriffFr
   - first:
-      74: -4089311575461167849
-    second: Armature|KoenigIdle
+      74: -4113489131977348350
+    second: Armature|Armature|Armature|KoenigIdle|Armature|KoenigIdle
   - first:
-      74: 6854547641518196162
-    second: Armature|KoenigSterbe
+      74: 7670888287977071999
+    second: Armature|Armature|Armature|KoenigSterbe|Armature|KoenigSterbe
   externalObjects: {}
   materials:
     materialImportMode: 2

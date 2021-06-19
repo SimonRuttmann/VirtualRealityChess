@@ -1,11 +1,17 @@
 fileFormatVersion: 2
-guid: c7561949e1491d644b61d96151499abc
+guid: 300c136dcb9cf57488678a9d0865b3f3
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 495359812193871713
-    second: "SchachfigurBauer.001|K\xF6niginIdle.001"
+      74: -4184875912526965211
+    second: "K\xF6nigin|K\xF6niginAngriff"
+  - first:
+      74: 739729421006392017
+    second: "K\xF6nigin|K\xF6niginIdle"
+  - first:
+      74: -3871110738103036941
+    second: "K\xF6nigin|K\xF6niginTod"
   externalObjects: {}
   materials:
     materialImportMode: 2
