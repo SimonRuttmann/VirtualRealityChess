@@ -20,10 +20,12 @@ public class VrSchachMenu : MonoBehaviour
 	private Verfolger verfolgerScript;
 	private bool menuIsActive = false;
 	private bool teleportPlayerIsActive = true;
+	private Quaternion tmpRota;
 
-    // Start is called before the first frame update
-    public void Awake()
+	// Start is called before the first frame update
+	public void Awake()
     {
+		tmpRota = walkingPlayer.transform.rotation;
 		verfolgerScript = gameObject.GetComponent<Verfolger>();
     }
 
@@ -52,20 +54,31 @@ public class VrSchachMenu : MonoBehaviour
 
 	IEnumerator WechseleModusCoRoutine()
     {
+		Vector3 tmpLoc;
+	
 		if (teleportPlayerIsActive)
 		{
+			//tmpRota = teleportPlayer.transform.rotation;
+			tmpLoc=teleportPlayer.transform.position;
 			teleportPlayer.SetActive(false);
 			yield return new WaitForSeconds(0.0f);
 			walkingPlayer.SetActive(true);
+			walkingPlayer.transform.position = tmpLoc;
+			walkingPlayer.transform.rotation = tmpRota;
 
 			verfolgerScript.changeTarget(false);
 			teleportPlayerIsActive = false;
+
 		}
 		else
 		{
+			//tmpRota=walkingPlayer.transform.rotation;
+			tmpLoc=walkingPlayer.transform.position;
 			walkingPlayer.SetActive(false);
 			yield return new WaitForSeconds(0.0f);
 			teleportPlayer.SetActive(true);
+			teleportPlayer.transform.position = tmpLoc;
+			teleportPlayer.transform.rotation = tmpRota;
 
 			verfolgerScript.changeTarget(true);
 			teleportPlayerIsActive = true;
