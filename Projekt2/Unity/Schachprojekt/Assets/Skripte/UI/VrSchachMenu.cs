@@ -12,27 +12,65 @@ public class VrSchachMenu : MonoBehaviour
 	[SerializeField] private Text neustartText;
 	[SerializeField] private Button beendenButton;
 	[SerializeField] private Text beendenText;
-	private bool isActive = false;
+	[SerializeField] private Button switchButton;
+	[SerializeField] private Text switchText;
 	
-	// Start is called before the first frame update
-	public void showUI()
+	[SerializeField] private GameObject walkingPlayer;
+	[SerializeField] private GameObject teleportPlayer;
+	private Verfolger verfolgerScript;
+	private bool menuIsActive = false;
+	private bool teleportPlayerIsActive = true;
+
+    // Start is called before the first frame update
+    public void Awake()
+    {
+		verfolgerScript = gameObject.GetComponent<Verfolger>();
+    }
+
+    public void showUI()
     {
 		canvas.SetActive(true);
-		isActive = true;
+		menuIsActive = true;
     }
 
 	public void setupUI()
     {
 		//isActive = !isActive;
-		if (isActive) hideUI();
+		if (menuIsActive) hideUI();
 		else showUI();
     }
 	public void hideUI()
     {
 		canvas.SetActive(false);
-		isActive = false;
+		menuIsActive = false;
     }
 
+	public void wechsleBewegungsmodus()
+    {
+		StartCoroutine(WechseleModusCoRoutine());
+	}
+
+	IEnumerator WechseleModusCoRoutine()
+    {
+		if (teleportPlayerIsActive)
+		{
+			teleportPlayer.SetActive(false);
+			yield return new WaitForSeconds(0.0f);
+			walkingPlayer.SetActive(true);
+
+			verfolgerScript.changeTarget(false);
+			teleportPlayerIsActive = false;
+		}
+		else
+		{
+			walkingPlayer.SetActive(false);
+			yield return new WaitForSeconds(0.0f);
+			teleportPlayer.SetActive(true);
+
+			verfolgerScript.changeTarget(true);
+			teleportPlayerIsActive = true;
+		}
+	}
 
 	public void beendeSpiel()
     {

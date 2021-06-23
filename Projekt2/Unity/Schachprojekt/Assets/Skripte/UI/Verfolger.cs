@@ -5,17 +5,36 @@ using UnityEngine;
 public class Verfolger : MonoBehaviour
 {
     
-    [SerializeField] public Camera Camera2Follow;
+    private Camera Camera2Follow;
     [SerializeField] public float CameraDistance;
+
+    [SerializeField] public Camera CameraTeleport;
+    [SerializeField] public Camera CameraBewegung;
     public float smoothTime = 0.3F;
     private Vector3 velocity = Vector3.zero;
     private Transform target;
 
     void Awake()
     {
+        Camera2Follow = CameraTeleport;
         target = Camera2Follow.transform;
     }
 
+    //true: Wechsele auf CameraTeleport
+    //false: Wechsele auf CameraBewegung
+    public void changeTarget(bool TeleportCam)
+    {
+        if (TeleportCam)
+        {
+            Camera2Follow = CameraTeleport;
+            target = Camera2Follow.transform;
+        }
+        else
+        {
+            Camera2Follow = CameraBewegung;
+            target = Camera2Follow.transform;
+        }
+    }
 
     void Update()
     {

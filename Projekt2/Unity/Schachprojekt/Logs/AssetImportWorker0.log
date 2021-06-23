@@ -1,0 +1,989 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise LTSC 2019; OS build 17763.1457; Version 1809; 64bit' Language: 'de' Physical Memory: 32692 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Student/3d-modellierung/Projekt2/Unity/Schachprojekt
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56292
+Successfully changed project path to: C:/Users/Student/3d-modellierung/Projekt2/Unity/Schachprojekt
+C:/Users/Student/3d-modellierung/Projekt2/Unity/Schachprojekt
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 127.42 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 4.17 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Student/3d-modellierung/Projekt2/Unity/Schachprojekt/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   
+    VRAM:     11127 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002182 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.04 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.26 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.777 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.024082 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000024770F77F80 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770C392D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770629020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770C392D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775309020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770545010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477040B040 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775340030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770EA1F60 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770E3D640 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775036020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770D6E840 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775063A30 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775F23B60 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247704DD070 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770F77F80 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770EA1F60 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775221A30 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770E8A020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770D863D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776413040 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477025E050 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247703C0150 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770C1D050 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477535D020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770701250 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247761A0020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770572870 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775340030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775828E30 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770D863D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776265010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775DFAAA0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770E8A020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.4 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 6.419700 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.127700 ms MarkObjects: 3.551100 ms  DeleteObjects: 2.383200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SteamVR/SteamVR Unity Plugin.pdf
+  artifactKey: Guid(3ba9eb35fe420f941a0a79beb7519713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/SteamVR Unity Plugin.pdf using Guid(3ba9eb35fe420f941a0a79beb7519713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a9af5aed2f57e6d1c9504b10e561cc') in 0.075877 seconds
+  Import took 0.081877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/SteamVR/SteamVR Unity Plugin - Input System.pdf
+  artifactKey: Guid(e80151adba6ecc94e803d63cce6d4e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/SteamVR Unity Plugin - Input System.pdf using Guid(e80151adba6ecc94e803d63cce6d4e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b55b032e1665b0f9e81f61fcf21bb58') in 0.015123 seconds
+  Import took 0.020878 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013276 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000024770F77F80 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770C392D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770CEF030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247704B79A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770E0C020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775C30020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775DF6020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777904010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775DF6020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770560850 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247763E9010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477090CDC0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770560850 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777780660 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477810C0F0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770F77F80 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770A99DB0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770545010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247781DF010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770ED8420 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775E0D2A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775C40030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770C392D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775C40030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776487020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770487AB0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477079C040 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770487AB0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775757E30 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775828E30 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770ED8420 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775C40030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A7EEB70 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247781DF010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.43 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.205 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 4.141100 ms (FindLiveObjects: 0.333300 ms CreateObjectMapping: 0.121700 ms MarkObjects: 2.792100 ms  DeleteObjects: 0.889300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020367 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000247781C6A30 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A8730F0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778B95A20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A8730F0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777352400 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775509020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778D10D50 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775BFC020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778D10D50 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775BFC020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777352400 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778D7DF30 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779AD3EB0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477777F7E0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778108880 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777C39D00 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778121630 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777F71490 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777CFD670 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770226AC0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770226AC0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477079CFC0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AB42060 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247706CEA50 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BAB8240 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770226AC0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002476B3C8250 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770226AC0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775BFC020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775BFC020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247780E53A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778C1A150 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777F11DF0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778EEF520 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 3.082600 ms (FindLiveObjects: 0.263400 ms CreateObjectMapping: 0.082500 ms MarkObjects: 2.362800 ms  DeleteObjects: 0.371700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012226 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000024770F77F80 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778EEFD30 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770403030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776F16E40 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B2C14F0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776306010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B174D50 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000245E5C93810 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B174D50 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775BFC020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247796E7050 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770C207D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477954DD10 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777780660 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B0ED450 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247766BC9D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778301240 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775525060 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776EA6F40 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779719500 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247704128E0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247704FEF50 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777C988A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A861500 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B76A040 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247780231C0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247799FD150 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779030790 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B818D90 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AE9A300 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247704128E0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247709A5010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779023540 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247704128E0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 6.800900 ms (FindLiveObjects: 0.559900 ms CreateObjectMapping: 0.262100 ms MarkObjects: 5.475300 ms  DeleteObjects: 0.501700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014488 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000024778CFF1D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A694130 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AF6D090 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778E17020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777E72010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A8C7020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775345190 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B2EC300 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777F214A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778BD1570 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777F27170 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479C012420 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778095980 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777780660 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477810A0B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247794D1960 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B3C4030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477536F010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776EA9B80 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776ED7570 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AF2EBC0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778227FF0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477631E6E0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477918D840 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BBAADA0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B345850 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247799F50D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777830DC0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247782CC650 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AF8B200 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B0BA760 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779537CE0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778F886C0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778196FB0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2294.
+Total: 6.601300 ms (FindLiveObjects: 0.554900 ms CreateObjectMapping: 1.892900 ms MarkObjects: 3.752000 ms  DeleteObjects: 0.399700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017018 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000024779805010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A694130 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000245E5C88620 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777CCF020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777E72010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A8C7020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775EB1430 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477955DD20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775EB1430 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779A4EB40 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AC9A010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479C013320 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778BAD560 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477777F440 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B0EDC60 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BD54BA0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770A99DB0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777E404E0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247776F2A60 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BBF2CF0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778CB38B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B80F6F0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477632B340 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247774BA060 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BC7BD40 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770487AB0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247799EE060 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779030790 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776EF4510 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779A4EB40 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778CB38B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776265010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775547FA0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770E11F80 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.72 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 6.532500 ms (FindLiveObjects: 0.449700 ms CreateObjectMapping: 0.143200 ms MarkObjects: 5.577800 ms  DeleteObjects: 0.355600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021015 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000024779870010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778EEFD30 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000245E5C88620 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777914010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AC9A010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BC6C010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775EB1430 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247779A0020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775EB1430 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779A4EB40 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777F27170 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479C00FEA0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778095990 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477777FF20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477810A0B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247766BC9D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BC15060 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BD38010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778E5DCA0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778CA4500 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477055DE20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247704FEF50 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A674570 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477918D840 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B21EF10 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A6EF480 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779633A30 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777709250 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247779A0020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779A4EB40 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247703A4E40 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BCF2F20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B3A9020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BACA080 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.377 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2302.
+Total: 4.291300 ms (FindLiveObjects: 0.349100 ms CreateObjectMapping: 0.667900 ms MarkObjects: 2.883900 ms  DeleteObjects: 0.388700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014792 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000024775EB0010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778BC6570 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477543D060 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247781CABB0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777D565B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775615180 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775DF6020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477955DD20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775DF6020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BDE7720 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778E9B020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479C011A20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777820DA0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477777FB80 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B0ED9B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AF96900 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778121630 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770F2D020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778E5FDD0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B02B560 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247792C2A90 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477976E220 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A678990 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247774BA060 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479C51F010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247794F69B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477962D9D0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024779030790 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AF8B200 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BDE7720 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778CB38B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477507C6F0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778F881B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247769B4F20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2306.
+Total: 3.654200 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.801900 ms  DeleteObjects: 0.432700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.046353 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000024775EB0010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B9A4070 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477543D060 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B05AE10 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777D565B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A8C7020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777EC7420 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778BF09A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777EC7420 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AD3B010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BC74020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479C0126A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770560850 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477777FF20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778109090 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B94F020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777E33100 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775F09020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BAB5CE0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247780E8030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247792C44B0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477976E220 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A676780 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477918D840 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479C51F010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479ACE24C0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477962A9A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479ACE24C0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777E9FA20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AD3B010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024776DAC840 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AC3F870 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479C014DE0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775751360 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 4.133900 ms (FindLiveObjects: 0.448600 ms CreateObjectMapping: 0.135300 ms MarkObjects: 3.052300 ms  DeleteObjects: 0.496100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017115 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002479A690110 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247782B5840 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247791DB040 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AF93210 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777E72010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BBAC030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777EC72E0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000245E5C93810 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777EC72E0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777D336A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A942030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479C00FC20 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770560850 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477777FB80 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B0EEC80 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BCD8010 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B4B6D50 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775F09020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024778D5DFC0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247780E5C00 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B6F78C0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479B7EE020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247708C7CC0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477918D840 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BD5CF00 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770487AB0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477962A9A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024770905030 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479BB76FD0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777D336A0 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024777FCC020 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A697150 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247766C1450 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477542CF50 doesn't match image C:\Users\Student\3d-modellierung\Projekt2\Unity\Schachprojekt\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <dc20e54948f246d9b6c86945f2112bc0>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2314.
+Total: 3.243400 ms (FindLiveObjects: 0.301000 ms CreateObjectMapping: 0.120600 ms MarkObjects: 2.458200 ms  DeleteObjects: 0.361600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

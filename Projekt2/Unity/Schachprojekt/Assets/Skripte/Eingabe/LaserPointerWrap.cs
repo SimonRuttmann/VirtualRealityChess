@@ -32,6 +32,7 @@ public class LaserPointerWrap : MonoBehaviour
             switch (id)
             {
                 case "Startbutton": this.vrSchachMenu.hideUI(); break;
+                case "SwitchButton": this.vrSchachMenu.wechsleBewegungsmodus(); break;
                 case "Neustartbutton": this.schachManager.RestartGame(); this.vrSchachMenu.hideUI(); break;
                 case "BeendenButton": this.vrSchachMenu.beendeSpiel(); break;  //Beende ist auskommentiert
             }
