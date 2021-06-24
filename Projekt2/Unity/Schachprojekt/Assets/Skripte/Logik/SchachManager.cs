@@ -56,17 +56,20 @@ public class SchachManager : MonoBehaviour
 
     private void StarteNeuesSpiel(bool firstGame)
     {
-       
+        schachbrett.feldAuswahlErsteller.entferneAuswaehler();
         this.spielzustand = Spielzustand.Start;
         teamanzeigeText1.text = "Am Zug: Team    Weiss";
         teamanzeigeText2.text = "Am Zug: Team    Weiss";
+        foreach (var marker in teammarker)
+        {
+            marker.GetComponent<MeshRenderer>().material = weissMarker;
+        }
 
         if (firstGame) this.SchachUIManager.startUI();
         else this.SchachUIManager.SpielStarten();
 
         schachbrett.SetzeAbhaengigkeiten(this);
 
-        //"Create Pieces From Layout"
         this.ErstelleFigurenVonAufstellung(Startkonfiguration);
         AktiverSpieler = WeisserSpieler;
         this.SchachUIManager.SetTeamanzeige(FigurFarbe.weiss);
@@ -196,8 +199,15 @@ public class SchachManager : MonoBehaviour
 
     private void ZerstoereFiguren()
     {
-        WeisserSpieler.AktiveFiguren.ForEach(p => Destroy(p.gameObject));
-        SchwarzerSpieler.AktiveFiguren.ForEach(p => Destroy(p.gameObject));
+        WeisserSpieler.AktiveFiguren.ForEach(
+            p => {
+                if(p!=null && p.gameObject !=null) Destroy(p.gameObject);
+            }
+        );
+        SchwarzerSpieler.AktiveFiguren.ForEach(p => {
+            if (p != null && p.gameObject != null) Destroy(p.gameObject);
+        }
+        );
     }
 
     private void WechlseAktivesTeam()

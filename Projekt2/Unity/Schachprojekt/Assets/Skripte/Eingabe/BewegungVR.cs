@@ -12,7 +12,7 @@ using Valve.VR;
     public SteamVR_Input_Sources Hand;//Set Hand To Get Input From
     public float speed;
     public GameObject Head;
-    //public CapsuleCollider Collider;
+    public CapsuleCollider Collider;
     public GameObject AxisHand;//Hand Controller GameObject
     public float Deadzone;//the Deadzone of the trackpad. used to prevent unwanted walking.
                           // Start is called before the first frame update
@@ -20,8 +20,8 @@ using Valve.VR;
     void Update()
     {
         //Set size and position of the capsule collider so it maches our head.
-        //Collider.height = Head.transform.localPosition.y;
-        //Collider.center = new Vector3(Head.transform.localPosition.x, Head.transform.localPosition.y / 2, Head.transform.localPosition.z);
+        Collider.height = Head.transform.localPosition.y;
+        Collider.center = new Vector3(Head.transform.localPosition.x, Head.transform.localPosition.y / 2, Head.transform.localPosition.z);
         updateInput();
         moveDirection = Quaternion.AngleAxis(Angle(trackpad) + AxisHand.transform.localRotation.eulerAngles.y, Vector3.up) * Vector3.forward;//get the angle of the touch and correct it for the rotation of the controller
         

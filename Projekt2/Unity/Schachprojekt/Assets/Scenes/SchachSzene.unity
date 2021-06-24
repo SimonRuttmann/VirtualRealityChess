@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2598,7 +2598,6 @@ GameObject:
   m_Component:
   - component: {fileID: 141129652}
   - component: {fileID: 141129656}
-  - component: {fileID: 141129655}
   - component: {fileID: 141129654}
   - component: {fileID: 141129653}
   - component: {fileID: 141129657}
@@ -2650,18 +2649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EffektiverStartpunktUntenLinks: {fileID: 2025642194}
   Feldgroesse: 8.4
---- !u!114 &141129655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141129651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f00a1b3ecdaf28f40bd9ed43b1204ade, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  feldAuswahlErsteller: {fileID: 0}
 --- !u!114 &141129656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11502,6 +11490,7 @@ MonoBehaviour:
   Hand: 1
   speed: 5
   Head: {fileID: 470582316}
+  Collider: {fileID: 470582317}
   AxisHand: {fileID: 470582315}
   Deadzone: 0.5
 --- !u!4 &470582320 stripped
@@ -14674,6 +14663,7 @@ MonoBehaviour:
   Hand: 1
   speed: 5
   Head: {fileID: 1139881165}
+  Collider: {fileID: 0}
   AxisHand: {fileID: 1198970730}
   Deadzone: 0.5
 --- !u!143 &648879458
@@ -40579,6 +40569,7 @@ MonoBehaviour:
   Hand: 1
   speed: 5
   Head: {fileID: 1139881165}
+  Collider: {fileID: 0}
   AxisHand: {fileID: 1198970730}
   Deadzone: 0.5
 --- !u!1 &1757043586 stripped

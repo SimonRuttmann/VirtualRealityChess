@@ -13,7 +13,6 @@ public class CharacterControllerBewegungVR : MonoBehaviour
     public GameObject AxisHand;
     private bool groundedPlayer;
     private float playerSpeed = 5.0f;
-    private float jumpHeight = 1.0f;
     private float gravityValue = -9.81f;
     public float Deadzone=0.5f;
 

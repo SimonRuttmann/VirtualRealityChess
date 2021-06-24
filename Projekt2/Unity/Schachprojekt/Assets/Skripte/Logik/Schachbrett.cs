@@ -14,7 +14,7 @@ public class Schachbrett : MonoBehaviour
     private Figur gewaehlteFigur;
     private SchachManager schachManager;
 
-    private FeldAuswahlErsteller feldAuswahlErsteller; //anpassen
+    public FeldAuswahlErsteller feldAuswahlErsteller; 
     private AnimationManager animationManager;
 
     public Vector3 RelativePositionZumSchachbrettfeld(Vector2Int position)
