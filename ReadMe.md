@@ -1,7 +1,7 @@
-# 🏰 VR Chess – Dungeon Chess Duel
+# ♜ VR-Chess – A Dungeon Duel in Virtual Reality
 
-> A virtual reality chess experience in a magical dungeon – inspired by *Harry Potter and the Philosopher's Stone*.  
-> Designed for **Oculus Quest** – fully animated pieces, immersive interactions, and dungeon vibes.
+Step into the dungeon and prepare for a magical battle of minds: **VR Chess** brings classic chess into immersive 3D.  
+Move pieces, watch them fight, and experience the game like never before – all in **VR with Oculus**.
 
 ![Game Title](media/img/game-title-picture.png)
 
@@ -12,11 +12,16 @@
 **VR Chess** was developed during the **"Virtual Reality and Animation"** course at **Aalen University**.  
 The goal was to create an immersive and interactive VR experience – and what better way than with epic dungeon chess?
 
-Created by:
 
-- **Simon Ruttmann**
-- **Veronika Scheller**
-- **Michael Ulrich**
+This was a 3-person passion project combining:
+
+- 🧠 **3D Modeling & Animation** (Blender)
+- 🛠️ **Game Programming** (Unity / C#)
+- 🧪 **Testing & Balancing**
+- 🎨 **Level & FX Design**
+
+We had a blast designing, animating, and refining every piece.
+
 
 > All 3D models, board elements, and gameplay logic were developed in Unity and Blender.
 
@@ -28,8 +33,7 @@ Step into a medieval dungeon and play a mystical game of chess like never before
 With full VR locomotion and interactable chess pieces, players can:
 
 - **Explore** the board in VR
-- **Select** chess pieces with hand tracking or controller
-- **View attack & move indicators** (blue/red markers)
+- **Select and command** chess pieces with hand tracking or controller
 - **Trigger dynamic animations** during attacks
 - **Play locally** against a friend (no network/AI)
 
@@ -100,16 +104,13 @@ Here's an overview of the folder structure and organization:
 
 ---
 
-## 🧑‍💻 Teamwork Makes the Dream Work
+## 🧑‍💻 Teamwork makes the Dream Work
 
-This was a 3-person passion project combining:
+Developed by:
 
-- 🧠 **3D Modeling & Animation** (Blender)
-- 🛠️ **Game Programming** (Unity / C#)
-- 🧪 **Testing & Balancing**
-- 🎨 **Level & FX Design**
-
-We had a blast designing, animating, and refining every piece.
+- Simon Ruttmann
+- Veronika Scheller
+- Michael Ulrich
 
 ---
 
