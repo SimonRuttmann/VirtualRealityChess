@@ -91,11 +91,37 @@ team display were modeled ourselves using blender.
 
 ---
 
-## 🗂️ Project Structure
 
-Here's an overview of the folder structure and organization:
+## 🔧 Technologies & Design
 
-![Folder Structure](media/img/design-folder-structure.png)
+- 🎮 Unity (C#)
+- 📊 Steam VR Plugin
+- 🎞️ Custom animation scheduler for timed actions
+
+A brief overview of the project structure can be seen in the diagrams below:
+
+<p align="center">
+  <img src="media/img/design-folder-structure.png" width="70%"/>
+</p>
+
+<p align="center">
+  <img src="media/img/arch-diagramm.png" width="70%"/>
+</p>
+
+The correspondig .eapx file (Enterprise Architect) can be found [here](docs/VR_Doku_Enterprise_Architect.eapx).
+
+---
+
+## More information
+
+For more information there is also a full project documentation in german.
+For a brief outline of the project have a look at the german game kickoff and release presentation.
+
+📜 [Start-Presentation GER (PDF)](docs/VR-Schachspiel-Startpräsentation.pdf)
+
+📜 [End-Presentation GER (PDF)](docs/VR-Schachspiel-Endpräsentation.pdf)
+
+📜 [Documentation GER (PDF)](docs/VR_Dokumentation.pdf)
 
 ---
 
