@@ -19,14 +19,12 @@ This was a 3-person passion project combining:
 - 🧪 **Testing & Balancing**
 - 🎨 **Level & FX Design**
 
-We had a blast designing, animating, and refining every piece.
-
-
 > All 3D models, board elements and gameplay logic were developed in Unity and Blender.
+> For playing we implemented against an oculus quest vr headset.
 
 ---
 
-## 🧠 Core Concept
+## 🕹️ Gameplay Mechanics
 
 Step into a medieval dungeon and play a mystical game of chess like never before.  
 With full VR locomotion and interactive chess pieces, players can:
@@ -34,9 +32,10 @@ With full VR locomotion and interactive chess pieces, players can:
 - **Explore** the board in VR using teleportation
 - **Select and command** chess pieces with hand tracking or controller
 - **Trigger dynamic animations** during attacks
-- **Play locally** against a friend (no network/AI)
+- **Local PvP** – take turns playing on the same headset
 
 This is **not just chess** – this is **Dungeon Chess Duel**.
+![Gameplay](media/gifs/gameplay.gif)
 
 ---
 
@@ -74,31 +73,21 @@ Each chess piece was **modeled from scratch in Blender** and rigged with custom 
 |:------------------------------:|:--:|
 |![](media/gifs/tower-kill.gif)  | ![](media/gifs/pawn-kill.gif) |
 
----
 
-## 🕹️ Gameplay Mechanics
 
-- **Local PvP** – take turns playing on the same headset
-- **Immersive VR locomotion** – walk around the board to get close-up views
-- **Interactive selection** – choose and move pieces naturally
-- **Visual feedback** – move & attack markers are shown in blue/red
-- **Dynamic chess arena** – torches, chandeliers, stone walls create the atmosphere
+### 🖼️ Visuals & Environment
 
-![Gameplay](media/gifs/gameplay.gif)
+We wanted to create a dark, cool atmosphere for the surroundings.
+For the decorations like walls, chandeliers, and ceiling
+we used assets from open source libraries.
 
----
+Interactive elements like the stage, the chessboard and the 
+team display were modeled ourselves using blender. 
 
-## 🖼️ Visuals & Environment
-
-- **Chess board**: custom-modeled and textured
-- **Environment**: designed dungeon interior with hand-made textures
-- **Assets**: walls, chandeliers, and ceiling from external sources
-- **Team HUD**: display team turns and interactions
-
-| ![](media/img/game-central.png) | ![](media/img/game-fromfar.png) |
-|---|---|
-
-> Created using **Unity + Blender**, optimized for Oculus Quest.
+<p align="center">
+  <img src="media/img/game-central.png" width="48%"/>
+  <img src="media/img/game-from-far.png" width="48%"/>
+</p>
 
 ---
 
@@ -128,16 +117,9 @@ Feel free to use or remix it – just give proper credit. 🤝
 ---
 
 ## 📦 Downloads & Releases
+Want to play?
 
-➡️ **[Download the latest release](https://github.com/SimonRuttmann/VR-Chess-Dungeon/releases/tag/v1.0.0)**
-
-Included in the release:
-
-- ✅ Unity build files
-- ✅ Full Blender models of all pieces
-- ✅ VR-ready scenes and prefabs
-- ✅ All animations and controller setups
-- ✅ Demo walkthrough video
+➡️ **[Click here to download the latest release](https://github.com/SimonRuttmann/VR-Chess-Dungeon/releases/tag/v1.0.0)**
 
 ---
 
