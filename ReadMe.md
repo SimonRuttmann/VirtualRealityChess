@@ -9,9 +9,8 @@ Move pieces, watch them fight, and experience the game like never before – all
 
 ## 🎓 Project & Context
 
-**VR Chess** was developed during the **"Virtual Reality and Animation"** course at **Aalen University**.  
+We developed **VR Chess** during the **"Virtual Reality and Animation"** course at **Aalen University**.  
 The goal was to create an immersive and interactive VR experience – and what better way than with epic dungeon chess?
-
 
 This was a 3-person passion project combining:
 
@@ -23,16 +22,16 @@ This was a 3-person passion project combining:
 We had a blast designing, animating, and refining every piece.
 
 
-> All 3D models, board elements, and gameplay logic were developed in Unity and Blender.
+> All 3D models, board elements and gameplay logic were developed in Unity and Blender.
 
 ---
 
 ## 🧠 Core Concept
 
 Step into a medieval dungeon and play a mystical game of chess like never before.  
-With full VR locomotion and interactable chess pieces, players can:
+With full VR locomotion and interactive chess pieces, players can:
 
-- **Explore** the board in VR
+- **Explore** the board in VR using teleportation
 - **Select and command** chess pieces with hand tracking or controller
 - **Trigger dynamic animations** during attacks
 - **Play locally** against a friend (no network/AI)
@@ -54,16 +53,26 @@ Each chess piece was **modeled from scratch in Blender** and rigged with custom 
 
 ![Figure Showcase](media/img/figures-collection.png)
 
-> Even the **attack sequences** are choreographed!  
+> The **attack sequences** are also choreographed!  
 > When a piece captures another:
 > - Both pieces face each other
 > - Attacker performs its animation
 > - Victim reacts with a death animation
 > - The attacker takes its new position
 
-| Queen | Bishop | Knight | Rook | King | Pawn |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| ![](media/gifs/queen-kill.gif) | ![](media/gifs/bishop-kill.gif) | ![](media/gifs/knight-kill.gif) | ![](media/gifs/tower-kill.gif) | ![](media/gifs/king-kill.gif) | ![](media/gifs/pawn-kill.gif) |
+
+| Queen | King |
+|:--:|:--:|
+| ![](media/gifs/queen-kill.gif)| ![](media/gifs/king-kill.gif) |
+
+| Bishop | Knight |
+|:--:|:--:|
+| ![](media/gifs/bishop-kill.gif) | ![](media/gifs/knight-kill.gif) |
+
+
+|              Rook              | Pawn |
+|:------------------------------:|:--:|
+|![](media/gifs/tower-kill.gif)  | ![](media/gifs/pawn-kill.gif) |
 
 ---
 
@@ -76,9 +85,6 @@ Each chess piece was **modeled from scratch in Blender** and rigged with custom 
 - **Dynamic chess arena** – torches, chandeliers, stone walls create the atmosphere
 
 ![Gameplay](media/gifs/gameplay.gif)
-
-🎬 Full walkthrough:  
-[▶️ Watch 3-min walkthrough (MKV)](media/video/Walkthrough.mkv)
 
 ---
 
@@ -100,7 +106,7 @@ Each chess piece was **modeled from scratch in Blender** and rigged with custom 
 
 Here's an overview of the folder structure and organization:
 
-![Folder Structure](media/img/design-folder-strukture.png)
+![Folder Structure](media/img/design-folder-structure.png)
 
 ---
 
@@ -137,11 +143,7 @@ Included in the release:
 
 ## 🖼️ Media Gallery
 
-🎬 [Watch Full Gameplay Walkthrough (MKV)](media/video/Walkthrough.mkv)
-
-| ![](media/img/game-title-picutre.png) | ![](media/img/game-central.png) |
-|---|---|
-| ![](media/img/figures-collection.png) | ![](media/img/game-fromfar.png) |
+🎬 [Watch Full Gameplay Walkthrough (MKV)](media/video/walkthrough.mkv)
 
 ---
 
