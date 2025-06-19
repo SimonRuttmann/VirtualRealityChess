@@ -50,7 +50,9 @@ Each chess piece was **modeled from scratch in Blender** and rigged with custom 
 - **Attack animation** (when taking an opponent)
 - **Death animation** (when defeated)
 
-![Figure Showcase](media/img/figures-collection.png)
+<p align="center">
+  <img src="media/img/figures-collection.png" width="100%"/>
+</p>
 
 > The **attack sequences** are also choreographed!  
 > When a piece captures another:
@@ -81,8 +83,8 @@ We wanted to create a dark, cool atmosphere for the surroundings.
 For the decorations like walls, chandeliers, and ceiling
 we used assets from open source libraries.
 
-Interactive elements like the stage, the chessboard and the 
-team display were modeled ourselves using blender. 
+Interactive elements like the stage, the chessboard and the
+team display were modeled ourselves using blender.
 
 <p align="center">
   <img src="media/img/game-central.png" width="48%"/>
